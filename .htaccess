@@ -1,0 +1,31 @@
+#ZARKIN
+
+# Activar RewriteEngine
+Options +FollowSymlinks 
+RewriteEngine on
+
+#pagina de bienvenida
+RewriteRule ^home(/?)$ home.php
+
+#Menu pieles
+RewriteRule ^piel/caracteristicas(/?)$ caracteristicas_piel.php
+RewriteRule ^piel/cuidados(/?)$ cuidados.php
+RewriteRule ^piel/acabados-especiales(/?)$ acabados_especiales.php
+RewriteRule ^piel/marcas-naturales(/?)$ marcas_naturales.php
+
+#Empresa
+RewriteRule ^empresa(/?)$ bienvenido.php
+
+#Garantia
+RewriteRule ^garantia(/?)$ garantia.php
+
+#Contacto
+RewriteRule ^contacto(/?)$ contacto.php
+RewriteRule ^contacto/([0-9]+)(/?)$ contacto.php?contacto=$1
+
+#menu colecciones
+RewriteRule ^colecciones/([a-z-]+)(/?)$ colecciones.php?categoria=$1
+
+#galerias
+RewriteRule ^galeria/([A-Za-z0-9-]+)/([A-Za-z0-9-_]+)(/?)$ galeria.php?categoria=$1&nombre=$2
+

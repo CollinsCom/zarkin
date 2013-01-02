@@ -1,0 +1,1682 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"su",
+				"submit"
+			],
+			[
+				"text",
+				"textAlert"
+			],
+			[
+				"ciudad",
+				"ciudadT"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"mysql_er",
+				"mysql_error"
+			],
+			[
+				"he",
+				"Helvetica"
+			],
+			[
+				"exrat",
+				"extract"
+			],
+			[
+				"st",
+				"list-style-type"
+			],
+			[
+				"_p",
+				"_POST"
+			],
+			[
+				"is",
+				"is_a"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"im",
+				"img01"
+			],
+			[
+				"id",
+				"getElementById"
+			],
+			[
+				"img",
+				"img01"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"usuar",
+				"usuario_imagen"
+			],
+			[
+				"usa",
+				"usuario_nombre"
+			],
+			[
+				"pict",
+				"picture"
+			],
+			[
+				"siz",
+				"sizeof"
+			],
+			[
+				"friend",
+				"friends"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"fr",
+				"friend"
+			],
+			[
+				"frie",
+				"friend"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"pic",
+				"picture"
+			],
+			[
+				"fri",
+				"friend"
+			],
+			[
+				"forea",
+				"foreach	foreach …"
+			],
+			[
+				"FFf",
+				"FFFFFF"
+			],
+			[
+				"in",
+				"text-indent"
+			],
+			[
+				"r",
+				"RewriteRule"
+			],
+			[
+				"che",
+				"checkin"
+			],
+			[
+				"b",
+				"br	Tag"
+			],
+			[
+				"w",
+				"min-width"
+			],
+			[
+				"magi",
+				"margin-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"vl",
+				"vertical-align"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/procesar.js",
+			"settings":
+			{
+				"buffer_size": 1023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "formulario-garantia.php",
+			"settings":
+			{
+				"buffer_size": 24301,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/videoteca/Agregar.html",
+			"settings":
+			{
+				"buffer_size": 13451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "funciones.php",
+			"settings":
+			{
+				"buffer_size": 42125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/formulario.css",
+			"settings":
+			{
+				"buffer_size": 979,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "body{\n	padding:0px;\n	margin:0px;\n	background-image:url(http://www.zarkin.com/images/ajax-loader.gif);\n	background-position:50% 50%;\n	background-repeat:no-repeat;\n}\nhtml, body { height: 100%;overflow:hidden; position:relative;}\n@font-face {\n    font-family: 'HelveticaNeue45Light';\n    src: url('helveticaneue-light-webfont.eot');\n    src: url('helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'),\n         url('helveticaneue-light-webfont.woff') format('woff'),\n         url('helveticaneue-light-webfont.ttf') format('truetype'),\n         url('helveticaneue-light-webfont.svg#HelveticaNeue45Light') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'Helvetica25UltraLightRegular';\n    src: url('helveticaultralt-webfont.eot');\n    src: url('helveticaultralt-webfont.eot?#iefix') format('embedded-opentype'),\n         url('helveticaultralt-webfont.woff') format('woff'),\n         url('helveticaultralt-webfont.ttf') format('truetype'),\n         url('helveticaultralt-webfont.svg#Helvetica25UltraLightRegular') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\nimg{\n	display:block;\n	border:0px;\n	text-decoration:none;\n}\n.bgtop{\n	min-height: 50%;\n    min-width: 1100px;\n	position: relative;\n    top: 0;\n    left: 0;\n	overflow:hidden;\n	width:100%;\n	display:none;\n} \n.bgtop img{\n	min-height: 100%;\n	min-width: 1100px;\n	width: 100%;\n	height: auto;\n	position: absolute;\n	top: 0;\n	left: 0;		\n}\n.bgbot{\n	min-height: 50%;\n    min-width: 1100px;\n	position: relative;\n    bottom: 0;\n    left: 0;\n	overflow:hidden;\n	width:100%;\n	display:none;\n} \n.bgbot img{\n        min-height: 100%;\n        min-width: 1100px;\n        width: 100%;\n        height: auto;\n        position: absolute;\n        top: 0;\n        left: 0;		\n}\n.black{\n	background-color:#373737;\n}\n.idioma{\n	width:280px;\n	height:150px;\n	position:absolute;\n	bottom:200px;\n	left:150px;\n	display:none;\n}\n.degrada{\n	width:280px;\n	height:125px;\n	background:url(http://www.zarkin.com/images/gradient.png) repeat-y;\n	padding-top:1px;\n}\n.logo{\n	width:330px;\n	height:130px;\n	background-image:url(http://www.zarkin.com/images/logo.png);\n	margin:auto;\n	margin-top:30px;\n}\n.links{\n	width:170px;\n	margin:auto;\n	margin-top:10px;\n	color:#FFF;\n	font-family:\"HelveticaNeue45Light\";\n	font-size:14px;\n	font-weight:bold;\n}\n.links a{\n	display:block;\n	width:50px;\n	height:15px;\n	text-decoration:none;\n	color:#FFF;\n	float:left;\n}\n.links a:hover{\n	color:#fffded;\n}\n.links span{\n	float:left;\n	margin-left:4px;\n	margin-right:4px;\n}\n.barratop{\n	width: 100%;\n	height: 85px;\n	background: url(http://www.zarkin.com/images/bg-barra.png) repeat-x;\n	position: absolute;\n	z-index: 80;\n	top: 0px;\n}\n.estilo{\n	background:url(http://www.zarkin.com/images/estilo.png);\n	background-repeat:no-repeat;\n	width:550px;\n	height:85px;\n	/*margin:auto;*/\n	margin: 3px 0 0 -35px;\n	background-position:0 -10px;\n}\n.logo-dos{\n	width:250px;\n	height:99px;\n	background-image:url(http://www.zarkin.com/images/logoZarkin.png);\n	background-repeat:no-repeat;\n	position:absolute;\n	right:0px;\n	top:0px;\n	z-index:99;\n}\n.logo-dos a{\n	width:190px;\n	height:85px;\n	display:block;\n}\n.degradabot{\n	width:100%;\n	height:120px;\n	position:absolute;\n	bottom:0px;\n	background:url(http://www.zarkin.com/images/degradabot.png) repeat-x;\n	z-index:87;\n}\n.menu{\n	width:900px;\n	position:absolute;\n	height:20px;\n	bottom:20px;\n	left:20px;\n	font-family:\"HelveticaNeue45Light\";\n	font-size:12px;\n	color:#FFF;\n	z-index:90;\n}\n.submenu{\n	width:850px;\n	position:absolute;\n	top:-45px;\n	left:0px;\n	display:none;\n	height:25px;\n	margin-left:-10px;\n	padding-top:20px;\n}\n.boton{\n	float:left;\n	width:50px;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n	position:relative;\n}\n.boton-largo{\n	float:left;\n	width:130px;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n	position:relative;\n}\n.boton a{\n	display:block;\n	width:50px;\n	height:25px;\n}\n.boton-l{\n	float:left;\n	width:auto;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n}\n.boton-l a{\n	display:block;\n	width:100%;\n	height:25px;\n}\n.menu a{\n	color:#FFF;\n	text-decoration:none;\n}\n.menu a:hover{\n	color:#9B60A7;\n	text-decoration:none;\n	font-size:12px;\n	font-weight:bold;\n	color:#FFFDED;\n}\n.menu span{\n	float:left;\n}\n.cole-thumbs{\n	width:576px;\n	height:auto;\n	display:none;\n}\n.cole-thumbs2{\n	width:576px;\n	height:auto;\n	margin-left:30px;\n}\n\n.thumb{\n	width:130px;\n	float:left;\n	margin-right:10px;\n	margin-bottom:10px;\n	border:2px solid #FFF;\n	background-color:#373737;\n	height:130px;\n	position:relative;\n	overflow:hidden;\n	\n}\n.thumb img{\n\n	 z-index:91;\n}\n#pieles-nombre{\n width:105%; \n}\n.pieles-nombre p{\nfloat:left; width:130px; margin-right:14px; text-align:center; margin-top:-5px;\n}\n.thumb img:hover{\n\n	 z-index:91;\n	 border:2px solid #FFF;\n}\n.titulos{\n	width:98.5%;\n	height:auto;\n	padding:5px 0 0 20px;\n	position:absolute;\n	right:0px;\n	top:0px;\n	z-index:90;\n	color:#FFFDED;\n	/*font-family: 'HelveticaNeue45Light';*/\n	font-family:\"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif;\n	font-size:22px;\n	margin-top:34px;\n	font-weight:lighter;\n	letter-spacing:1px;\n}\n.titulos span{\n	font-size:22px;\n	width:180px;\n	margin-bottom:0px;\n	text-transform:uppercase;\n	text-align:center;\n	font-family: \"HelveticaNeueBoldCondensed\", \"HelveticaNeue-Bold-Condensed\", \"Helvetica Neue Bold Condensed\", \"HelveticaNeueBold\", \"HelveticaNeue-Bold\", \"Helvetica Neue Bold\", \"HelveticaNeue\", \"Helvetica Neue\", 'TeXGyreHerosCnBold', \"Helvetica\", \"Tahoma\", \"Geneva\", \"Arial Narrow\", \"Arial\", sans-serif; font-weight:bold; font-stretch:condensed;\n	/*font-weight:500;*/\n	/*float:left;*/\n}\n.titulos a{\n	display:block;\n	color:#FFF;\n	font-size:10px;\n	width:75px;\n	text-align:right;\n	text-decoration:none;\n	margin:-1px 0 0 -34px;\n	padding:4px 8px 4px 0;\n	color:#FFFDED;\n}\n.titulos a:hover{\n	text-decoration:none;\n}\n.clear{\n	clear:both;\n}\n.clear10px{\n	clear:both;\n	height:10px;\n}\n.flechader{\n	width:30px;\n	height:69px;\n	background-image:url(http://www.zarkin.com/images/arrows.png);\n	background-repeat:no-repeat;\n	background-position:-37px 0px;\n	position:absolute;\n	z-index:90;\n	right:15px;\n	top:49%;\n}\n.flechader a{\n	width:30px;\n	height:69px;\n	display:block;\n}\n.flechaizq{\n	width:30px;\n	height:69px;\n	background-image:url(http://www.zarkin.com/images/arrows.png);\n	background-repeat:no-repeat;\n	background-position:-2px 0px;\n	position:absolute;\n	z-index:90;\n	left:15px;\n	top:49%;\n}\n.flechaizq a{\n	width:30px;\n	height:69px;\n	display:block;\n}\n.barra{\n	width:100%;\n	height:60px;\n	background:url(http://www.zarkin.com/images/bg-black.png) repeat;\n	position:absolute;\n	top:85px;\n	display:none;\n}\n.bienvenido{\n	width:100%;\n	height:auto;\n	background:url(http://www.zarkin.com/images/bg-black2.png) repeat;\n	position:absolute;\n	top:50%;\n	z-index:90;\n	margin:auto;\n	left:0;\n	/*margin-left:-215px;*/\n	margin:auto;\n	color:#FFF;\n	font-family: 'HelveticaNeue45Light';\n	padding:0 0 20px;\n	font-size:16px;\n	line-height:20px;\n	display:none;\n	/*text-align:justify;*/\n	letter-spacing:1px;\n	word-spacing:-2px;\n	margin-top:-207px;\n}\n\n.bienvenido .text-izq{\n	text-align:left;\n}\n.bienvenido .text-izq p{\n	width:95%;\n}\n.bienvenido p.text-just{\n	width:100%;\n	/*text-align:justify;*/\n}\n.bienvenido h4{\n	font-size: 24px;\n	text-align:center;\n}\n.bienvenido strong{\n	font-size: 16px;\n}\n.bienvenido-grupo{\n	width:100%;\n	height:auto;\n	background:url(http://www.zarkin.com/images/bg-black2.png) repeat;\n	position:absolute;\n	top:20%;\n	z-index:99;\n	left:13%;\n	color:#FFF;\n	font-family: 'HelveticaNeue45Light';\n	padding:15px;\n	font-size:14px;\n	letter-spacing:1px;\n	line-height:20px;\n	display:none;\n}\n.bienvenido span{\n	width:100%;\n	text-align:center;\n	font-size:20px;\n	line-height:22px;\n	font-weight:normal;\n	text-transform:uppercase;\n	letter-spacing:2px;\n	/*font-family:Helvetica;*/\n	font-family: 'HelveticaNeue45Light';\n	color:#F1F1F1;\n}\n.bienvenido-grupo span{\n	width:100%;\n	text-align:center;\n	font-size:24px;\n	font-weight:normal;\n	text-transform:uppercase;\n	letter-spacing:2px;\n	font-family:\"Helvetica25UltraLightRegular\";\n	color:#F1F1F1;\n}\n.cole-piel{\n	width:55%; margin:0 auto; margin-top:20px; color:#FFFFFF; font-family: 'HelveticaNeue45Light';\n}\n#scrollbar1 { width: 600px; clear: both; margin:0 auto; }\n#scrollbar1 .viewport { width: 580px; height: 415px; overflow: hidden; position: relative; }\n.bienvenido .viewport { width: 580px; height:415px; overflow: hidden; position:relative; margin:0 auto; }\n.bienvenido .viewport-pieles { width: 630px; height:415px; overflow: hidden; position:relative; margin:0 auto; }\n.viewport li{ margin-top:15px;}\n#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }\n#scrollbar1 .thumb .end,\n#scrollbar1 .thumb { background-color: #373737;  }\n#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }\n#scrollbar1 .track { height: 100%; width:13px; position: relative; padding: 0 1px; margin-left:10px;  -webkit-border-radius: 30px; border-radius: 30px; background-image:url(http://www.zarkin.com/images/transparent-bar.png); background-repeat:repeat; }\n#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: relative; top: 0; border:0; -webkit-border-radius: 30px; border-radius: 30px;background-color:#373737;}\n#scrollbar1 .thumb .end { overflow: hidden; height: 0px; width: 13px; }\n#scrollbar1 .disable{ display: none; }\n\ndiv.boton a.largo{ width:130px;} \n\n#sociales{ z-index:100; position:absolute; bottom:23px; left:610px; width:100px;}\n#sociales img{ float:left; width:16px; height:16px; margin-left:5px;}\n\nspan.tit{ font-size:26px; font-weight:normal; margin:5px 0 0 10px; width:100%; text-align:center;}\n\ninput[type=text]{ width:300px; margin-bottom:10px;}\ntextarea{ width:300px; margin-bottom:10px;}",
+			"file": "css/style.css",
+			"file_size": 10223,
+			"file_write_time": 129962649215324179,
+			"settings":
+			{
+				"buffer_size": 9761,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/lib.js",
+			"settings":
+			{
+				"buffer_size": 6832,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+			"settings":
+			{
+				"buffer_size": 37548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tuto_combos/funciones.php",
+			"settings":
+			{
+				"buffer_size": 1347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "action.php",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Java/Java.sublime-build",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lis pac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: html5",
+				"Snippet: Estructura basica HTML5"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"discover ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Edit Server…"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Prefix",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"git: comm",
+				"Git: Commit history"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"git:comm",
+				"Git: Commit history"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Estructura basica HTML5"
+			],
+			[
+				"Snippet: html",
+				"Snippet: Estructura basica HTML5"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"discover packages",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.php",
+		"/C/xampp/htdocs/!Collins/zarkin/funciones.php",
+		"/C/xampp/htdocs/videoteca/Agregar.php",
+		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/js/procesar.js",
+		"/C/xampp/htdocs/phpMyAdmin/config.sample.inc.php",
+		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/index.php",
+		"/C/xampp/htdocs/!Collins/zarkin/menu.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/action.php",
+		"/C/Users/Jorge/Documents/!CollinsCom/datos y passwords.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/formulario.css",
+		"/C/xampp/htdocs/!Collins/eurogoini/eurogoini.sublime-workspace",
+		"/C/xampp/htdocs/ooyala.html",
+		"/C/xampp/htdocs/initializr/.htaccess",
+		"/C/xampp/htdocs/!Collins/zarkin/.htaccess",
+		"/C/xampp/htdocs/!Collins/zarkin/formulario.css",
+		"/C/xampp/htdocs/!Collins/zarkin/sftp-config.json",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/palindromo.php",
+		"/C/xampp/htdocs/!Collins/sftp-config.json",
+		"/C/xampp/htdocs/!Collins/jigsaw/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/puzzle.php",
+		"/C/xampp/htdocs/!Collins/sftp-config-alt.json",
+		"/C/xampp/htdocs/mejorandola/NodeJS.php",
+		"/C/xampp/htdocs/mejorandola/NodeJS.html",
+		"/C/xampp/htdocs/palindromo.php",
+		"/C/Users/Jorge/Documents/!CollinsCom/Gontor/consulta_clientes.php",
+		"/C/xampp/htdocs/!Collins/prueba/.git/config",
+		"/C/Users/Jorge/Documents/GitHub/eurogoini/.gitignore",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/eventos.php",
+		"/C/xampp/htdocs/videoteca/Agregar.html",
+		"/C/Users/Jorge/Documents/GitHub/eurogoini/404.php",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Java/Java.sublime-build",
+		"/C/Users/Jorge/java/palindromo.java",
+		"/C/Users/Jorge/Downloads/palindromo.javac.java",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/xampp/htdocs/!Collins/jigsaw/ooyala.html",
+		"/C/xampp/htdocs/initializr/humans.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/Rar$EXa0.752/initializr/index.html",
+		"/C/Users/Jorge/AppData/Local/Temp/Rar$DIa0.799/.htaccess",
+		"/C/Users/Jorge/Desktop/hack.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/xampp/htdocs/html5-page-structure.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/xampp/htdocs/!Collins/prueba/index.php",
+		"/C/xampp/htdocs/!Collins/prueba/funciones.php",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Local/GitHub/PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7/doc/git/html/git-commit.html",
+		"/C/xampp/htdocs/Primer_HTML5/index.html",
+		"/C/xampp/htdocs/1erCSS3/index.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/pruba",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/C/Users/Jorge/Documents/GitHub/eurogoini/!baseArt.html",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/nivo-slider.css",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/jquery-1.7.1.min.js",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tuboplus.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tpsanitario_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tpsanitario.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tphidraul_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tphidraul.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tolvas_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tolvas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tinaco_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tinaco.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tanques_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/tanques.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sumergible_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sumergible.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sistemaduo.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sistemaduo_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/send-email.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/rotoplas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/respuesta.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/reg_sanitario_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/reg_sanitario.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/purificadorST.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/purificadorEst.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/purificadorBT.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/purificador_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/purificador.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/prueba.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/periferica_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/periferica.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/nodrizas_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/nodrizas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento_gob.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento_ahorro.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio2.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/index - copia.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/hidroneumatica_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/hidroneumatica.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/gobierno.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/empresa.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/construccion.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/conduccion_agua.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/coladeras_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/coladeras.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/class.phpmailer.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/cisterna_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/cisterna.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bombas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/biodigestor_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/biodigestor.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bebederos_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bebederos.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/baseArt.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/banobio_carc.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/banobio.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/almacenamiento_agua.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/almacenamiento.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/alm_pluvial_carc.php"
+	],
+	"find":
+	{
+		"height": 66.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\!Collins\\zarkin",
+			"-funciones.php, -empresa.php,<open files>",
+			"-funciones.php, empresa.php",
+			"-funciones.php, <open files>",
+			"empresa.php",
+			"empresas.php",
+			"<open files>",
+			"funciones.php",
+			"funcion.php",
+			" -funcion.php,<open files>",
+			"inicio.php, -funcion.php",
+			"<open files>, -funcion.php",
+			"<open files>",
+			"bebederos.html",
+			"<open files>",
+			"actividades.html",
+			"inicio.html",
+			"<open files>",
+			"",
+			"tanques.html",
+			"<open files>",
+			"nodrizas.html",
+			"prueba.html",
+			"nodrizas.html",
+			"-almacenamiento.html,<open files>",
+			"almacenamiento.html",
+			"prueba.html",
+			"<open files>",
+			"tanques.html",
+			"prueba.html",
+			"tanques.html",
+			"prueba.html",
+			"<open files>",
+			"prueba.html",
+			"<open files>",
+			"prueba.html",
+			"<open files>",
+			"accesorios_agua1.html",
+			"accesorios.html",
+			"prueba.html",
+			"untitled",
+			"accesorios_agua1.html",
+			"accesorios.html",
+			"accesorios.html, accesorios_agua1.html",
+			"accesorios.html",
+			"<open files>",
+			"",
+			"<open files>,C:\\xampp\\htdocs\\!Collins\\zarkin",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/eurogoini",
+			"garantia",
+			"\"garantia\"",
+			"genero",
+			"chkd2lst",
+			"validar",
+			"chkd2lst",
+			"img",
+			"#estado",
+			"$cfg[",
+			"not",
+			"not largo",
+			"boton-l",
+			"not",
+			"menu",
+			"menu()",
+			"get_menu",
+			"view",
+			"garan",
+			"barra",
+			"titulos",
+			"clear",
+			".barratop",
+			"class",
+			"zarkin",
+			"</strong>",
+			"<strong>",
+			"<STRONG>",
+			"STRONG",
+			"http://www.zarkin.com/",
+			"http://localhost/!Collins/zarkin/",
+			"bg-barra",
+			"function get_menu",
+			"function get_",
+			"function ge",
+			"get_menu()",
+			"function get_menu",
+			"get_menu",
+			"menu",
+			"Ñ",
+			"ñ",
+			"á",
+			"formula",
+			"get_",
+			"li",
+			"formulario label",
+			"jigFuncs",
+			"foo",
+			"demo",
+			"0",
+			"galerias",
+			"form>",
+			"form",
+			"160",
+			"level",
+			"level:",
+			"version",
+			"add",
+			"level",
+			"snap",
+			"\\{",
+			"{",
+			"level",
+			"silver",
+			"float",
+			"\\n ",
+			"{",
+			"}",
+			"{",
+			";",
+			"outline",
+			"<!",
+			"folde",
+			"delete",
+			"{",
+			"<tr>\\n(\\s+)<td height=\"54\" align=\"center\" valign=\"middle\" background=\"/eurogoini/ima/bck19.jpg\">(.*\\n)+</body>",
+			"<tr>\\n(\\s+)<td height=\"54\" align=\"center\" valign=\"middle\" background=\"<\\?php echo _path; \\?>ima/bck19.jpg\">(.*\\n)+</body>",
+			"<tr>\\n(\\s+)<td colspan=\"2\" rowspan=\"2\" bgcolor=\"#FFFFFF\">&nbsp;</td>(.*\\n)+(\\s)+</tr>",
+			"<tr>(.*\\n)+(\\s)+</tr>",
+			"<tr>",
+			"/eurogoini/ima/bck20.jpg",
+			"banner",
+			"/eurogoini/",
+			"slider",
+			"máximo",
+			"The value should be at least",
+			"The value should be at least ",
+			"the value",
+			"The value should be at mos",
+			"the value shou",
+			"this field is ",
+			"/eurogoini/",
+			"telphone",
+			"tel",
+			"required",
+			"require",
+			";",
+			"pat",
+			"style1",
+			"inicio",
+			"_path",
+			"mail",
+			"form",
+			"Script",
+			"<.php>",
+			".html",
+			".php xmlns=\"http://www.w3.org/1999/.php\">",
+			".html",
+			"/(.*).html",
+			"/(\\w).html",
+			"(.*).html",
+			"<tr>\\n(\\s+)<td background=\"/eurogoini/ima/bck01.jpg\">&nbsp;</td>\\n(.*\\n)+(\\s*)<td background=\"/eurogoini/ima/bck14.jpg\">&nbsp;</td>\\n(\\s*)</tr>",
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"img src=\"/eurogoini/ima/t",
+			"top.jpg",
+			"inicio.html",
+			"inicio.html'",
+			"'/eurogoini/inicio.html'",
+			"href=\"/eurogoini/inicio.html\"",
+			"class=\"Titulo\"",
+			"class=\"informacion\"",
+			"class=\"linea\"",
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<style id=\"wrc-middle-css\" type=\"text/css\">.wrc_whole_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(40, 40, 40, 0.9);	word-spacing: normal !important;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 100%;	line-height: normal !important;	letter-spacing: normal !important;	overflow: hidden;}.wrc_bar_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(60, 60, 60, 1.0);	word-spacing: normal !important;	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 40px;	line-height: normal !important;	letter-spacing: normal !important;	color: white !important;	font-size: 13px !important;}.wrc_middle {	display: table-cell;	vertical-align: middle;	width: 100%;}.wrc_middle_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 14px;	width: 600px;	height: auto;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-body.jpg) repeat-x left top;	background-color: rgb(39, 53, 62);	position: relative;	margin-left: auto;	margin-right: auto;	text-align: left;}.wrc_middle_tq_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 16px;	width: 615px;	height: 460px;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-sitecorrect.png) no-repeat;	background-color: white;	color: black !important;	position: relative;	margin-left: auto;	margin-right: auto;	text-align: center;}.wrc_middle_logo {    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/logo.jpg) no-repeat left bottom;    width: 140px;    height: 42px;    color: orange;    display: table-cell;    text-align: right;    vertical-align: middle;}.wrc_icon_warning {	margin: 20px 10px 20px 15px;	float: left;	background-color: transparent;}.wrc_middle_title {    color: #b6bec7;	height: auto;    margin: 0px auto;	font-size: 2.2em;	white-space: nowrap;	text-align: center;}.wrc_middle_hline {    height: 2px;	width: 100%;    display: block;}.wrc_middle_description {	text-align: center;	margin: 15px;	font-size: 1.4em;	padding: 20px;	height: auto;	color: white;	min-height: 3.5em;}.wrc_middle_actions_main_div {	margin-bottom: 15px;	text-align: center;}.wrc_middle_actions_blue_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white;	font-size: 1.2em;	font-weight: bold;}.wrc_middle_actions_blue_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(0, 173, 223) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #00dddd;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_blue_button:hover {	background-color: rgb(0, 159, 212) !important;}.wrc_middle_actions_blue_button:active {	background-color: rgb(0, 146, 200) !important;	border: 2px solid #00aaaa;}.wrc_middle_actions_grey_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white !important;	font-size: 15px;	font-weight: bold;}.wrc_middle_actions_grey_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(100, 100, 100) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #aaaaaa;	text-decoration: none;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_grey_button:hover {	background-color: rgb(120, 120, 120) !important;}.wrc_middle_actions_grey_button:active {	background-color: rgb(130, 130, 130) !important;	border: 2px solid #00aaaa;}.wrc_middle_action_low {	font-size: 0.9em;	white-space: nowrap;	cursor: Pointer;	color: grey !important;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action_low:hover {	color: #aa4400 !important;}.wrc_middle_actions_rest_div {	padding-top: 5px;	white-space: nowrap;	text-align: center;}.wrc_middle_action {	white-space: nowrap;	cursor: Pointer;	color: red !important;	font-size: 1.2em;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action:hover {	color: #aa4400 !important;}</style>",
+			"<!DOCTYPE html PUBLIC((.*)\\n)+</head>",
+			"<!DOCTYPE html PUBLIC((.*)\\n)+",
+			"<!DOCTYPE html PUBLIC((.*)\\n*)",
+			"<!DOCTYPE html PUBLIC((.*)\\n)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php get_footer(); ?>\n</body>",
+			"<?php get_footer(); ?>",
+			"</html>",
+			".php",
+			"/$1.php",
+			"$1.html",
+			"<?php get_header();?>  ",
+			"'<?php echo _path; ?>inicio.php'",
+			"href=\"<?php echo _path; ?>inicio.php\"",
+			"<?php\n\ninclude_once('funciones.php');\n\nget_head('EUROGOINI');\n?>",
+			"<span class=\"titMenu\"><span class=\"cap\">$1</span>$2</span>",
+			"<span class=\"TextList\" onclick=\"window.open('/eurogoini/archivos/garantias/",
+			"<span class=\"titMenu\"><span class=\"cap\">$1</span>$2</span>",
+			"<span class=\"titMenu\"$1><span class=\"cap\">$2</span>$3</span>",
+			"<span><p class=\"TituloArt\" style=\"font-size: 16px;\">",
+			"<div style=\"margin-top: 5px; margin-bottom: 5px;\"><span class=\"TextList\" onclick=\"location.href='accesorios_agua2.html'\" style=\"line-height: 15px;\" >Multiconector con válvula de esfera y tuerca unión</br></span></div>",
+			"<span><p class=\"TituloArt\" style=\"font-size:16px;\">",
+			"<li>$1</li>",
+			"<li>$1.</li>",
+			"<li>$1</li>",
+			"<ul>$1</ul>",
+			"<ul>(.*)</ul>",
+			"<td align=\"center\" valign=\"top\">             \n<p class=\"Titulo\">\n                  (.*)\n                </p>",
+			"<td align=\"center\" valign=\"top\">             \n               <span><p class=\"TituloArt\">$1</p></span>",
+			"<span><p class=\"TituloArt\">$1</p></span>",
+			"</br></span>",
+			"<span class=\"titMenu\"$1><span class=\"cap\">$2</span>$3</span>",
+			"<span class=\"titMenu\"><span class=\"cap\">$2</span>$3</span>",
+			"<span class=\"titMenu\"><span class=\"cap\">$1</span>$2</span>",
+			"<span class=\"titMenu\">NODRIZAS</span>",
+			"/eurogoini/rotoplas.html",
+			"/eurogoini/inicio.html",
+			"<ul class=\"linea\">\\n$1</ul>",
+			"<ul class=\"linea\">\\n                  $1</ul>",
+			"<ul class=\"linea\">\\n                  $2</ul>",
+			"<ul class=\"linea\">\\n                  $1</ul>",
+			"                  <li>$1</li>",
+			"<ul class=\"linea\">\\n(                  <li>$1</li></ul>",
+			"<ul class=\"linea\">\\n(                  <li>$1</li>+\\n(.*)</ul>",
+			"",
+			"                  <li>$1</li>",
+			"<ul class=\"linea\">\\n                  $1</ul>",
+			"<p class=\"linea\">\\n                  $1</p>",
+			"\\n0*****$0\\n1*****$1\\n2*****$2\\n3*****$3\\n4*****$4",
+			"\\n*****$0\\n*****$1\\n*****$2\\n*****$3",
+			"\\n$0\\n$1\\n$2\\n$3",
+			"<ul class=\"linea\">\\n$1</ul>",
+			"<ul class=\"linea\">\\n$1\\n</ul>",
+			"<ul class=\"linea\">\\n$1</ul>",
+			"<ul class=\"linea\">\\n$1+\\n$2</ul>",
+			"<ul class=\"linea\">\\n$0\\n$2</ul>",
+			"<ul class=\"linea\">\\n$1\\n$2</ul>",
+			"<ul class=\"linea\">$1\\n$2</ul>",
+			"<ul class=\"linea\">\\n                  $1\\n$2</ul>",
+			"<ul class=\"linea\">\\n                  $1+\\n$2</ul>",
+			"<ul class=\"linea\">\\n                  (.*\\n)+\\n(.*)</ul>",
+			"                  <li>$1</li>",
+			"                  <li>1</li>",
+			"                  <li>(.*)</li>",
+			"<td rowspan=\"4\" align=\"left\" ><img src=\"/eurogoini/ima/tn_53232_Logo Rotoplas 240.jpg\" width=\"190\" border=\"0px\" onclick=\"location.href='rotoplas.html '\" style=\"cursor: pointer;\"></td>",
+			"<td width=\"794\" height=\"131\" align=\"center\" style=\"cursor: pointer;\"><img src=\"/eurogoini/ima/top.jpg\" width=\"794\" height=\"131\" onclick=\"location.href='inicio.html'\"/></td>",
+			"<td width=\"794\" height=\"131\" align=\"center\"><img src=\"/eurogoini/ima/top.jpg\" width=\"794\" height=\"131\" onclick=\"location.href='inicio.html'\"/></td>",
+			".</br>",
+			"</br>",
+			"Tuboplus sanitario",
+			"Tuboplus",
+			"Producto",
+			"Seleccione",
+			"galvanoplastia",
+			"galvanoplastía",
+			">Válvula de",
+			"Válvula de",
+			"unión",
+			"válvula de esfera",
+			"válvula",
+			"resistencias",
+			"Tuboplus",
+			"Hidráulico",
+			"conducción",
+			"opción",
+			"repuestos disponibles",
+			" estándar",
+			" en",
+			" centrífuga",
+			" periférica",
+			" hidroneumática",
+			"hidroneumática",
+			"hidroneumático",
+			"público",
+			"instalación",
+			"químicas",
+			"químicos",
+			"flujo",
+			"México",
+			"impactos",
+			"filtro UV:",
+			"",
+			"1.capitalize()",
+			"Tubería",
+			"características",
+			"Características",
+			"garantía ",
+			"Garantía ",
+			"- [A-Z+]",
+			"- [:upper:]",
+			"- $1[:upper:]",
+			"TTuboplus tuberia sanitaria",
+			"Tuboplus tuberia hidráulica",
+			"No se oxidan ni se corroen.",
+			"del 20% y",
+			"opcion",
+			"Características",
+			"características",
+			"Accesorios",
+			"/eurogoini/archivos/",
+			"eurogoini/archivos/",
+			"/archivos/",
+			"/eurogoini/style.css",
+			"<span style=\"float:left;\"><a onclick=\"history.back(-1)\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"<span style=\"float:left;\"><a onclick=\"location.href='../$1'\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"<span style=\"float:left;\"><a onclick=\"location.href='../&1'\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"<span style=\"float:left;\"><a onclick=\"location.href='../(.*)'\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"/eurogoini/",
+			"../../ima/"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/procesar.js",
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "formulario-garantia.php",
+					"settings":
+					{
+						"buffer_size": 24301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1897,
+								1897
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 605.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/videoteca/Agregar.html",
+					"settings":
+					{
+						"buffer_size": 13451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								867,
+								872
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 283.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "funciones.php",
+					"settings":
+					{
+						"buffer_size": 42125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10131,
+								10131
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5691.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/formulario.css",
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 690.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 9761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9761,
+								9666
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9956.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "funciones.php",
+					"settings":
+					{
+						"buffer_size": 42125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								326
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"rulers":
+							[
+							],
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 263.0,
+						"translation.y": 16355.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "formulario-garantia.php",
+					"settings":
+					{
+						"buffer_size": 24301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21998,
+								21998
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10868.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/videoteca/Agregar.html",
+					"settings":
+					{
+						"buffer_size": 13451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6688,
+								6644
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5019.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/lib.js",
+					"settings":
+					{
+						"buffer_size": 6832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4460,
+								4463
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+					"settings":
+					{
+						"buffer_size": 37548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11093,
+								11101
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1071.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "tuto_combos/funciones.php",
+					"settings":
+					{
+						"buffer_size": 1347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								310
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "action.php",
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 105.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.sftp":
+	{
+		"height": 24.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			[
+				"funcione",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"send",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/send-email.php"
+			],
+			[
+				"contact",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/contacto.php"
+			],
+			[
+				"funcio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"inici",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"funci",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"fun",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"conta",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/contacto.php"
+			],
+			[
+				"style",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/style.css"
+			],
+			[
+				"funciones",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"formula",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/formulario.php"
+			],
+			[
+				"funcion",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"rotopl",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/rotoplas.php"
+			],
+			[
+				"contac",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/contacto.php"
+			],
+			[
+				"inicio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"icio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"mejor",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento.php"
+			],
+			[
+				".",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/.htaccess"
+			],
+			[
+				"ini",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"rotoplas",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/rotoplas.php"
+			],
+			[
+				"mejora",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento.php"
+			],
+			[
+				"ban",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/banobio.html"
+			],
+			[
+				"404",
+				"/C/xampp/htdocs/!Collins/eurogoini/404.html"
+			],
+			[
+				"index",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/index.html"
+			],
+			[
+				"alm",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/alm_pluvial.html"
+			],
+			[
+				"bio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/biodigestor.html"
+			],
+			[
+				"bano",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/banobio.html"
+			],
+			[
+				"act",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/actividades.html"
+			],
+			[
+				"gobi",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gobierno.html"
+			],
+			[
+				"mejo",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/mejoramiento.html"
+			],
+			[
+				"gob",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gobierno.html"
+			],
+			[
+				"nodri",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/nodrizas.html"
+			],
+			[
+				"ag",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/agroindustrias.html"
+			],
+			[
+				"con",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/construccion.html"
+			],
+			[
+				"agro",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/agroindustrias.html"
+			],
+			[
+				"reg_",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/reg_sanitario.html"
+			],
+			[
+				"tina",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/tinaco.html"
+			],
+			[
+				"cis",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/cisterna_carc.html"
+			],
+			[
+				"cister",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/cisterna.html"
+			],
+			[
+				"acce",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/accesorios_agua4.html"
+			],
+			[
+				"sist",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sistemaduo.html"
+			],
+			[
+				"siste",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sistemaduo.html"
+			],
+			[
+				"pur",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/purificador.html"
+			],
+			[
+				"calen",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/calentador.html"
+			],
+			[
+				"hidroneu",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/hidroneumatica.html"
+			],
+			[
+				"sumer",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sumergible.html"
+			],
+			[
+				"centr",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/centrifuga.html"
+			],
+			[
+				"bombas",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/bombas.html"
+			],
+			[
+				"reg",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/reg_sanitario.html"
+			],
+			[
+				"cola",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/coladeras.html"
+			],
+			[
+				"constr",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/construccion.html"
+			],
+			[
+				"bebe",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/bebederos_carc.html"
+			],
+			[
+				"tpsani",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/tpsanitario.html"
+			],
+			[
+				"cisterna",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/cisterna.html"
+			],
+			[
+				"sty",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/style.css"
+			],
+			[
+				"conduccio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/conduccion_agua.html"
+			],
+			[
+				"cons",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/construccion.html"
+			],
+			[
+				"tubo",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/tuboplus.html"
+			],
+			[
+				"sry",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/style.css"
+			],
+			[
+				"nodriza",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/nodrizas.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/!Collins/eurogoini/eurogoini.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}

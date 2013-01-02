@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+img { -ms-interpolation-mode: bicubic; }
+/*Link*/
+a{
+	text-decoration:none;
+	color:#414141;
+	border:none;
+}
+/*borde imagen*/
+img{
+	border:0px;
+}
+/*Link Hover*/
+a:hover{
+	color:#fff;
+}
+/*Cerrar Sesion (admin)*/
+.cerrarSesion{
+	text-decoration:none;
+	color:#000;
+}
+/*Cerrar Sesion Hover (admin)*/
+.cerrarSesion:hover{
+	color:#000;
+}
+/*Contenedor Principal (index)*/
+.contenedor{
+	width:800px;
+	margin:auto;
+	margin-top:50px;
+	background-color:#000;
+	border:1px solid #999;
+}
+/*Logo (index)*/
+.logoSesion{
+	float:left;
+	text-align:left;
+	width:100%;
+	height:92px;
+}
+/*Titulo (index)*/
+.tituloSesion{
+	float:left;
+	text-align:center;
+	width:100%;
+	font-size:22px;
+	color:#fff;
+}
+/*Contenedor Forma (index)*/
+.centroSesion{
+	float:left;
+	text-align:center;
+	width:100%;
+}
+/*Contenedor Error (index)*/
+.errorSesion{
+	float:left;
+	text-align:center;
+	width:100%;
+	color:#fff;
+}
+/*Contenedor Menus (admin)*/
+.menus{
+	font-size:12px;
+	width:100%;
+	float:left;
+}
+/*Contenedor Info (admin)*/
+.info{
+	font-size:12px;
+	width:770;
+	padding:15px;
+	float:left;
+}
+/*Contenedor Principal (admin)*/
+.contenedorAdmin{
+	width:800px;
+	margin:auto;
+	background-color:#000;
+	border:1px solid #999;
+	min-height:500px;
+}
+/*Logo (admin)*/
+.logoAdmin{
+	float:left;
+	text-align:left;
+	width:100%;
+}
+/*Titulo Seccion (admin)*/
+.tituloAdmin{
+	color:#fff;
+	font-weight:bold;
+}
+/*Salto entre Contenedores*/
+.salto{
+	clear:both;
+	height:10px;
+}
+/*Contenedor Izquierdo Formas (admin)*/
+.izqAdmin{
+	float:left; 
+	width:250px;
+}
+/*Contenedor Derecho Formas (admin)*/
+.derAdmin{
+	float:left; 
+	width:500px;
+}
+/*Campo Necesario Validate jQuery*/
+.required{ 
+	width:300px;
+	margin-right:10px;
+}
+/*Campo NO Necesario Validate jQuery*/
+.norequired{ 
+	width:300px;
+	margin-right:10px;
+}
+/*Campo Email Validate jQuery*/
+.required email{ 
+	width:300px;
+	margin-right:10px;
+}
+/*Campo Numero Validate jQuery*/
+.required number{ 
+	width:300px;
+	margin-right:10px;
+}
+/*Mensaje Error en Vailidate jQuery*/
+label.error{
+	color:#F00;
+}
+/*Contenedor de Titulos Campos Modificar (admin)*/
+.tituloCamposModificar{
+	float:left; 
+	width:800px;
+}
+/*Titulo de Campos Modificar Max (admin)*/
+.tituloMaxModificar{
+	float:left; 
+	width:200px; 
+	font-weight:bold;
+}
+/*Titulo de Campos Modificar Min (admin)*/
+.tituloMinModificar{
+	float:left; 
+	width:100px; 
+	font-weight:bold;
+}
+/*Contenedor de Titulos Campos Modificar (admin)*/
+.camposModificar{
+	float:left; 
+	width:770px;
+}
+/*Contenedor de Campos Modificar (admin)*/
+.camposModificar:hover{
+	float:left; 
+	width:770px;
+	background-color:#CCC;
+}
+/*Campos Modificar Max (admin)*/
+.campoMaxModificar{
+	float:left; 
+	width:200px;
+}
+/*Campos Modificar Min (admin)*/
+.campoMinModificar{
+	float:left; 
+	width:100px;
+}
+/*Imagenes a Eliminar en Mod (admin)*/
+.imgModificar{
+	float:left;
+	text-align:center;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+/*Texto Rojo*/
+.rojo{
+	color:#F00;
+}
+/*Img Loading despues de Submit Form*/
+#loading{
+	text-align:center;
+	width:100%;
+	display:none;
+}

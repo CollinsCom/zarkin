@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /zarkinhtml/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ver-coleccion/idcoleccion/(.*)/zarkin/(.*)/ ver-coleccion.php?idcoleccion=$1&zarkin=$2
+RewriteRule ver-coleccion/idcoleccion/(.*)/zarkin/(.*) ver-coleccion.php?idcoleccion=$1&zarkin=$2					
+RewriteRule ver-categoria/idcategoria/(.*)/zarkin/(.*)/ ver-categoria.php?idcategoria=$1&zarkin=$2
+RewriteRule ver-categoria/idcategoria/(.*)/zarkin/(.*) ver-categoria.php?idcategoria=$1&zarkin=$2
+				
