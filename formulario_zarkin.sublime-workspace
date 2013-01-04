@@ -243,89 +243,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "js/procesar.js",
-			"settings":
-			{
-				"buffer_size": 1023,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "formulario-garantia.php",
-			"settings":
-			{
-				"buffer_size": 24301,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/videoteca/Agregar.html",
-			"settings":
-			{
-				"buffer_size": 13451,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "funciones.php",
-			"settings":
-			{
-				"buffer_size": 42125,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/formulario.css",
-			"settings":
-			{
-				"buffer_size": 979,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "body{\n	padding:0px;\n	margin:0px;\n	background-image:url(http://www.zarkin.com/images/ajax-loader.gif);\n	background-position:50% 50%;\n	background-repeat:no-repeat;\n}\nhtml, body { height: 100%;overflow:hidden; position:relative;}\n@font-face {\n    font-family: 'HelveticaNeue45Light';\n    src: url('helveticaneue-light-webfont.eot');\n    src: url('helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'),\n         url('helveticaneue-light-webfont.woff') format('woff'),\n         url('helveticaneue-light-webfont.ttf') format('truetype'),\n         url('helveticaneue-light-webfont.svg#HelveticaNeue45Light') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'Helvetica25UltraLightRegular';\n    src: url('helveticaultralt-webfont.eot');\n    src: url('helveticaultralt-webfont.eot?#iefix') format('embedded-opentype'),\n         url('helveticaultralt-webfont.woff') format('woff'),\n         url('helveticaultralt-webfont.ttf') format('truetype'),\n         url('helveticaultralt-webfont.svg#Helvetica25UltraLightRegular') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\nimg{\n	display:block;\n	border:0px;\n	text-decoration:none;\n}\n.bgtop{\n	min-height: 50%;\n    min-width: 1100px;\n	position: relative;\n    top: 0;\n    left: 0;\n	overflow:hidden;\n	width:100%;\n	display:none;\n} \n.bgtop img{\n	min-height: 100%;\n	min-width: 1100px;\n	width: 100%;\n	height: auto;\n	position: absolute;\n	top: 0;\n	left: 0;		\n}\n.bgbot{\n	min-height: 50%;\n    min-width: 1100px;\n	position: relative;\n    bottom: 0;\n    left: 0;\n	overflow:hidden;\n	width:100%;\n	display:none;\n} \n.bgbot img{\n        min-height: 100%;\n        min-width: 1100px;\n        width: 100%;\n        height: auto;\n        position: absolute;\n        top: 0;\n        left: 0;		\n}\n.black{\n	background-color:#373737;\n}\n.idioma{\n	width:280px;\n	height:150px;\n	position:absolute;\n	bottom:200px;\n	left:150px;\n	display:none;\n}\n.degrada{\n	width:280px;\n	height:125px;\n	background:url(http://www.zarkin.com/images/gradient.png) repeat-y;\n	padding-top:1px;\n}\n.logo{\n	width:330px;\n	height:130px;\n	background-image:url(http://www.zarkin.com/images/logo.png);\n	margin:auto;\n	margin-top:30px;\n}\n.links{\n	width:170px;\n	margin:auto;\n	margin-top:10px;\n	color:#FFF;\n	font-family:\"HelveticaNeue45Light\";\n	font-size:14px;\n	font-weight:bold;\n}\n.links a{\n	display:block;\n	width:50px;\n	height:15px;\n	text-decoration:none;\n	color:#FFF;\n	float:left;\n}\n.links a:hover{\n	color:#fffded;\n}\n.links span{\n	float:left;\n	margin-left:4px;\n	margin-right:4px;\n}\n.barratop{\n	width: 100%;\n	height: 85px;\n	background: url(http://www.zarkin.com/images/bg-barra.png) repeat-x;\n	position: absolute;\n	z-index: 80;\n	top: 0px;\n}\n.estilo{\n	background:url(http://www.zarkin.com/images/estilo.png);\n	background-repeat:no-repeat;\n	width:550px;\n	height:85px;\n	/*margin:auto;*/\n	margin: 3px 0 0 -35px;\n	background-position:0 -10px;\n}\n.logo-dos{\n	width:250px;\n	height:99px;\n	background-image:url(http://www.zarkin.com/images/logoZarkin.png);\n	background-repeat:no-repeat;\n	position:absolute;\n	right:0px;\n	top:0px;\n	z-index:99;\n}\n.logo-dos a{\n	width:190px;\n	height:85px;\n	display:block;\n}\n.degradabot{\n	width:100%;\n	height:120px;\n	position:absolute;\n	bottom:0px;\n	background:url(http://www.zarkin.com/images/degradabot.png) repeat-x;\n	z-index:87;\n}\n.menu{\n	width:900px;\n	position:absolute;\n	height:20px;\n	bottom:20px;\n	left:20px;\n	font-family:\"HelveticaNeue45Light\";\n	font-size:12px;\n	color:#FFF;\n	z-index:90;\n}\n.submenu{\n	width:850px;\n	position:absolute;\n	top:-45px;\n	left:0px;\n	display:none;\n	height:25px;\n	margin-left:-10px;\n	padding-top:20px;\n}\n.boton{\n	float:left;\n	width:50px;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n	position:relative;\n}\n.boton-largo{\n	float:left;\n	width:130px;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n	position:relative;\n}\n.boton a{\n	display:block;\n	width:50px;\n	height:25px;\n}\n.boton-l{\n	float:left;\n	width:auto;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n}\n.boton-l a{\n	display:block;\n	width:100%;\n	height:25px;\n}\n.menu a{\n	color:#FFF;\n	text-decoration:none;\n}\n.menu a:hover{\n	color:#9B60A7;\n	text-decoration:none;\n	font-size:12px;\n	font-weight:bold;\n	color:#FFFDED;\n}\n.menu span{\n	float:left;\n}\n.cole-thumbs{\n	width:576px;\n	height:auto;\n	display:none;\n}\n.cole-thumbs2{\n	width:576px;\n	height:auto;\n	margin-left:30px;\n}\n\n.thumb{\n	width:130px;\n	float:left;\n	margin-right:10px;\n	margin-bottom:10px;\n	border:2px solid #FFF;\n	background-color:#373737;\n	height:130px;\n	position:relative;\n	overflow:hidden;\n	\n}\n.thumb img{\n\n	 z-index:91;\n}\n#pieles-nombre{\n width:105%; \n}\n.pieles-nombre p{\nfloat:left; width:130px; margin-right:14px; text-align:center; margin-top:-5px;\n}\n.thumb img:hover{\n\n	 z-index:91;\n	 border:2px solid #FFF;\n}\n.titulos{\n	width:98.5%;\n	height:auto;\n	padding:5px 0 0 20px;\n	position:absolute;\n	right:0px;\n	top:0px;\n	z-index:90;\n	color:#FFFDED;\n	/*font-family: 'HelveticaNeue45Light';*/\n	font-family:\"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif;\n	font-size:22px;\n	margin-top:34px;\n	font-weight:lighter;\n	letter-spacing:1px;\n}\n.titulos span{\n	font-size:22px;\n	width:180px;\n	margin-bottom:0px;\n	text-transform:uppercase;\n	text-align:center;\n	font-family: \"HelveticaNeueBoldCondensed\", \"HelveticaNeue-Bold-Condensed\", \"Helvetica Neue Bold Condensed\", \"HelveticaNeueBold\", \"HelveticaNeue-Bold\", \"Helvetica Neue Bold\", \"HelveticaNeue\", \"Helvetica Neue\", 'TeXGyreHerosCnBold', \"Helvetica\", \"Tahoma\", \"Geneva\", \"Arial Narrow\", \"Arial\", sans-serif; font-weight:bold; font-stretch:condensed;\n	/*font-weight:500;*/\n	/*float:left;*/\n}\n.titulos a{\n	display:block;\n	color:#FFF;\n	font-size:10px;\n	width:75px;\n	text-align:right;\n	text-decoration:none;\n	margin:-1px 0 0 -34px;\n	padding:4px 8px 4px 0;\n	color:#FFFDED;\n}\n.titulos a:hover{\n	text-decoration:none;\n}\n.clear{\n	clear:both;\n}\n.clear10px{\n	clear:both;\n	height:10px;\n}\n.flechader{\n	width:30px;\n	height:69px;\n	background-image:url(http://www.zarkin.com/images/arrows.png);\n	background-repeat:no-repeat;\n	background-position:-37px 0px;\n	position:absolute;\n	z-index:90;\n	right:15px;\n	top:49%;\n}\n.flechader a{\n	width:30px;\n	height:69px;\n	display:block;\n}\n.flechaizq{\n	width:30px;\n	height:69px;\n	background-image:url(http://www.zarkin.com/images/arrows.png);\n	background-repeat:no-repeat;\n	background-position:-2px 0px;\n	position:absolute;\n	z-index:90;\n	left:15px;\n	top:49%;\n}\n.flechaizq a{\n	width:30px;\n	height:69px;\n	display:block;\n}\n.barra{\n	width:100%;\n	height:60px;\n	background:url(http://www.zarkin.com/images/bg-black.png) repeat;\n	position:absolute;\n	top:85px;\n	display:none;\n}\n.bienvenido{\n	width:100%;\n	height:auto;\n	background:url(http://www.zarkin.com/images/bg-black2.png) repeat;\n	position:absolute;\n	top:50%;\n	z-index:90;\n	margin:auto;\n	left:0;\n	/*margin-left:-215px;*/\n	margin:auto;\n	color:#FFF;\n	font-family: 'HelveticaNeue45Light';\n	padding:0 0 20px;\n	font-size:16px;\n	line-height:20px;\n	display:none;\n	/*text-align:justify;*/\n	letter-spacing:1px;\n	word-spacing:-2px;\n	margin-top:-207px;\n}\n\n.bienvenido .text-izq{\n	text-align:left;\n}\n.bienvenido .text-izq p{\n	width:95%;\n}\n.bienvenido p.text-just{\n	width:100%;\n	/*text-align:justify;*/\n}\n.bienvenido h4{\n	font-size: 24px;\n	text-align:center;\n}\n.bienvenido strong{\n	font-size: 16px;\n}\n.bienvenido-grupo{\n	width:100%;\n	height:auto;\n	background:url(http://www.zarkin.com/images/bg-black2.png) repeat;\n	position:absolute;\n	top:20%;\n	z-index:99;\n	left:13%;\n	color:#FFF;\n	font-family: 'HelveticaNeue45Light';\n	padding:15px;\n	font-size:14px;\n	letter-spacing:1px;\n	line-height:20px;\n	display:none;\n}\n.bienvenido span{\n	width:100%;\n	text-align:center;\n	font-size:20px;\n	line-height:22px;\n	font-weight:normal;\n	text-transform:uppercase;\n	letter-spacing:2px;\n	/*font-family:Helvetica;*/\n	font-family: 'HelveticaNeue45Light';\n	color:#F1F1F1;\n}\n.bienvenido-grupo span{\n	width:100%;\n	text-align:center;\n	font-size:24px;\n	font-weight:normal;\n	text-transform:uppercase;\n	letter-spacing:2px;\n	font-family:\"Helvetica25UltraLightRegular\";\n	color:#F1F1F1;\n}\n.cole-piel{\n	width:55%; margin:0 auto; margin-top:20px; color:#FFFFFF; font-family: 'HelveticaNeue45Light';\n}\n#scrollbar1 { width: 600px; clear: both; margin:0 auto; }\n#scrollbar1 .viewport { width: 580px; height: 415px; overflow: hidden; position: relative; }\n.bienvenido .viewport { width: 580px; height:415px; overflow: hidden; position:relative; margin:0 auto; }\n.bienvenido .viewport-pieles { width: 630px; height:415px; overflow: hidden; position:relative; margin:0 auto; }\n.viewport li{ margin-top:15px;}\n#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }\n#scrollbar1 .thumb .end,\n#scrollbar1 .thumb { background-color: #373737;  }\n#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }\n#scrollbar1 .track { height: 100%; width:13px; position: relative; padding: 0 1px; margin-left:10px;  -webkit-border-radius: 30px; border-radius: 30px; background-image:url(http://www.zarkin.com/images/transparent-bar.png); background-repeat:repeat; }\n#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: relative; top: 0; border:0; -webkit-border-radius: 30px; border-radius: 30px;background-color:#373737;}\n#scrollbar1 .thumb .end { overflow: hidden; height: 0px; width: 13px; }\n#scrollbar1 .disable{ display: none; }\n\ndiv.boton a.largo{ width:130px;} \n\n#sociales{ z-index:100; position:absolute; bottom:23px; left:610px; width:100px;}\n#sociales img{ float:left; width:16px; height:16px; margin-left:5px;}\n\nspan.tit{ font-size:26px; font-weight:normal; margin:5px 0 0 10px; width:100%; text-align:center;}\n\ninput[type=text]{ width:300px; margin-bottom:10px;}\ntextarea{ width:300px; margin-bottom:10px;}",
-			"file": "css/style.css",
-			"file_size": 10223,
-			"file_write_time": 129962649215324179,
-			"settings":
-			{
-				"buffer_size": 9761,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/lib.js",
-			"settings":
-			{
-				"buffer_size": 6832,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/phpMyAdmin/config.inc.php",
-			"settings":
-			{
-				"buffer_size": 37548,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tuto_combos/funciones.php",
-			"settings":
-			{
-				"buffer_size": 1347,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "action.php",
-			"settings":
-			{
-				"buffer_size": 895,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Java/Java.sublime-build",
 	"command_palette":
@@ -475,13 +392,28 @@
 	},
 	"file_history":
 	[
+		"/C/Users/COLLINSCOM/AppData/Local/GitHub/PortableGit_93e8418133eb85e81a81e5e19c272776524496c6/bin/vim",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/.git/hooks/post-receiver.sample",
+		"/C/xampp/htdocs/zarkin/css/formulario.css",
+		"/C/xampp/htdocs/zarkin/funciones.php",
+		"/C/Users/COLLINSCOM/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/xampp/htdocs/zarkin/guardar-garantia.php",
+		"/C/xampp/htdocs/zarkin/formulario-garantia.php",
+		"/C/xampp/htdocs/zarkin/js/procesar.js",
+		"/C/xampp/htdocs/zarkin/action.php",
+		"/C/xampp/htdocs/zarkin/tuto_combos/funciones.php",
+		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/zarkin/js/lib.js",
+		"/C/Users/COLLINSCOM/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/xampp/htdocs/zarkin/css/style.css",
+		"/C/xampp/htdocs/videoteca/Agregar.html",
+		"/C/xampp/htdocs/zarkin/sftp-config.json",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.html",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.php",
 		"/C/xampp/htdocs/!Collins/zarkin/funciones.php",
 		"/C/xampp/htdocs/videoteca/Agregar.php",
 		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/js/procesar.js",
 		"/C/xampp/htdocs/phpMyAdmin/config.sample.inc.php",
-		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
 		"/C/xampp/phpMyAdmin/config.inc.php",
 		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/index.php",
 		"/C/xampp/htdocs/!Collins/zarkin/menu.php",
@@ -507,7 +439,6 @@
 		"/C/xampp/htdocs/!Collins/prueba/.git/config",
 		"/C/Users/Jorge/Documents/GitHub/eurogoini/.gitignore",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/eventos.php",
-		"/C/xampp/htdocs/videoteca/Agregar.html",
 		"/C/Users/Jorge/Documents/GitHub/eurogoini/404.php",
 		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Java/Java.sublime-build",
 		"/C/Users/Jorge/java/palindromo.java",
@@ -588,21 +519,7 @@
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/class.phpmailer.php",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/cisterna_carc.php",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/cisterna.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bombas.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/biodigestor_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/biodigestor.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bebederos_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bebederos.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/baseArt.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/banobio_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/banobio.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/almacenamiento_agua.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/almacenamiento.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/alm_pluvial_carc.php"
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga_carc.php"
 	],
 	"find":
 	{
@@ -670,6 +587,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form",
 			"/eurogoini",
 			"garantia",
 			"\"garantia\"",
@@ -796,8 +714,7 @@
 			"<style id=\"wrc-middle-css\" type=\"text/css\">.wrc_whole_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(40, 40, 40, 0.9);	word-spacing: normal !important;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 100%;	line-height: normal !important;	letter-spacing: normal !important;	overflow: hidden;}.wrc_bar_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(60, 60, 60, 1.0);	word-spacing: normal !important;	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 40px;	line-height: normal !important;	letter-spacing: normal !important;	color: white !important;	font-size: 13px !important;}.wrc_middle {	display: table-cell;	vertical-align: middle;	width: 100%;}.wrc_middle_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 14px;	width: 600px;	height: auto;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-body.jpg) repeat-x left top;	background-color: rgb(39, 53, 62);	position: relative;	margin-left: auto;	margin-right: auto;	text-align: left;}.wrc_middle_tq_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 16px;	width: 615px;	height: 460px;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-sitecorrect.png) no-repeat;	background-color: white;	color: black !important;	position: relative;	margin-left: auto;	margin-right: auto;	text-align: center;}.wrc_middle_logo {    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/logo.jpg) no-repeat left bottom;    width: 140px;    height: 42px;    color: orange;    display: table-cell;    text-align: right;    vertical-align: middle;}.wrc_icon_warning {	margin: 20px 10px 20px 15px;	float: left;	background-color: transparent;}.wrc_middle_title {    color: #b6bec7;	height: auto;    margin: 0px auto;	font-size: 2.2em;	white-space: nowrap;	text-align: center;}.wrc_middle_hline {    height: 2px;	width: 100%;    display: block;}.wrc_middle_description {	text-align: center;	margin: 15px;	font-size: 1.4em;	padding: 20px;	height: auto;	color: white;	min-height: 3.5em;}.wrc_middle_actions_main_div {	margin-bottom: 15px;	text-align: center;}.wrc_middle_actions_blue_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white;	font-size: 1.2em;	font-weight: bold;}.wrc_middle_actions_blue_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(0, 173, 223) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #00dddd;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_blue_button:hover {	background-color: rgb(0, 159, 212) !important;}.wrc_middle_actions_blue_button:active {	background-color: rgb(0, 146, 200) !important;	border: 2px solid #00aaaa;}.wrc_middle_actions_grey_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white !important;	font-size: 15px;	font-weight: bold;}.wrc_middle_actions_grey_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(100, 100, 100) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #aaaaaa;	text-decoration: none;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_grey_button:hover {	background-color: rgb(120, 120, 120) !important;}.wrc_middle_actions_grey_button:active {	background-color: rgb(130, 130, 130) !important;	border: 2px solid #00aaaa;}.wrc_middle_action_low {	font-size: 0.9em;	white-space: nowrap;	cursor: Pointer;	color: grey !important;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action_low:hover {	color: #aa4400 !important;}.wrc_middle_actions_rest_div {	padding-top: 5px;	white-space: nowrap;	text-align: center;}.wrc_middle_action {	white-space: nowrap;	cursor: Pointer;	color: red !important;	font-size: 1.2em;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action:hover {	color: #aa4400 !important;}</style>",
 			"<!DOCTYPE html PUBLIC((.*)\\n)+</head>",
 			"<!DOCTYPE html PUBLIC((.*)\\n)+",
-			"<!DOCTYPE html PUBLIC((.*)\\n*)",
-			"<!DOCTYPE html PUBLIC((.*)\\n)"
+			"<!DOCTYPE html PUBLIC((.*)\\n*)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -939,418 +856,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "js/procesar.js",
-					"settings":
-					{
-						"buffer_size": 1023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								924,
-								924
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "formulario-garantia.php",
-					"settings":
-					{
-						"buffer_size": 24301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1897,
-								1897
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 605.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampp/htdocs/videoteca/Agregar.html",
-					"settings":
-					{
-						"buffer_size": 13451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								867,
-								872
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 283.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "funciones.php",
-					"settings":
-					{
-						"buffer_size": 42125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10131,
-								10131
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5691.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/formulario.css",
-					"settings":
-					{
-						"buffer_size": 979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								451,
-								451
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 690.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 9761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9761,
-								9666
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 9956.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "funciones.php",
-					"settings":
-					{
-						"buffer_size": 42125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								334,
-								326
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"rulers":
-							[
-							],
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 263.0,
-						"translation.y": 16355.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "formulario-garantia.php",
-					"settings":
-					{
-						"buffer_size": 24301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21998,
-								21998
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 10868.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampp/htdocs/videoteca/Agregar.html",
-					"settings":
-					{
-						"buffer_size": 13451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6688,
-								6644
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5019.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/lib.js",
-					"settings":
-					{
-						"buffer_size": 6832,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4460,
-								4463
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3255.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/xampp/htdocs/phpMyAdmin/config.inc.php",
-					"settings":
-					{
-						"buffer_size": 37548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11093,
-								11101
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1071.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "tuto_combos/funciones.php",
-					"settings":
-					{
-						"buffer_size": 1347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								310
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 132.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "action.php",
-					"settings":
-					{
-						"buffer_size": 895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								242,
-								242
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1387,7 +899,7 @@
 		"rows":
 		[
 			0.0,
-			0.5,
+			0.925373134328,
 			1.0
 		]
 	},
@@ -1398,7 +910,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 24.0
+		"height": 55.0
 	},
 	"output.unsaved_changes":
 	{

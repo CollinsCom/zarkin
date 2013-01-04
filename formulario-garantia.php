@@ -89,15 +89,15 @@
 	}
 
 	function validar(){
-		if (chkb('garantia', 'factorC', 'Tiene que seleccionar de 2 a 4 factores de compra.')) {
-			if (chkb('garantia', 'factorI', 'Tiene que seleccionar de 2 a 3 factores importantes en una tienda.')){
+		if (chkb('garantia', 'factorC',2 , 4, 'Tiene que seleccionar de 2 a 4 factores de compra.')) {
+			if (chkb('garantia', 'factorI', 2 , 3,'Tiene que seleccionar de 2 a 3 factores importantes en una tienda.')){
 				// document.forms["garantia"].submit();
 				document.forms["garantia"].btnSubmit.click()
 			}
 		}		
 	}
 
-	function chkb(frm,fld,textAlert){
+	function chkb(frm,fld, min, max, textAlert){
 		var t="";var s=",  ";var flag=0;
 		for(var i=0;i<document[frm].elements["_"+fld].length;i++)
 			{			
@@ -106,11 +106,9 @@
 				if(flag>0){t+=s+document[frm].elements["_"+fld][i].value;flag+=1;}				
 				else{t+=document[frm].elements["_"+fld][i].value;flag+=1;}
 				}
-			}	
-			
-		document[frm].elements[fld].value=t;
-		//valido genero
-		if (flag<2 || flag>4)
+			}			
+		document[frm].elements[fld].value=t;		
+		if (flag<min || flag>max)
 		{ 
 			 alert(textAlert);
 			 document[frm].elements[fld].focus();
@@ -323,12 +321,12 @@
 									
 									<li>
 										<label for="garantia">Telefono</label><br />
-										<input type="text" placeholder="Ej. 3319278448" name="tel" class=":required :lenght;10 :integer" >
+										<input type="text" placeholder="Ej. 3319278448" name="tel" class=":required :min_length;10 :max_length;10 :integer" >
 									</li>
 									
 									<li>
 										<label for="garantia">E-mail</label><br />
-										<input type="text" placeholder="Ej. ejemplo@dominio.com" name="email" value="" class=":required :email" >
+										<input type="text" placeholder="Ej. ejemplo@dominio.com" name="email" value="" class=":required :email : only_on_blur" >
 									</li>
 								</ul>
 
@@ -558,7 +556,7 @@
 								</table>								
 							</fieldset>
 							<input type="submit" value="Submit" align="center" style="display:none;" name="btnSubmit">
-							<input type="button" value="Enviar" align="center" onClick="validar()" style="position: relative; top: 20px; left: 40px; width: 100px; height: 30px;">
+							<input type="button" value="Enviar" align="center" onClick="validar()" style="position: relative; top: 20px; left: 40px; width: 100px; height: 30px; margin-bottom: 40px;">
 						</form>
 
 						

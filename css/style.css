@@ -463,3 +463,14 @@ span.tit{ font-size:26px; font-weight:normal; margin:5px 0 0 10px; width:100%; t
 
 input[type=text]{ width:300px; margin-bottom:10px;}
 textarea{ width:300px; margin-bottom:10px;}
+
+#menu-interiorismo{height: 30px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;}
+#menu-interiorismo div{width: 600px; margin:0 auto; padding: 5px 0;}
+#menu-interiorismo ul {height: 20px; margin: 0px; padding: 0px;}
+#menu-interiorismo ul li{list-style-type:none; float:left; text-align:center; }
+#menu-interiorismo ul li a{text-decoration: none; display:block; padding:0px 5px 0px 0px; color:#ffffff; font-size: 12px;}
+#menu-interiorismo li a:hover{font-weight: bold;}
+
+#pleca-tmb{height: 108px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;}
+#pleca-tmb div{width: 700px; margin:0 auto; padding: 0;}
+#pleca-tmb div img{display: inline; margin-left: 50px;}
