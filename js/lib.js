@@ -244,3 +244,15 @@ function nextfoto(foto) {
 function prevfoto(foto) { 
   	return fotos[($.inArray(foto, fotos) - 1 + fotos.length) % fotos.length];
 }
+
+function nextImg(){
+	$("#flecha-izq").removeAttr("style");
+	$("#flecha-der").attr("style","visibility:hidden;");
+	$("#tmb-interiorismo").attr("src","images/interiorismo_tbm_02.png")
+}
+
+function prevImg(){
+	$("#flecha-izq").attr("style","visibility:hidden;");
+	$("#flecha-der").removeAttr("style");
+	$("#tmb-interiorismo").attr("src","images/interiorismo_tbm_01.png")
+}

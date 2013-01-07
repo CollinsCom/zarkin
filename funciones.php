@@ -893,8 +893,9 @@ function interiorismo(){
 				</div>
 				<div id="pleca-tmb">
 								<div>
-									<img src="images/interiorismo_tbm_01.png" alt="ejemplo de interiorismos" style="position:relative; top:-4px; />
-									<a href=""><img src="images/flecha.png" alt="flecha" /></a>
+									<a href="javascript:prevImg()"><img id="flecha-izq" src="images/flecha_izq.png" alt="flecha" style="visibility:hidden;" /></a>
+									<img id="tmb-interiorismo" src="images/interiorismo_tbm_01.png" alt="ejemplo de interiorismos" style="position:relative; top:-4px;" />
+									<a href="javascript:nextImg()"><img id="flecha-der" src="images/flecha_der.png" alt="flecha" /></a>
 								</div>
 							</div>
 					</div>
