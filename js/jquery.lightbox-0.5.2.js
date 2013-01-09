@@ -19,11 +19,11 @@
 	 *
 	 */
 	var ruta = 'http://www.zarkin.com/';
-	$.fn.lightBox = function(settings) {
+	$.fn.lightBox2 = function(settings) {
 		// Settings to configure the jQuery lightBox plugin how you like
 		settings = jQuery.extend({
 			// Configuration related to overlay
-			overlayBgColor: 		'#000',		// (string) Background color to overlay; inform a hexadecimal value like: #RRGGBB. Where RR, GG, and BB are the hexadecimal values for the red, green, and blue values of the color.
+			overlayBgColor: 		'#b3b4a6',		// (string) Background color to overlay; inform a hexadecimal value like: #RRGGBB. Where RR, GG, and BB are the hexadecimal values for the red, green, and blue values of the color.
 			overlayOpacity:			0.4,		// (integer) Opacity value to overlay; inform: 0.X. Where X are number from 0 to 9
 			// Configuration related to navigation
 			fixedNavigation:		true,		// (boolean) Boolean that informs if the navigation (next and prev button) will be fixed or not in the interface.
@@ -34,11 +34,11 @@
 			imageBtnClose:			ruta + 'images/lightbox-btn-close.png',		// (string) Path and the name of the close btn
 			imageBlank:				ruta + 'images/lightbox-blank.gif',			// (string) Path and the name of a blank image (one pixel)
 			// Configuration related to container image box
-			containerBorderSize:	10,			// (integer) If you adjust the padding in the CSS for the container, #lightbox-container-image-box, you will need to update this value
+			containerBorderSize:	0,			// (integer) If you adjust the padding in the CSS for the container, #lightbox-container-image-box, you will need to update this value
 			containerResizeSpeed:	400,		// (integer) Specify the resize duration of container image. These number are miliseconds. 400 is default.
 			// Configuration related to texts in caption. For example: Image 2 of 8. You can alter either "Image" and "of" texts.
-			txtImage:				'Image',	// (string) Specify text "Image"
-			txtOf:					'of',		// (string) Specify text "of"
+			txtImage:				'Imagen',	// (string) Specify text "Image"
+			txtOf:					'de',		// (string) Specify text "of"
 			// Configuration related to keyboard navigation
 			keyToClose:				'c',		// (string) (c = close) Letter to close the jQuery lightBox interface. Beyond this letter, the letter X and the SCAPE key is used to.
 			keyToPrev:				'p',		// (string) (p = previous) Letter to show the previous image
@@ -126,7 +126,7 @@
 		 */
 		function _set_interface() {
 			// Apply the HTML markup into body tag
-			$('body').append('<div id="jquery-overlay"></div><div id="jquery-lightbox"><div id="lightbox-container-image-box"><div id="lightbox-container-image"><img id="lightbox-image"><div style="" id="lightbox-nav"><a href="#" id="lightbox-nav-btnPrev"></a><a href="#" id="lightbox-nav-btnNext"></a></div><div id="lightbox-loading"><a href="#" id="lightbox-loading-link"><img src="' + settings.imageLoading + '"></a></div></div></div><div id="lightbox-container-image-data-box"  style="background-color: #373737;"><div id="lightbox-container-image-data"><div id="lightbox-image-details"><span id="lightbox-image-details-caption"></span><span id="lightbox-image-details-currentNumber"></span></div><div id="lightbox-secNav"><a href="#" id="lightbox-secNav-btnClose"><img src="' + settings.imageBtnClose + '"></a></div></div></div></div>');	
+			$('body').append('<div id="jquery-overlay"></div><div id="jquery-lightbox"><div id="lightbox-container-image-box"><div id="lightbox-container-image"><img id="lightbox-image"><div style="" id="lightbox-nav"><a href="#" id="lightbox-nav-btnPrev"></a><a href="#" id="lightbox-nav-btnNext"></a></div><div id="lightbox-loading"><a href="#" id="lightbox-loading-link"><img src="' + settings.imageLoading + '"></a></div></div></div><div id="lightbox-container-image-data-box"><div id="lightbox-container-image-data"><div id="lightbox-image-details"><span id="lightbox-image-details-caption"></span><span id="lightbox-image-details-currentNumber"></span></div><div id="lightbox-secNav"><a href="#" id="lightbox-secNav-btnClose"><img src="' + settings.imageBtnClose + '"></a></div></div></div></div>');	
 			// Get page sizes
 			var arrPageSizes = ___getPageSize();
 			// Style overlay and show it
@@ -140,7 +140,7 @@
 			var arrPageScroll = ___getPageScroll();
 			// Calculate top and left offset for the jquery-lightbox div object and show it
 			$('#jquery-lightbox').css({
-				top:	arrPageScroll[1] + (arrPageSizes[3] / 4),
+				top:	arrPageScroll[0] + (arrPageSizes[3] / 4),
 				left:	arrPageScroll[0]
 			}).show();
 			// Assigning click events in elements to close overlay
@@ -159,7 +159,7 @@
 				// Style overlay and show it
 				$('#jquery-overlay').css({
 					width:		arrPageSizes[0],
-					height:		arrPageSizes[1]
+					height:		arrPageSizes[0]
 				});
 				// Get page scroll
 				var arrPageScroll = ___getPageScroll();
@@ -206,8 +206,8 @@
 			var intCurrentWidth = $('#lightbox-container-image-box').width();
 			var intCurrentHeight = $('#lightbox-container-image-box').height();
 			// Get the width and height of the selected image plus the padding
-			var intWidth = (intImageWidth + (settings.containerBorderSize * 2)); // Plus the image큦 width and the left and right padding value
-			var intHeight = (intImageHeight + (settings.containerBorderSize * 2)); // Plus the image큦 height and the left and right padding value
+			var intWidth = (intImageWidth + (settings.containerBorderSize * 0)); // Plus the image큦 width and the left and right padding value
+			var intHeight = (intImageHeight + (settings.containerBorderSize * 0)); // Plus the image큦 height and the left and right padding value
 			// Diferences
 			var intDiffW = intCurrentWidth - intWidth;
 			var intDiffH = intCurrentHeight - intHeight;
@@ -221,7 +221,7 @@
 				}
 			} 
 			$('#lightbox-container-image-data-box').css({ width: intImageWidth });
-			$('#lightbox-nav-btnPrev,#lightbox-nav-btnNext').css({ height: intImageHeight + (settings.containerBorderSize * 2) });
+			$('#lightbox-nav-btnPrev,#lightbox-nav-btnNext').css({ height: intImageHeight + (settings.containerBorderSize * 0) });
 		};
 		/**
 		 * Show the prepared image

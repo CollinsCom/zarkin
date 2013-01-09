@@ -32,15 +32,18 @@ function get_head($titulo){
 				<script type="text/javascript" src="<?php echo _path; ?>js/vanadium/vanadium.js"></script>
 				<link rel="stylesheet" type="text/css" href="<?php echo _path; ?>js/vanadium/style.css" />
 				
-				 <script type="text/javascript" src="<?php echo _path; ?>js/jquery.lightbox-0.5.js"></script>
-						<link rel="stylesheet" type="text/css" href="<?php echo _path; ?>css/jquery.lightbox-0.5.css" media="screen" />
-						
-						<!-- Ativando o jQuery lightBox plugin -->
-						<script type="text/javascript">
-				$(function() {
-					$('a.piel').lightBox();
-				});
-			</script>
+				<script type="text/javascript" src="<?php echo _path; ?>js/jquery.lightbox-0.5.js"></script>
+				<script type="text/javascript" src="<?php echo _path; ?>js/jquery.lightbox-0.5.2.js"></script>
+				<link rel="stylesheet" type="text/css" href="<?php echo _path; ?>css/jquery.lightbox-0.5.css" media="screen" />
+				<link rel="stylesheet" type="text/css" href="<?php echo _path; ?>css/jquery.lightbox-0.5.2.css" media="screen" />
+				
+				<!-- Ativando o jQuery lightBox plugin -->
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$('a.piel').lightBox();
+						$('a.estilos').lightBox2();
+					});
+				</script>
 				
 				<title><?php echo $titulo; ?></title>
 				
@@ -243,7 +246,7 @@ function caracteristicas_piel(){
 									Dependiendo de la calidad de la piel se pueden observar sus caracter&iacute;sticas en mayor o menor medida. La piel se somete a varios procesos que la transforman en piel para muebles, por eso es muy importante dar mantenimiento preventivo a sus muebles de piel oportunamente para que permanezcan y duren como nuevos por mucho tiempo.
 								</p>
 								<div class="clear10px"></div>
-							<div class="clear10px"></div>
+								<div class="clear10px"></div>
 								<div class="clear10px"></div>
 								<div class="clear10px"></div>
 								
@@ -825,19 +828,19 @@ function galeria($categoria, $modelo){
 ?>
 
 <?php
-function interiorismo(){
+function estilos_tendencias(){
 ?>
 		<body class="black">
 				
-				<?php fondo_animado('images/fondos/coleccion.jpg'); ?>
+				<?php fondo_animado('images/fondos/interiorismo.jpg'); ?>
 				
-				<!-- HEADER -->
+				<!-- HEADER --> 
 				<div class="barratop">
 						<!--<div class="estilo"></div>-->
 				</div>
 				<div class="titulos">
 						<?php
-						echo '<img src="'._path.'images/interiorismo_03.png" style="margin-top:-15px;" />'; 
+						echo '<img src="'._path.'images/titulo-estilos.png" style="margin-top:-15px;" />'; 
 						?>
 						<div class="clear"></div>
 				</div>
@@ -847,18 +850,18 @@ function interiorismo(){
 				</div>
 				
 				<!-- CONTENIDO -->
-				<div class="bienvenido" style="padding-bottom:0px; ">
+				<div class="bienvenido" style="padding-bottom:0px;">
 				<!--<span>Marcas de la naturaleza</span>-->
-					<div id="menu-interiorismo">
+					<div id="menu-estilos">
 						<div>
 							<ul>
-								<li><a href="">Contemporáneo</a></li>
-								<li><a href="">|  Minimalista</a></li>
-								<li><a href="">|  Hi-tek</a></li>
-								<li><a href="">|  Conutry Deccor</a></li>
-								<li><a href="">|  Clásico</a></li>
-								<li><a href="">|  Étnico</a></li>
-								<li><a href="">|  Vintage</a></li>
+								<li><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li>
+								<li><a href="images/estilos/minimalista.jpg" class="estilos">|  Minimalista</a></li>
+								<li><a href="images/estilos/hitek.jpg" class="estilos">|  Hi-tek</a></li>
+								<li><a href="images/estilos/country.jpg" class="">|  Conutry Deccor</a></li>
+								<li><a href="images/estilos/clasico.jpg" class="estilos">|  Clásico</a></li>
+								<li><a href="images/estilos/etnico.jpg" class="estilos">|  Étnico</a></li>
+								<li><a href="images/estilos/vintage.jpg" class="">|  Vintage</a></li>
 							</ul>
 						</div>
 					</div>
@@ -876,15 +879,15 @@ function interiorismo(){
 					</div>
 
 				<!-- VIEWPORT -->
-						<div class="viewport text-izq" style="height: 220px; width: 555px; margin:5px 0;">							
-							<div class="overview" style="font-size: 13px;">																			
+						<div class="viewport text-izq" style="height: 220px; width: 555px; margin:5px 50px;">							
+							<div class="overview">																			
 								<!-- <div class="clear10px"></div>
 								<div class="clear10px"></div>
 								<div class="clear10px"></div>
 								<div class="clear10px"></div> -->
 								
-								<p style="margin:0;">La forma de adornar o distribuir los espacios en un hogar, departamento u oficina se logra con la colocación de diversos objetos, los cuales trabajan de forma armónica para crear una sensación agradable a la vista y un ambiente funcional de acuerdo a la forma y estilo de vida de cada persona.</p>
-								<p style="margin:0;">Para crear estos espacios únicos es necesario poner en practica la creatividad para analizar el entorno, formas, composiciones, colores, establecer una dirección conceptual, indagar en aspectos de la psicología ambiental, arquitectura, diseño de producto, apoyándonos en gran parte de los estilos o influencias que cada uno hace propios. Hay estilos de mayor preferencia como son el estilo contemporáneo, minimalista, Hi-tek, vintage, étnico, conutry deccor y clásico.</p>                                         
+								<p>La forma de adornar o distribuir los espacios en un hogar, departamento u oficina se logra con la colocación de diversos objetos, los cuales trabajan de forma armónica para crear una sensación agradable a la vista y un ambiente funcional de acuerdo a la forma y estilo de vida de cada persona.</p>
+								<p>Para crear estos espacios únicos es necesario poner en practica la creatividad para analizar el entorno, formas, composiciones, colores, establecer una dirección conceptual, indagar en aspectos de la psicología ambiental, arquitectura, diseño de producto, apoyándonos en gran parte de los estilos o influencias que cada uno hace propios. Hay estilos de mayor preferencia como son el estilo contemporáneo, minimalista, Hi-tek, vintage, étnico, conutry deccor y clásico.</p>                                         
 								<p><strong></strong></p>
 								<p></p>
 							</div>							
@@ -892,13 +895,15 @@ function interiorismo(){
 											
 				</div>
 				<div id="pleca-tmb">
-								<div>
-									<a href="javascript:prevImg()"><img id="flecha-izq" src="images/flecha_izq.png" alt="flecha" style="visibility:hidden;" /></a>
-									<img id="tmb-interiorismo" src="images/interiorismo_tbm_01.png" alt="ejemplo de interiorismos" style="position:relative; top:-4px;" />
-									<a href="javascript:nextImg()"><img id="flecha-der" src="images/flecha_der.png" alt="flecha" /></a>
-								</div>
+						<div>
+							<img id="flecha-izq" src="images/flecha_izq.png" alt="flecha" />									
+							<div>
+								<img id="tmb-estilos" src="images/estilos-tbm.png" alt="ejemplo de estilos" />
 							</div>
+							<img id="flecha-der" src="images/flecha_der.png" alt="flecha" />
+						</div>
 					</div>
+				</div>
 				<div class="logo-dos">
 						<a href="<?php echo _path; ?>home"></a>
 				</div>
@@ -907,6 +912,98 @@ function interiorismo(){
 				<?php get_menu(); ?>
 
 				
+		</body>
+		</html>
+<?php
+}
+?>
+
+<?php
+function interiorismo(){
+?>
+		<body class="black">				
+				<?php fondo_animado('images/fondos/interiorismo.jpg'); ?>				
+				<!-- HEADER -->
+				<div class="barratop">
+						<!--<div class="estilo"></div>-->
+				</div>
+				<div class="titulos">
+						<?php
+						echo '<img src="'._path.'images/titulo-interiorismo.png" style="margin-top:-15px;" />'; 
+						?>
+						<div class="clear"></div>
+				</div>
+				
+				<div class="logo-dos">
+						<a href="<?php echo _path; ?>home"></a>
+				</div>				
+				<!-- CONTENIDO -->
+				<div class="bienvenido" style="padding-bottom:0px;">
+				<!--<span>Marcas de la naturaleza</span>-->
+					<!-- <div id="menu-interiorismo">
+						<div>
+							<ul>
+								<li><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li>
+								<li><a href="images/estilos/minimalista.jpg" class="estilos">|  Minimalista</a></li>
+								<li><a href="images/estilos/hitek.jpg" class="estilos">|  Hi-tek</a></li>
+								<li><a href="images/estilos/country.jpg" class="estilos">|  Conutry Deccor</a></li>
+								<li><a href="images/estilos/clasico.jpg" class="estilos">|  Clásico</a></li>
+								<li><a href="images/estilos/etnico.jpg" class="estilos">|  Étnico</a></li>
+								<li><a href="images/estilos/vintage.jpg" class="estilos">|  Vintage</a></li>
+							</ul>
+						</div>
+					</div> -->
+					<!-- <div class="clear10px"></div>
+					<div class="clear10px"></div>
+					<div class="clear10px"></div> -->
+					<div id="scrollbar1">				
+						<!-- SCROLLBAR -->
+					<div class="scrollbar">
+						<div class="track">
+							<div class="thumb">
+								<div class="end"></div>
+							</div>
+						</div>
+					</div>
+				<!-- VIEWPORT -->
+						<div class="viewport text-izq" style="height: 90px; width: 555px; margin:10px 0px;">							
+							<div class="overview">																			
+								<!-- <div class="clear10px"></div>
+								<div class="clear10px"></div>
+								<div class="clear10px"></div>
+								<div class="clear10px"></div> -->								
+								<p>Si vas a estrenar, cambiar o innovar tu casa u oficina necesitas tener una visión general de lo que quieres antes de conseguir los elementos necesarios para lograr ambientes bien armonizados.</p>
+								<p>Tomas en cuenta las siguientes ideas para lograr el cambio perfecto de tu espacio.</p>                                         
+								<!--<p><strong></strong></p>
+								<p></p>-->
+							</div>							
+						</div>											
+				</div>
+				<div id="pleca-tmb-interiorismo">
+						<div>									
+							<div id="menu-interiorismo">
+								<div>
+									<a class="estilos" href="images/interiorismo/CasaUoficina.jpg" >Tu casa u oficina con elegancia y buen gusto</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >La simplicidad es más en la decoración</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Selecciona Líneas en el mobiliario</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Espacios luminosos</a>
+									<a class="estilos" href="images/interiorismo/CombinacionTexturas.jpg" >Utiliza la combinación de texturas</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Orden total en cada ambiente</a>
+									<a class="estilos" href="images/interiorismo/PiezaDiseño.jpg" >Pieza de diseño o una obra de arte</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Gama de colores</a>
+									<a class="estilos" href="images/interiorismo/DetallesLuminosos.jpg" >Enfatiza en detalles luminosos</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >El protagonismo del mobiliario</a>
+								</div>
+								<img id="tmb-interiorismo" src="images/interiorismo-tbm.png" alt="ejemplo de estilos" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="logo-dos">
+						<a href="<?php echo _path; ?>home"></a>
+				</div>
+				<!-- MENU -->
+				<?php get_menu(); ?>				
 		</body>
 		</html>
 <?php
