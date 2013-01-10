@@ -192,10 +192,12 @@
 									<li>
 										<label for="garantia">Estado</label><br />
 										<select id="estadoT" name="estadoT">
-											<?php
-												$conexion = mysql_connect("localhost","zarkin","zarkadmdb") or die("Error en la conexion a la base de datos");
-												mysql_select_db("zarkin_db", $conexion);	
-												// mysql_set_charset('utf8',$conexion);											
+											<?php											
+
+												$conexion = mysql_connect("localhost","zarkin","zarkadmdb") or die ("Fallo en el establecimiento de la conexión");
+												#Seleccionamos la base de datos a utilizar
+												mysql_select_db("zarkin_db") or die("Error en la selección de la base de datos");
+												mysql_set_charset('utf8',$conexion);
 
 												$estados = "SELECT * FROM estados";
 												$res_estados = mysql_query($estados,$conexion) or die(mysql_error());
@@ -268,11 +270,11 @@
 										<input type="text" placeholder="" name="apellidoM" value="">
 									</li>
 									
-									<li>
+									<!-- <li>
 										<label for="garantia">Fecha de Nacimiento</label><br />
 										<input type="text" id="date" name="fnacimiento" class=":required date campoChico" value="<?php echo strftime( "%Y-%m-%d", time() ); ?>" /></td>
-										<!-- <input type="date" name="" required> -->
-									</li>
+										<input type="date" name="" required>
+									</li> -->
 									
 									<li>
 										<label for="garantia">Sexo</label><br />
@@ -281,32 +283,32 @@
 									</li>
 									
 									
-									<li>
+									<!-- <li>
 										<label for="garantia">Direcci&oacute;n</label><br />
 										<input type="text" placeholder="" name="direccion" value="" class=":required" >
-									</li>
+									</li> -->
 									
-									<li style="display:none;">
+									<!-- <li style="display:none;">
 										<label for="garantia">Pais</label><br />
 										<input type="text" placeholder="México" name="pais" value="Mexico">
 									</li>
 									
 									<li>
 										<label for="garantia">Estado</label><br />
-										<select id="estadoC" name="estadoC">
+										<select id="estadoC" name="estadoC"> -->
 											<?php
-												$conexion = mysql_connect("localhost","zarkin","zarkadmdb") or die("Error en la conexion a la base de datos");
-												mysql_select_db("zarkin_db", $conexion);												
+												// $conexion = mysql_connect("localhost","zarkin","zarkadmdb") or die("Error en la conexion a la base de datos");
+												// mysql_select_db("zarkin_db", $conexion);												
 
-												$estados = "SELECT * FROM estados";
-												$res_estados = mysql_query($estados,$conexion) or die(mysql_error());
+												// $estados = "SELECT * FROM estados";
+												// $res_estados = mysql_query($estados,$conexion) or die(mysql_error());
 
-												echo "<option value=''>--Seleccione Estado--</option>";
-												while($estado = mysql_fetch_assoc($res_estados)){
-													echo '<option value="'.$estado['id_estado'].'">'.utf8_encode($estado['nombre_estado']).'</option>';
-												}
+												// echo "<option value=''>--Seleccione Estado--</option>";
+												// while($estado = mysql_fetch_assoc($res_estados)){
+												// 	echo '<option value="'.$estado['id_estado'].'">'.utf8_encode($estado['nombre_estado']).'</option>';
+												// }
 											?>
-										</select>	
+										<!-- </select>
 									</li>
 									
 									<li>
@@ -319,7 +321,7 @@
 									<li>
 										<label for="garantia">Codigo Postal</label><br />
 										<input type="text" placeholder="45000" name="cp" value="" class=":required :length;5 :integer" >
-									</li>
+									</li> -->
 									
 									<li>
 										<label for="garantia">Telefono</label><br />
@@ -343,7 +345,7 @@
 									Sus respuestas servirán solamente para elaborar datos estadísticos y serán confidenciales.</h3>
 
 								<ul>
-									<li>
+									<!--<li>
 										<label for="garantia">Estado Civil:</label><br /> 
 										<select name="estCivil">
 										  <option value="Soltero/a">Soltero/a</option>
@@ -426,7 +428,7 @@
 									</li>
 									
 									<div class="clear10px" />
-									<div class="clear10px"></div>
+									<div class="clear10px"></div>-->
 									
 									<li>
 										<div id="factoresCompra">
@@ -445,14 +447,14 @@
 										</div>
 									</li>
 
-									<div class="clear10px"></div>
+									 <div class="clear10px"></div> 
 									<div class="clear10px"></div>
 									
-									<li>
+									<!-- <li>
 										<div id="factoresImport">
 											<label for="factorI"><h3>Por favor indique de 2 a 3 factores que considera más importante en una tienda de muebles:</h3></label><br />
 											<input name="factorI" value="" type="hidden">
-											<label for="opcion1"><input type="checkbox" name="_factorI" value="Que tenga un diseñador de interiores para consulta" >Que tenga un diseñador de interiores para consulta</label><br />									
+											<label for="opcion1"><input type="checkbox" name="_factorI" value="Que tenga un diseñador de interiores para consulta" >Que tenga un diseñador de interiores para consulta</label><br />
 											<label for="opcion2"><input type="checkbox" name="_factorI" value="Catálogos Folletos" >Catálogos Folletos</label><br />
 											<label for="opcion3"><input type="checkbox" name="_factorI" value="Página Web" >Página Web</label><br />
 											<label for="opcion4"><input type="checkbox" name="_factorI" value="Información sobre el mantenimiento del producto" >Información sobre el mantenimiento del producto</label><br />
@@ -460,7 +462,7 @@
 											<label for="opcion2"><input type="checkbox" name="_factorI" value="Publicidad sobre promociones y ofertas" >Publicidad sobre promociones y ofertas</label><br />
 											<label for="opcion3"><input type="checkbox" name="_factorI" value="Otro" >Otro</label><br />
 										</div>
-									</li>
+									</li> -->
 									
 									<div class="clear10px"></div>
 									<div class="clear10px"></div>
@@ -477,7 +479,7 @@
 										</select>
 									</li>
 									
-									<li>
+									<!-- <li> 
 										<label for="garantia">¿Cómo ha pagado su producto Zarkin?</label><br />
 										<select name="pago">
 										  <option value="Efectivo">Efectivo</option>
@@ -485,12 +487,13 @@
 										  <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
 										  <option value="Financiamiento">Financiamiento</option>
 										</select>
-									</li>
-								</fieldset>
+									</li>-->
+
+								</ul>
+							</fieldset>
 	
 								<div class="clear10px"></div>
-								<div class="clear10px"></div>
-								</ul>
+								<div class="clear10px"></div>						 
 
 							<fieldset class="satisfaccion">
 								<legend>SATISFACCIÓN DEL CLIENTE</legend>
@@ -569,8 +572,6 @@
 		<div class="logo-dos">
 			<a href="<?php echo _path; ?>home"></a>
 		</div>
-
 		<a style="z-index:100; float:right; position:relative; right:50px; bottom: 25px; text-decoration:none; color:#FFFFFF; font-size:12px; font-family:'HelveticaNeue45Light'; " href="http://collinscom.com" target="_blank">Collinscom.com</a>
-
 	</body>
 </html>
