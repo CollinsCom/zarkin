@@ -840,7 +840,7 @@ function estilos_tendencias(){
 				</div>
 				<div class="titulos">
 						<?php
-						echo '<img src="'._path.'images/titulo-estilos.png" style="margin-top:-15px;" />'; 
+						echo '<img src="'._path.'images/titulo-estilos.png" />'; 
 						?>
 						<div class="clear"></div>
 				</div>
@@ -855,13 +855,13 @@ function estilos_tendencias(){
 					<div id="menu-estilos">
 						<div>
 							<ul>
-								<li><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li>
-								<li><a href="images/estilos/minimalista.jpg" class="estilos">|  Minimalista</a></li>
-								<li><a href="images/estilos/hitek.jpg" class="estilos">|  Hi-tek</a></li>
-								<li><a href="images/estilos/country.jpg" class="">|  Conutry Deccor</a></li>
-								<li><a href="images/estilos/clasico.jpg" class="estilos">|  Clásico</a></li>
-								<li><a href="images/estilos/etnico.jpg" class="estilos">|  Étnico</a></li>
-								<li><a href="images/estilos/vintage.jpg" class="">|  Vintage</a></li>
+								<li style="width:130px;"><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li>
+								<li style="width:100px;"><a href="images/estilos/minimalista.jpg" class="estilos">Minimalista</a></li>
+								<li style="width:60px;"><a href="images/estilos/hitek.jpg" class="estilos">Hi-tek</a></li>
+								<li style="width:130px;"><a href="images/estilos/country.jpg" class="">Conutry Deccor</a></li>
+								<li style="width:70px;"><a href="images/estilos/clasico.jpg" class="estilos">Clásico</a></li>
+								<li style="width:60px;"><a href="images/estilos/etnico.jpg" class="estilos">Étnico</a></li>
+								<li style="width:70px;"><a href="images/estilos/vintage.jpg" class="">Vintage</a></li>
 							</ul>
 						</div>
 					</div>
@@ -879,7 +879,8 @@ function estilos_tendencias(){
 					</div>
 
 				<!-- VIEWPORT -->
-						<div class="viewport text-izq" style="height: 220px; width: 555px; margin:5px 50px;">							
+						<div class="viewport text-izq" >			
+							<!-- style="height: 220px; width: 555px; margin:5px 50px;"-->
 							<div class="overview">																			
 								<!-- <div class="clear10px"></div>
 								<div class="clear10px"></div>
@@ -929,7 +930,7 @@ function interiorismo(){
 				</div>
 				<div class="titulos">
 						<?php
-						echo '<img src="'._path.'images/titulo-interiorismo.png" style="margin-top:-15px;" />'; 
+						echo '<img src="'._path.'images/titulo-interiorismo.png" />'; 
 						?>
 						<div class="clear"></div>
 				</div>
@@ -966,14 +967,14 @@ function interiorismo(){
 						</div>
 					</div>
 				<!-- VIEWPORT -->
-						<div class="viewport text-izq" style="height: 90px; width: 555px; margin:10px 0px;">							
+						<div class="viewport" >							
 							<div class="overview">																			
 								<!-- <div class="clear10px"></div>
 								<div class="clear10px"></div>
 								<div class="clear10px"></div>
 								<div class="clear10px"></div> -->								
 								<p>Si vas a estrenar, cambiar o innovar tu casa u oficina necesitas tener una visión general de lo que quieres antes de conseguir los elementos necesarios para lograr ambientes bien armonizados.</p>
-								<p>Tomas en cuenta las siguientes ideas para lograr el cambio perfecto de tu espacio.</p>                                         
+								<p>Tomas en cuenta las siguientes ideas para lograr el cambio perfecto de tu espacio:</p>                                         
 								<!--<p><strong></strong></p>
 								<p></p>-->
 							</div>							

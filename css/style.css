@@ -465,25 +465,30 @@ input[type=text]{ width:300px; margin-bottom:10px;}
 textarea{ width:300px; margin-bottom:10px;}
 
 #menu-estilos{height: 30px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; font-family: "HelveticaNeue45Light"; font-size: 12px;}
-#menu-estilos div{width: 510px; margin:0 auto; padding: 5px 0;}
+#menu-estilos div{width: 620px; margin:0 auto; padding: 0;}
 #menu-estilos ul {height: 20px; margin: 0px; padding: 0px;}
-#menu-estilos ul li{list-style-type:none; float:left; text-align:center; }
-#menu-estilos ul li a{text-decoration: none; display:block; padding:0px 5px 0px 0px; color:#ffffff;}
-#menu-estilos li a:hover{text-decoration: none;font-size: 12px;font-weight: bold;color: #FFFDED;}
+#menu-estilos ul li{list-style-type:none; float:left; text-align:center; margin: 0;}
+#menu-estilos ul li:after{content:'|'; position: relative; top: 5px;}		 }
+#menu-estilos ul li:last-child:after{content:none;}
+#menu-estilos ul li:last-child:after{content:none;}
+#menu-estilos ul li a{text-decoration: none; display:inline; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; position: relative; top: 5px; margin:0; float: left;}
+#menu-estilos ul li span{display: inline; position: relative; top: 5px; font-size: 14px;color: #FFFDED;}
+#menu-estilos li a:hover{text-decoration: none;font-size: 12px;font-weight: bold;color: #FFFDED; }
 
-#pleca-tmb{height: 108px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;}
-#pleca-tmb div {width: 500px; margin:0 auto; padding: 0;}
+#pleca-tmb{height: 108px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;position: relative; bottom: 130px;}
+#pleca-tmb div {width: 600px; margin:0 auto; padding: 0; position: relative;}
 #pleca-tmb div div {display: inline; position: relative; top: -117px; z-index: -1; float: left; overflow: hidden;}
 #pleca-tmb div img{display: inline; margin:0; }
-img#flecha-izq{position: relative; right: 50px;}
-img#tmb-estilos{position: relative; left: -600px; height: 120px;}
-img#flecha-der{position: relative; left: 500px;}
+img#flecha-izq{position: relative; right: 70px;}
+img#tmb-estilos{position: relative; left: -560px; height: 120px; }
+img#flecha-der{position: relative; left: 620px;}
 
-#pleca-tmb-interiorismo{height: 257px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;}
-#pleca-tmb-interiorismo div {width: 613px; margin:0 auto; padding: 0;}
-#pleca-tmb-interiorismo div div {display: inline; position: relative; top: 15px; z-index: 0; float: left; overflow: hidden;}
-#pleca-tmb-interiorismo div img{display: inline; margin:30px 0px 0px 0px; width: 540px;}
+#pleca-tmb-interiorismo{height: 247px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; position: relative; bottom: 270px;}
+#pleca-tmb-interiorismo div {width: 600px; margin:0 auto; padding: 0;}
+#pleca-tmb-interiorismo div div {display: inline; position: relative; top: 5px; z-index: 0; float: left; overflow: hidden;}
+#pleca-tmb-interiorismo div img{display: inline; margin:18px 0px 0px 0px; width: 600px;}
 
 #menu-interiorismo{}
-#menu-interiorismo a{text-decoration: none; display:inline-block; padding:0px 5px 0px 0px; color:#ffffff; font-size: 12px; width: 298px;}
-#menu-interiorismo a:hover{text-decoration: none;font-size: 12px;font-weight: bold;color: #FFFDED;}
+#menu-interiorismo a{text-decoration: none; display:inline-block; padding:0px 0px 0px 0px; color:#ffffff; font-size: 12px; width: 288px;}
+#menu-interiorismo a:hover{text-decoration: none;font-size: 11px;font-weight: bold;color: #FFFDED; }
+#menu-interiorismo a:nth-child(even){padding-left: 20px;}

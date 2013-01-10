@@ -255,7 +255,7 @@ $(document).ready(function(){
 
 	$('#flecha-izq').click(function(){
 		$(this).css('visibility','hidden');
-		$('#tmb-estilos').animate({'position':'relative','left':'-600px'},'500');
+		$('#tmb-estilos').animate({'position':'relative','left':'-540px'},'500');
 		$('#flecha-der').removeAttr('style');
 	})
 });
