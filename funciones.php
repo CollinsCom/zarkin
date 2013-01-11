@@ -840,7 +840,7 @@ function estilos_tendencias(){
 				</div>
 				<div class="titulos">
 						<?php
-						echo '<img src="'._path.'images/titulo-estilos.png" />'; 
+						echo '<img src="'._path.'images/titulos/estilo-tendencias.png" style="margin-top:-15px;/>'; 
 						?>
 						<div class="clear"></div>
 				</div>
@@ -855,13 +855,13 @@ function estilos_tendencias(){
 					<div id="menu-estilos">
 						<div>
 							<ul>
-								<li style="width:130px;"><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li>
-								<li style="width:100px;"><a href="images/estilos/minimalista.jpg" class="estilos">Minimalista</a></li>
-								<li style="width:60px;"><a href="images/estilos/hitek.jpg" class="estilos">Hi-tek</a></li>
-								<li style="width:130px;"><a href="images/estilos/country.jpg" class="">Conutry Deccor</a></li>
-								<li style="width:70px;"><a href="images/estilos/clasico.jpg" class="estilos">Clásico</a></li>
-								<li style="width:60px;"><a href="images/estilos/etnico.jpg" class="estilos">Étnico</a></li>
-								<li style="width:70px;"><a href="images/estilos/vintage.jpg" class="">Vintage</a></li>
+								<li style="width:125px;"><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li> <span>|</span>
+								<li style="width:95px;"><a href="images/estilos/minimalista.jpg" class="estilos">Minimalista</a></li><span>|</span>
+								<li style="width:55px;"><a href="images/estilos/hitek.jpg" class="estilos">Hi-tek</a></li><span>|</span>
+								<li style="width:125px;"><a href="images/estilos/country.jpg" class="">Conutry Deccor</a></li><span>|</span>
+								<li style="width:65px;"><a href="images/estilos/clasico.jpg" class="estilos">Clásico</a></li><span>|</span>
+								<li style="width:55px;"><a href="images/estilos/etnico.jpg" class="estilos">Étnico</a></li><span>|</span>
+								<li style="width:65px;"><a href="images/estilos/vintage.jpg" class="">Vintage</a></li>
 							</ul>
 						</div>
 					</div>
@@ -879,7 +879,7 @@ function estilos_tendencias(){
 					</div>
 
 				<!-- VIEWPORT -->
-						<div class="viewport text-izq" >			
+						<div class="viewport text-izq" style="margin-left:10px;">			
 							<!-- style="height: 220px; width: 555px; margin:5px 50px;"-->
 							<div class="overview">																			
 								<!-- <div class="clear10px"></div>
@@ -930,7 +930,7 @@ function interiorismo(){
 				</div>
 				<div class="titulos">
 						<?php
-						echo '<img src="'._path.'images/titulo-interiorismo.png" />'; 
+						echo '<img src="'._path.'images/titulos/consejos-interiorismo.png" style="margin-top:-15px; />'; 
 						?>
 						<div class="clear"></div>
 				</div>
@@ -957,17 +957,17 @@ function interiorismo(){
 					<!-- <div class="clear10px"></div>
 					<div class="clear10px"></div>
 					<div class="clear10px"></div> -->
-					<div id="scrollbar1">				
+					<div id="scrollbar1" style="width:660px;">
 						<!-- SCROLLBAR -->
-					<div class="scrollbar">
-						<div class="track">
-							<div class="thumb">
-								<div class="end"></div>
+						<!-- <div class="scrollbar" style="width:660px;">
+							<div class="track">
+								<div class="thumb">
+									<div class="end"></div>
+								</div>
 							</div>
-						</div>
-					</div>
-				<!-- VIEWPORT -->
-						<div class="viewport" >							
+						</div> -->
+						<!-- VIEWPORT -->
+						<div class="viewport" style="margin:0;">
 							<div class="overview">																			
 								<!-- <div class="clear10px"></div>
 								<div class="clear10px"></div>
@@ -979,22 +979,22 @@ function interiorismo(){
 								<p></p>-->
 							</div>							
 						</div>											
-				</div>
-				<div id="pleca-tmb-interiorismo">
+					</div>
+					<div id="pleca-tmb-interiorismo">
 						<div>									
 							<div id="menu-interiorismo">
-								<div>
+								<!-- <div> -->
 									<a class="estilos" href="images/interiorismo/CasaUoficina.jpg" >Tu casa u oficina con elegancia y buen gusto</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >La simplicidad es más en la decoración</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Selecciona Líneas en el mobiliario</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Espacios luminosos</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg" >La simplicidad es más en la decoración</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg" >Selecciona Líneas en el mobiliario</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg" >Espacios luminosos</a>
 									<a class="estilos" href="images/interiorismo/CombinacionTexturas.jpg" >Utiliza la combinación de texturas</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Orden total en cada ambiente</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg" >Orden total en cada ambiente</a>
 									<a class="estilos" href="images/interiorismo/PiezaDiseño.jpg" >Pieza de diseño o una obra de arte</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >Gama de colores</a>
+									<a class="estilos" href="images/interiorismo/noImage.jpg" >Gama de colores</a>
 									<a class="estilos" href="images/interiorismo/DetallesLuminosos.jpg" >Enfatiza en detalles luminosos</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg.jpg" >El protagonismo del mobiliario</a>
-								</div>
+									<a class="estilos" href="images/interiorismo/noImage.jpg" >El protagonismo del mobiliario</a>
+								<!-- </div> -->
 								<img id="tmb-interiorismo" src="images/interiorismo-tbm.png" alt="ejemplo de estilos" />
 							</div>
 						</div>

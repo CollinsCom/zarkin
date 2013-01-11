@@ -465,30 +465,38 @@ input[type=text]{ width:300px; margin-bottom:10px;}
 textarea{ width:300px; margin-bottom:10px;}
 
 #menu-estilos{height: 30px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; font-family: "HelveticaNeue45Light"; font-size: 12px;}
-#menu-estilos div{width: 620px; margin:0 auto; padding: 0;}
+#menu-estilos div{width: 600px; margin:0 auto; padding: 0;}
 #menu-estilos ul {height: 20px; margin: 0px; padding: 0px;}
 #menu-estilos ul li{list-style-type:none; float:left; text-align:center; margin: 0;}
-#menu-estilos ul li:after{content:'|'; position: relative; top: 5px;}		 }
+/*#menu-estilos ul li:after{content:'|'; position: relative; top: 5px;}		 }
 #menu-estilos ul li:last-child:after{content:none;}
-#menu-estilos ul li:last-child:after{content:none;}
-#menu-estilos ul li a{text-decoration: none; display:inline; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; position: relative; top: 5px; margin:0; float: left;}
-#menu-estilos ul li span{display: inline; position: relative; top: 5px; font-size: 14px;color: #FFFDED;}
-#menu-estilos li a:hover{text-decoration: none;font-size: 12px;font-weight: bold;color: #FFFDED; }
+#menu-estilos ul li:last-child:after{content:none;}*/
+#menu-estilos ul li a{text-decoration: none; display:inline; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; position: relative; top: 5px; margin:0;}
+#menu-estilos ul span{float: left;display: inline;width: 2px;font-size: 14px; position: relative; top: 5px; margin:0;}
+/* IE7 */
+*:first-child+html #menu-estilos ul span{float: none;display: inline;width: 2px;font-size: 14px; position: relative; top: 5px; margin:0 0 0 5px;}
+#menu-estilos li a:hover{text-decoration: none;font-size: 14px;font-weight: bold;color: #FFFDED; letter-spacing: 0px;}
 
-#pleca-tmb{height: 108px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;position: relative; bottom: 130px;}
-#pleca-tmb div {width: 600px; margin:0 auto; padding: 0; position: relative;}
+#pleca-tmb{height: 107px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;position: relative; bottom: 130px;}
+#pleca-tmb div {width: 580px; margin:0 auto; padding: 0; position: relative;}
 #pleca-tmb div div {display: inline; position: relative; top: -117px; z-index: -1; float: left; overflow: hidden;}
 #pleca-tmb div img{display: inline; margin:0; }
 img#flecha-izq{position: relative; right: 70px;}
 img#tmb-estilos{position: relative; left: -560px; height: 120px; }
 img#flecha-der{position: relative; left: 620px;}
 
-#pleca-tmb-interiorismo{height: 247px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; position: relative; bottom: 270px;}
-#pleca-tmb-interiorismo div {width: 600px; margin:0 auto; padding: 0;}
+#pleca-tmb-interiorismo{height: 247px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; position: relative; bottom: 270px;overflow: hidden;}
+#pleca-tmb-interiorismo div {width: 660px; margin:0 auto; padding: 0;}
 #pleca-tmb-interiorismo div div {display: inline; position: relative; top: 5px; z-index: 0; float: left; overflow: hidden;}
-#pleca-tmb-interiorismo div img{display: inline; margin:18px 0px 0px 0px; width: 600px;}
+#pleca-tmb-interiorismo div img{display: inline;width: 600px;margin:23px 0px 0px 0px;}
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#pleca-tmb-interiorismo div img { margin:23px 0px 0px 0px;  }
+}
 
-#menu-interiorismo{}
-#menu-interiorismo a{text-decoration: none; display:inline-block; padding:0px 0px 0px 0px; color:#ffffff; font-size: 12px; width: 288px;}
-#menu-interiorismo a:hover{text-decoration: none;font-size: 11px;font-weight: bold;color: #FFFDED; }
-#menu-interiorismo a:nth-child(even){padding-left: 20px;}
+	
+
+/*#menu-interiorismo{}*/
+#menu-interiorismo a{text-decoration: none; display:inline-block; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; width: 320px;}
+#menu-interiorismo a:hover{text-decoration: none;font-size: 14px;font-weight: bold;color: #FFFDED; letter-spacing: 0px; }
+#menu-interiorismo a:nth-child(even){padding-left: 10px;}
