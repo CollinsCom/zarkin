@@ -19,8 +19,11 @@
 			mysql_set_charset('utf8',$conexion);
 
 			# ################################### #
-			$sql = "INSERT INTO garantias (clave, modelo_mueble,   composicion,        color,        tienda,         pais_t,       estado_t,       ciudad_t,       fecha_compra,   fecha_entrega,   forma_entrega,      nombre_cliente, a_paterno,      a_materno,         fecha_nacimiento,   sexo,        direccion,        pais_c,     estado_c,       ciudad_c,      cp,        tel,        correo,       estado_civil,     estudios,       profesion,         personas,      ninos,         ingresos,        destino,        factor_compra, factor_tienda,    conocio_producto, forma_pago, gama,                informacion,           trato,                 entrega,               profesionalidad,       calidad,              calidad_precio,         sugerencia) ";
-			$sql.= "VALUES ('".$clave."', '".$modeloMueble."', '".$composicion."', '".$color."', '".$nTienda."', '".$paisT."', '".$estadoT."', '".$ciudadT."', '".$fcompra."', '".$fentrega."', '".$formEntrega."', '".$nombre."', '".$apellidoP."', '".$apellidoM."', '".$fnacimiento."', '".$sex."', '".$direccion."', '".$pais."', '".$estadoC."', '".$ciudadC."', '".$cp."', '".$tel."', '".$email."', '".$estCivil."', '".$estudio."', '".$profesion."', '".$personas."', '".$ninos."', '".$ingresos."', '".$destino."', '".$factorC."', '".$factorI."', '".$destino."', '".$pago."', '".$satisfCliente1."', '".$satisfCliente2."', '".$satisfCliente3."', '".$satisfCliente4."', '".$satisfCliente5."', '".$satisfCliente6."', '".$satisfCliente7."', '".$satisfCliente8."')";
+			// $sql = "INSERT INTO garantias (clave, modelo_mueble,   composicion,        color,        tienda,         pais_t,       estado_t,       ciudad_t,       fecha_compra,   fecha_entrega,   forma_entrega,      nombre_cliente, a_paterno,      a_materno,         edad,   sexo,        direccion,        pais_c,     estado_c,       ciudad_c,      cp,        tel,        correo,       estado_civil,     estudios,       profesion,         personas,      ninos,         ingresos,        destino,        factor_compra, factor_tienda,    conocio_producto, forma_pago, gama,                informacion,           trato,                 entrega,               profesionalidad,       calidad,              calidad_precio,         sugerencia) ";
+			// $sql.= "VALUES ('".$clave."', '".$modeloMueble."', '".$composicion."', '".$color."', '".$nTienda."', '".$paisT."', '".$estadoT."', '".$ciudadT."', '".$fcompra."', '".$fentrega."', '".$formEntrega."', '".$nombre."', '".$apellidoP."', '".$apellidoM."', '".$edad."', '".$sex."', '".$direccion."', '".$pais."', '".$estadoC."', '".$ciudadC."', '".$cp."', '".$tel."', '".$email."', '".$estCivil."', '".$estudio."', '".$profesion."', '".$personas."', '".$ninos."', '".$ingresos."', '".$destino."', '".$factorC."', '".$factorI."', '".$destino."', '".$pago."', '".$satisfCliente1."', '".$satisfCliente2."', '".$satisfCliente3."', '".$satisfCliente4."', '".$satisfCliente5."', '".$satisfCliente6."', '".$satisfCliente7."', '".$satisfCliente8."')";
+
+			$sql = "INSERT INTO garantias (clave, modelo_mueble,   composicion,        color,        tienda,         pais_t,       estado_t,       ciudad_t,       fecha_compra,   fecha_entrega,   forma_entrega,      nombre_cliente, a_paterno,      a_materno,         edad,   sexo,        tel,        correo,      factor_compra, conocio_producto,           informacion,           trato,                 entrega,               profesionalidad,       calidad) ";
+			$sql.= "VALUES ('".$clave."', '".$modeloMueble."', '".$composicion."', '".$color."', '".$nTienda."', '".$paisT."', '".$estadoT."', '".$ciudadT."', '".$fcompra."', '".$fentrega."', '".$formEntrega."', '".$nombre."', '".$apellidoP."', '".$apellidoM."', '".$edad."', '".$sex."', '".$tel."', '".$email."', '".$factorC."', '".$conocioProducto."', '".$satisfCliente2."', '".$satisfCliente3."', '".$satisfCliente4."', '".$satisfCliente5."', '".$satisfCliente6."')";
 
 			mysql_query($sql, $conexion) or die(mysql_error());
 			# ################################### #
@@ -90,10 +93,10 @@
 
 	function validar(){
 		if (chkb('garantia', 'factorC', 'Tiene que seleccionar de 2 a 4 factores de compra.')) {
-			if (chkb('garantia', 'factorI', 'Tiene que seleccionar de 2 a 3 factores importantes en una tienda.')){
+			// if (chkb('garantia', 'factorI', 'Tiene que seleccionar de 2 a 3 factores importantes en una tienda.')){
 				// document.forms["garantia"].submit();
 				document.forms["garantia"].btnSubmit.click()
-			}
+			// }
 		}		
 	}
 
@@ -156,20 +159,20 @@
 								<ul>
 									<li>
 										<label for="garantia">Clave</label><br />
-										<input type="text" maxlength="8" placeholder="Clave del mueble" name="clave" value="" class=":required :min_length;7 :max_length;8 :integer" autofocus>
+										<input type="text" maxlength="8" placeholder="Clave del mueble" name="clave" value="" class=":only_on_blur :required :min_length;7 :max_length;8 :integer" autofocus>
 									</li>
 									<li>
 										<label for="garantia">Modelo del Mueble</label><br />
-										<input type="text" maxlength="8" placeholder="Ej. Pionini" name="modeloMueble" value="" class=":required">
+										<input type="text" maxlength="8" placeholder="Ej. Pionini" name="modeloMueble" value="" class=":only_on_blur :required">
 									</li>
 
 									<li>
 										<label for="garantia">Composici&oacute;n</label><br />
-										<input type="text" placeholder="" name="composicion" value="" class=":required">
+										<input type="text" placeholder="" name="composicion" value="" class=":only_on_blur :required">
 									</li>
 									<li>
 										<label for="garantia">Color</label><br />
-										<input type="text" placeholder="Ej. Chocolate" name="color" value="" class=":required">
+										<input type="text" placeholder="Ej. Chocolate" name="color" value="" class=":only_on_blur :required">
 									</li>
 								</ul>
 							</fieldset>
@@ -183,7 +186,7 @@
 								<ul>
 									<li>
 										<label for="garantia">Nombre de la tienda</label><br />
-										<input type="text" placeholder="Ej. tutto pelle" name="nTienda" value="" class=":required">
+										<input type="text" placeholder="Ej. tutto pelle" name="nTienda" value="" class=":only_on_blur :required">
 									</li>
 									<li style="visibility:hidden;">
 										<label for="garantia">País</label><br />
@@ -197,7 +200,7 @@
 												$conexion = mysql_connect("localhost","zarkin","zarkadmdb") or die ("Fallo en el establecimiento de la conexión");
 												#Seleccionamos la base de datos a utilizar
 												mysql_select_db("zarkin_db") or die("Error en la selección de la base de datos");
-												mysql_set_charset('utf8',$conexion);
+												// mysql_set_charset('utf8',$conexion);
 
 												$estados = "SELECT * FROM estados";
 												$res_estados = mysql_query($estados,$conexion) or die(mysql_error());
@@ -212,18 +215,18 @@
 									<li>
 										<label for="garantia">Ciudad</label><br />
 										<div id="loader-garantia1" style="float:right; display:none;"><img  style="height:20px; width:20px;" src="http://www.zarkin.com/images/ajax-loader.gif" alt="loader" /></div>
-										<select id="ciudadT" disabled name="ciudadT" class=":required">
+										<select id="ciudadT" disabled name="ciudadT" class=":only_on_blur :required">
 										</select>
 									</li>									
 
 									<li>
 										<label for="garantia">Fecha de Compra</label><br />
-										<input type="text" id="date" name="fcompra" class=":required date campoChico" value="<?php echo strftime( "%Y-%m-%d", time() ); ?>" /></td>
+										<input type="text" id="date" name="fcompra" class=":only_on_blur :required date campoChico" value="<?php echo strftime( "%Y-%m-%d", time() ); ?>" /></td>
 										<!-- <input type="date" name="fcompra" required><br /> -->
 									</li>
 									<li>
 										<label for="garantia">Fecha de Entrega</label><br />
-										<input type="text" id="date" name="fentrega" class=":required date campoChico" value="<?php echo strftime( "%Y-%m-%d", time() ); ?>" /></td>
+										<input type="text" id="date" name="fentrega" class=":only_on_blur :required date campoChico" value="<?php echo strftime( "%Y-%m-%d", time() ); ?>" /></td>
 										<!-- <input type="date" name="" required><br /> -->
 									</li>
 								</ul>
@@ -237,8 +240,8 @@
 								<legend>FORMA DE ENTREGA (requerido)</legend>				
 								<h3>¿Cu&aacute;l ha sido la forma de entrega de su producto Zarkin?</h3>				
 								<ul>
-									<li class=":required">
-										<input type="radio" name="formEntrega" value="Lo he recogido y montado el mismo" >
+									<li class=":only_on_blur :required">
+										<input type="radio" name="formEntrega" value="Lo he recogido y montado el mismo" checked>
 										<label for="garantia">Lo he recogido y montado yo mismo</label><br />
 										<input type="radio" name="formEntrega" value="La entrega y el montaje han corrido a cargo del distribuidor">
 										<label for="garantia">La entrega y el montaje han corrido a cargo del distribuidor</label><br />
@@ -257,38 +260,47 @@
 								<ul>
 									<li>
 										<label for="garantia">Nombre</label><br />
-										<input type="text" placeholder="Jorge" name="nombre" value="" class=":required">
+										<input type="text" placeholder="Jorge" name="nombre" value="" class=":only_on_blur :required">
 									</li>
 									
 									<li>
 										<label for="garantia">Apellido Paterno</label><br />
-										<input type="text" placeholder="Rojas" name="apellidoP" value="" class=":required">
+										<input type="text" placeholder="Rojas" name="apellidoP" value="" class=":only_on_blur :required">
 									</li>
 									
 									<li>
 										<label for="garantia">Apellido Materno</label><br />
 										<input type="text" placeholder="" name="apellidoM" value="">
 									</li>
+
+									<li>
+										<label for="garantia">Edad</label><br />							
+										<select name="edad">
+											<option value="< 25">Menor de 25 años</option>
+											<option value="26 a 50">26 a 50 años</option>
+											<option value="51 a 75">51 a 75 años</option>
+											<option value="> 75">Mayor de 75 años</option>
+										</select>
+									</li>
+
+									<li>
+										<label for="garantia">Sexo</label><br />
+										<label for="garantia">M</label><input type="radio" name="sex" value="Masculino" checked>
+										<label for="garantia">F</label><input type="radio" name="sex" value="Femenino" >
+									</li>
 									
 									<!-- <li>
 										<label for="garantia">Fecha de Nacimiento</label><br />
 										<input type="text" id="date" name="fnacimiento" class=":required date campoChico" value="<?php echo strftime( "%Y-%m-%d", time() ); ?>" /></td>
 										<input type="date" name="" required>
-									</li> -->
-									
-									<li>
-										<label for="garantia">Sexo</label><br />
-										<label for="garantia">M</label><input type="radio" name="sex" value="Masculino" class=":required">
-										<label for="garantia">F</label><input type="radio" name="sex" value="Femenino" class=":required">
 									</li>
-									
-									
-									<!-- <li>
+
+									<li>
 										<label for="garantia">Direcci&oacute;n</label><br />
 										<input type="text" placeholder="" name="direccion" value="" class=":required" >
-									</li> -->
-									
-									<!-- <li style="display:none;">
+									</li> 
+
+									<li style="display:none;">
 										<label for="garantia">Pais</label><br />
 										<input type="text" placeholder="México" name="pais" value="Mexico">
 									</li>
@@ -325,12 +337,12 @@
 									
 									<li>
 										<label for="garantia">Telefono</label><br />
-										<input type="text" placeholder="Ej. 3319278448" name="tel" class=":required :lenght;10 :integer" >
+										<input type="text" placeholder="Ej. 3319278448" name="tel" class=":only_on_blur :required :lenght;10 :integer" >
 									</li>
 									
 									<li>
 										<label for="garantia">E-mail</label><br />
-										<input type="text" placeholder="Ej. ejemplo@dominio.com" name="email" value="" class=":required :email" >
+										<input type="text" placeholder="Ej. ejemplo@dominio.com" name="email" value="" class=":only_on_blur :required :email" >
 									</li>
 								</ul>
 
@@ -469,7 +481,7 @@
 									
 									<li>
 										<label for="garantia">¿Cómo conoció los productos Zarkin?</label><br />							
-										<select name="destino">
+										<select name="conocioProducto">
 										  <option value="Publicidad">Publicidad</option>
 										  <option value="Revistas/Periódicos">Revistas/Periódicos</option>
 										  <option value="Internet">Internet</option>
@@ -511,59 +523,58 @@
 										</tr>
 									</thead>
 									<tbody>										
-										<tr>
+										<!-- <tr>
 											<th>La gama de modelos, versiones, cubiertas y colores ¿se adaptan satisfactoriamente a sus requisitos?</th>
 											<td><input type="radio" name="satisfCliente1" value="3" class=":required" ></td>
 											<td><input type="radio" name="satisfCliente1" value="2" class=":required" ></td>
 											<td><input type="radio" name="satisfCliente1" value="1" class=":required" ></td>
-										</tr>
+										</tr> -->
 										<tr>
 											<th>¿Está satisfecho con la información que recibió acerca del producto?</th>
-											<td><input type="radio" name="satisfCliente2" value="3" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente2" value="2" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente2" value="1" class=":required" ></td>
+											<td><input type="radio" name="satisfCliente2" value="3" checked></td>
+											<td><input type="radio" name="satisfCliente2" value="2" ></td>
+											<td><input type="radio" name="satisfCliente2" value="1" ></td>
 										</tr>
 										<tr>
 											<th>¿Está satisfecho con de grado de competencia, profesionalidad y trato del personal de ventas?</th>
-											<td><input type="radio" name="satisfCliente3" value="3" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente3" value="2" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente3" value="1" class=":required" ></td>
+											<td><input type="radio" name="satisfCliente3" value="3" checked></td>
+											<td><input type="radio" name="satisfCliente3" value="2" ></td>
+											<td><input type="radio" name="satisfCliente3" value="1" ></td>
 										</tr>
 										<tr>
 											<th>¿Está satisfecho con los plazos de entrega?</th>
-											<td><input type="radio" name="satisfCliente4" value="3" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente4" value="2" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente4" value="1" class=":required" ></td>
+											<td><input type="radio" name="satisfCliente4" value="3" checked></td>
+											<td><input type="radio" name="satisfCliente4" value="2" ></td>
+											<td><input type="radio" name="satisfCliente4" value="1" ></td>
 										</tr>
 										<tr>
 											<th>¿Está satisfecho con la profesionalidad de personal de entrega y con el estado del producto a la entrega?</th>
-											<td><input type="radio" name="satisfCliente5" value="3" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente5" value="2" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente5" value="1" class=":required" ></td>
+											<td><input type="radio" name="satisfCliente5" value="3" checked></td>
+											<td><input type="radio" name="satisfCliente5" value="2" ></td>
+											<td><input type="radio" name="satisfCliente5" value="1" ></td>
 										</tr>
 										<tr>
 											<th>¿Está satisfecho con la calidad del producto?</th>
-											<td><input type="radio" name="satisfCliente6" value="3" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente6" value="2" class=":required" ></td>
-											<td><input type="radio" name="satisfCliente6" value="1" class=":required" ></td>
+											<td><input type="radio" name="satisfCliente6" value="3" checked></td>
+											<td><input type="radio" name="satisfCliente6" value="2" ></td>
+											<td><input type="radio" name="satisfCliente6" value="1" ></td>
 										</tr>
-										<tr>
+										<!-- <tr>
 											<th>¿Qué opina sobre la relación calidad/precio de nuestro producto?</th>
 											<td><input type="radio" name="satisfCliente7" value="3" class=":required" ></td>
 											<td><input type="radio" name="satisfCliente7" value="2" class=":required" ></td>
 											<td><input type="radio" name="satisfCliente7" value="1" class=":required" ></td>
-										</tr>
-										<tr>
+										</tr> -->
+										<!-- <tr>
 											<th>¿Tiene alguna sugerencia para mejorar nuestro servicio?</th>
-											<td colspan="3"><textarea name="satisfCliente8" row="3" maxlength="250" class=":required"></textarea></td>
-										</tr>
+											<td colspan="3"><textarea name="satisfCliente8" row="3" maxlength="250" value="N/A" class=":required"></textarea></td>
+										</tr> -->
 									</tbody>
 								</table>								
 							</fieldset>
 							<input type="submit" value="Submit" align="center" style="display:none;" name="btnSubmit">
 							<input type="button" value="Enviar" align="center" onClick="validar()" style="position: relative; top: 20px; left: 40px; width: 100px; height: 30px;">
 						</form>
-
 						
 					</div>
 				</div>

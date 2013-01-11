@@ -1,6 +1,7 @@
 // JavaScript Document
 
 $(document).ready(
+
 	function(){
 		//Tienda
 		$("#estadoT").change(function(){
