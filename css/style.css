@@ -479,10 +479,10 @@ textarea{ width:300px; margin-bottom:10px;}
 
 #pleca-tmb{height: 107px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;position: relative; bottom: 130px;}
 #pleca-tmb div {width: 580px; margin:0 auto; padding: 0; position: relative;}
-#pleca-tmb div div {display: inline; position: relative; top: -117px; z-index: -1; float: left; overflow: hidden;}
+#pleca-tmb div div {display: inline; position: relative; top: -117px; z-index: -1; float: left; overflow: hidden;height: 107px;}
 #pleca-tmb div img{display: inline; margin:0; }
 img#flecha-izq{position: relative; right: 70px;}
-img#tmb-estilos{position: relative; left: -560px; height: 120px; }
+img#tmb-estilos{position: relative; left: -614px; height: 125px; }
 img#flecha-der{position: relative; left: 620px;}
 
 #pleca-tmb-interiorismo{height: 247px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; position: relative; bottom: 270px;overflow: hidden;}
