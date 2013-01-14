@@ -858,7 +858,7 @@ function estilos_tendencias(){
 								<li style="width:125px;"><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li> <span>|</span>
 								<li style="width:95px;"><a href="images/estilos/minimalista.jpg" class="estilos">Minimalista</a></li><span>|</span>
 								<li style="width:55px;"><a href="images/estilos/hitek.jpg" class="estilos">Hi-tek</a></li><span>|</span>
-								<li style="width:125px;"><a href="images/estilos/country.jpg" class="">Conutry Deccor</a></li><span>|</span>
+								<li style="width:125px;"><a href="images/estilos/american.jpg" class="">American Style</a></li><span>|</span>
 								<li style="width:65px;"><a href="images/estilos/clasico.jpg" class="estilos">Clásico</a></li><span>|</span>
 								<li style="width:55px;"><a href="images/estilos/etnico.jpg" class="estilos">Étnico</a></li><span>|</span>
 								<li style="width:65px;"><a href="images/estilos/vintage.jpg" class="">Vintage</a></li>
