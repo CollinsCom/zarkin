@@ -241,12 +241,12 @@
 								<h3>¿Cu&aacute;l ha sido la forma de entrega de su producto Zarkin?</h3>				
 								<ul>
 									<li class=":only_on_blur :required">
-										<input type="radio" name="formEntrega" value="Lo he recogido y montado el mismo" checked>
+										<input type="radio" name="formEntrega" value="Lo ha recogido y montado el mismo" checked>
 										<label for="garantia">Lo he recogido y montado yo mismo</label><br />
 										<input type="radio" name="formEntrega" value="La entrega y el montaje han corrido a cargo del distribuidor">
 										<label for="garantia">La entrega y el montaje han corrido a cargo del distribuidor</label><br />
 										<input type="radio" name="formEntrega" value="El distribuidor ha realizado la entrega y él el montaje">
-										<label for="garantia">El distribuidor ha realizado la entrega y yo el montaje</label><br />
+										<label for="garantia">El distribuidor ha realizado la entrega y él el montaje</label><br />
 									</li>
 								</ul>
 							</fieldset>
