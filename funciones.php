@@ -899,7 +899,7 @@ function estilos_tendencias(){
 						<div>
 							<img id="flecha-izq" src="images/flecha_izq.png" alt="flecha" />									
 							<div>
-								<img id="tmb-estilos" src="images/estilos-tbm.png" alt="ejemplo de estilos" />
+								<img id="tmb-estilos" src="images/estilos-tbm.jpg" alt="ejemplo de estilos" />
 							</div>
 							<img id="flecha-der" src="images/flecha_der.png" alt="flecha" />
 						</div>
@@ -995,7 +995,7 @@ function interiorismo(){
 									<a class="estilos" href="images/interiorismo/DetallesLuminosos.jpg" >Enfatiza en detalles luminosos</a>
 									<a class="estilos" href="images/interiorismo/noImage.jpg" >El protagonismo del mobiliario</a>
 								<!-- </div> -->
-								<img id="tmb-interiorismo" src="images/interiorismo-tbm.png" alt="ejemplo de estilos" />
+								<img id="tmb-interiorismo" src="images/interiorismo-tbm.jpg" alt="ejemplo de estilos" />
 							</div>
 						</div>
 					</div>
