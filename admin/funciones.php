@@ -53,20 +53,20 @@ function get_orders($titulo,$titulo2,$view){
 				<div class="header"><span><?php echo $titulo2; ?></span></div>
 				<br class="clear"/>
 				<div class="content">
-																		<div id="mensaje"></div>
-																		<div id="date_filter">
-																				<label>Select a date range</label>
-																				<form method="get" action="<?php echo $action; ?>">
-																						<table border="0" class="range">
-																								<tr>
-																										<td><input type="text" id="f1" name="f1" class="datepicker :required" value="<?php echo date("Y-m-d");?>" style="width:90px;" /></td>
-																										<td><input type="text" id="f2" name="f2" class="datepicker :required" value="<?php echo date("Y-m-d");?>" style="width:90px;" /></td>
-																										<td colspan="2"><input type="submit" id="btn_date" value="Search" /></td>
-																								</tr>
-																						</table>
-																				</form>
-																		</div>
-									<?php
+						<div id="mensaje"></div>
+						<div id="date_filter">
+								<label>Select a date range</label>
+								<form method="get" action="<?php echo $action; ?>">
+										<table border="0" class="range">
+												<tr>
+														<td><input type="text" id="f1" name="f1" class="datepicker :required" value="<?php echo date("Y-m-d");?>" style="width:90px;" /></td>
+														<td><input type="text" id="f2" name="f2" class="datepicker :required" value="<?php echo date("Y-m-d");?>" style="width:90px;" /></td>
+														<td colspan="2"><input type="submit" id="btn_date" value="Search" /></td>
+												</tr>
+										</table>
+								</form>
+						</div>
+						<?php
 										/*if($_GET['cambio-status']==1){
 						mensaje('success', 'El video ha sido aprobado con exitosamente.');
 					}elseif($_GET['cambio-status']==2){
@@ -230,37 +230,41 @@ function get_orders($titulo,$titulo2,$view){
 						$resultado = mysql_query($query,$link) or die(mysql_error());
 					?>
 					<div class="clear25px"></div>
-					<table class="data" id="listado">
-						<tr style="background-color:#E10079;">
-			    		<th><strong>Nombre del cliente</strong></th>
-			    		<th><strong>Edad</strong></th>
-			    		<th><strong>Modelo del mueble</strong></th>
-			    		<th><strong>Color</strong></th>					    	
-			        <th><strong>Tienda</strong></th>
-			        <th><strong>Estado</strong></th>
-			        <th><strong>Ciudad</strong></th>
-			        <th><strong>Factor de Compra</strong></th>
-			        <th><strong>Como nos conocio</strong></th>
-				    </tr>
+					<table id="listado" class="data" style="width:100%;">
+						<thead>
+							<tr style="background-color:#E10079;">
+				    		<th><strong>Nombre del cliente</strong></th>
+				    		<th><strong>Edad</strong></th>
+				    		<th><strong>Modelo del mueble</strong></th>
+				    		<th><strong>Color</strong></th>					    	
+				        <th><strong>Tienda</strong></th>
+				        <th><strong>Estado</strong></th>
+				        <th><strong>Ciudad</strong></th>
+				        <th><strong>Factor de Compra</strong></th>
+				        <th><strong>Como nos conocio</strong></th>
+					    </tr>
+					  </thead>
+					  <tbody>
 					    <?php
-							    while($garantia=mysql_fetch_assoc($resultado)){
-									extract($garantia);
-									// echo '<pre>';
-									// print_r($garantia);
-									// echo '</pre>';
-									echo '<tr>';
-										echo '<td>'.$nombre_cliente.' '.$a_paterno.' '.$a_materno.'</td>';
-										echo '<td>'.$edad.'</td>';
-										echo '<td>'.$modelo_mueble.'</td>';
-										echo '<td>'.$color.'</td>';
-										echo '<td>'.$tienda.'</td>';
-										echo '<td>'.$nombre_estado.'</td>';
-										echo '<td>'.$nombre.'</td>';
-										echo '<td>'.$factor_compra.'</td>';
-										echo '<td>'.$conocio_producto.'</td>';
-									echo '</tr>';
+								while($garantia=mysql_fetch_assoc($resultado)){
+								extract($garantia);
+								// echo '<pre>';
+								// print_r($garantia);
+								// echo '</pre>';
+								echo '<tr>';
+									echo '<td>'.$nombre_cliente.' '.$a_paterno.' '.$a_materno.'</td>';
+									echo '<td>'.$edad.'</td>';
+									echo '<td>'.$modelo_mueble.'</td>';
+									echo '<td>'.$color.'</td>';
+									echo '<td>'.$tienda.'</td>';
+									echo '<td>'.$nombre_estado.'</td>';
+									echo '<td>'.$nombre.'</td>';
+									echo '<td>'.$factor_compra.'</td>';
+									echo '<td>'.$conocio_producto.'</td>';
+								echo '</tr>';
 								}
-						?>
+							?>
+						</tbody>
 					</table>
 						<!-- <div id="visualization" style="width: 600px; height: 400px;"></div> -->						
 						<?php 
@@ -345,18 +349,17 @@ function get_customers($titulo,$titulo2){
 										<table id="listado" class="data" style="width:100%; float:left;">
 												<thead>
 														<tr>
-															<th><strong>Phone Number</strong></th>
-																<th><strong>Company</strong></th>
-																<th><strong>Full Name</strong></th>
-																<th><strong>Country</strong></th>
+															<th><strong>Telefono</strong></th>
+																<th><strong>Compañia</strong></th>
+																<th><strong>Nombre Completo</strong></th>
+																<th><strong>Pais</strong></th>
 																<th><strong>Email</strong></th>
-																<th><strong>More</strong></th>
+																<th><strong>Mas</strong></th>
 														</tr>
 												</thead>
 												<tbody>
 												<?php
-												while($customer = mysql_fetch_assoc($resultado)){
-							extract($customer);
+												while($customer = mysql_fetch_assoc($resultado)){extract($customer);
 												?>
 														<tr>
 															<td><?php echo $phone_number; ?></td>
@@ -1136,9 +1139,133 @@ function cambiar_fecha($date){
 }
 ?>
 
+<?php 
+function get_garantia($titulo,$titulo2,$id){
 
 
+$link = conectar();
+/* Get Reports */
+//$query = "SELECT amount,COUNT(*) AS cant FROM orders WHERE TYPE = 'Recharge' AND amount NOT IN(1)";
+// $query = "SELECT * FROM garantias";
+$title = "Garantía";        
+//$query.= " GROUP BY amount";
 
+// $result = mysql_query($query,$link) or die(mysql_error());
+// $cant = mysql_affected_rows();
+// $lista = array();
 
+// while ($reg = mysql_fetch_array($result)) {
+// 	if (array_key_exists($reg['amount'], $lista)) {
+// 		$lista[$reg['amount']] += 1;
+// 	}
+// 	else {
+// 		$lista[$reg['amount']] = 1;
+// 	}
+// }
+// asort($lista); // arsort() si se quiere en onrden inverso
+// $elements = "";
+// foreach ($lista as $key => $value) {
+// //['10', 11],
+// $elements.= "['$".$key." USD Recharge',".$value."],";
+		
+// }
+// $elements = substr($elements, 0, -1);
+?>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load('visualization', '1', {packages: ['corechart']});
+	</script>
+	<script type="text/javascript">
+			function drawVisualization() {
+				// Create and populate the data table.
+				var data = google.visualization.arrayToDataTable([
+					['Order Value', 'Count'],
+					<?php
+							echo $elements;
+					?>
+				]);
 
+				// Create and draw the visualization.
+				new google.visualization.PieChart(document.getElementById('visualization')).
+						draw(data,{is3D: true,title:"<?php echo $title;?>"});
+			}
+			google.setOnLoadCallback(drawVisualization);
+	</script>
+	<!-- Begin content -->
+<div id="content">
+<div class="inner">
+<h1><?php echo $titulo; ?></h1>
+<!-- Begin one column tab content window -->
+<div class="onecolumn">
+	<div class="header">
+		<span><?php echo $titulo2; ?></span></div>
+	<br class="clear"/>
+	<div class="content">
+		<div id="date_filter">
+			<!-- <label>Select a date range</label>
+				<form method="get" action="report.php">
+					<table border="0" class="range">
+						<tr>
+							<td><input type="text" id="f1" name="f1" class="datepicker :required" value="<?php echo date("Y-m-d");?>" style="width:90px;" /></td>
+							<td><input type="text" id="f2" name="f2" class="datepicker :required" value="<?php echo date("Y-m-d");?>" style="width:90px;" /></td>
+							<td colspan="2"><input type="submit" id="btn_date" value="Search" /></td>
+						</tr>
+					</table>
+				</form>
+			</div> -->
+			<?php 
+			// $link = mysql_connect ('localhost', 'zarkin', 'zarkadmdb') OR die ('No se pudo conectar a la base de datos: ' . mysql_error() );
+			// mysql_query("set names 'utf8'");
+			// mysql_select_db ('zarkin_db') OR die ('No se pudo seleccionar la base de datos: ' . mysql_error() );
 
+			// $query = "SELECT *FROM garantias AS g LEFT JOIN municipios AS m ON g.ciudad_t=m.id LEFT JOIN estados AS e ON m.estado_id=e.id_estado";
+
+			// $resultado = mysql_query($query,$link) or die(mysql_error());
+		?>
+		<!-- <div class="clear25px"></div>
+		<table id="listado" class="data" style="width:100%;">
+			<thead>
+				<tr style="background-color:#E10079;">
+	    		<th><strong>Nombre del cliente</strong></th>
+	    		<th><strong>Edad</strong></th>
+	    		<th><strong>Modelo del mueble</strong></th>
+	    		<th><strong>Color</strong></th>					    	
+	        <th><strong>Tienda</strong></th>
+	        <th><strong>Estado</strong></th>
+	        <th><strong>Ciudad</strong></th>
+	        <th><strong>Factor de Compra</strong></th>
+	        <th><strong>Como nos conocio</strong></th>
+		    </tr>
+		  </thead>
+		  <tbody> -->
+		    <?php
+					// while($garantia=mysql_fetch_assoc($resultado)){
+					// extract($garantia);
+					// // echo '<pre>';
+					// // print_r($garantia);
+					// // echo '</pre>';
+					// echo '<tr>';
+					// 	echo '<td>'.$nombre_cliente.' '.$a_paterno.' '.$a_materno.'</td>';
+					// 	echo '<td>'.$edad.'</td>';
+					// 	echo '<td>'.$modelo_mueble.'</td>';
+					// 	echo '<td>'.$color.'</td>';
+					// 	echo '<td>'.$tienda.'</td>';
+					// 	echo '<td>'.$nombre_estado.'</td>';
+					// 	echo '<td>'.$nombre.'</td>';
+					// 	echo '<td>'.$factor_compra.'</td>';
+					// 	echo '<td>'.$conocio_producto.'</td>';
+					// echo '</tr>';
+					// }
+				?>
+			</tbody>
+		</table>
+			<!-- <div id="visualization" style="width: 600px; height: 400px;"></div> -->						
+			<?php 
+			// echo "Total recharges ".$cant; 
+			?>
+	</div>
+</div>
+<!-- End one column tab content window -->
+<?php 
+} 
+?>

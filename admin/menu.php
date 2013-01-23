@@ -6,15 +6,22 @@ function get_menu(){
 	<div id="left_menu">
             <a href="javascript:;" id="hide_menu">&laquo;</a>
             <ul id="main_menu">
-                <li><a href="report.php" ><img src="images/icon_report.png" alt="Home" />Reports</a></li>
-                <!-- <li> 
+                <li><a href="report.php" ><img src="images/icon_report.png" alt="Home" />Garantías</a></li>
+                <!--<li>
+                    <a id="" href=""><img src="images/icon_account.png" style="width:24px;" alt="Pages"/>Accounts</a>
+                    <ul>
+                        <li><a href="accounts.php">Cuentas</a></li>
+                        <li><a href="new-account.php">Nueva Cuenta</a></li>
+                    </ul>
+                </li>
+                 <li> 
                     <a id="" href=""><img src="images/icon_order.png" alt="Pages"/>Orders</a>
                     <ul>
                         <li><a href="index.php">All orders</a></li>
                         <li><a href="index.php?view=Recharge">Recharges</a></li>
                         <li><a href="index.php?view=Purchase">Purchases</a></li>
                     </ul>
-                </li>
+                </li> 
                 <li>
                     <a id="" href=""><img src="images/icon_customer.png" alt="Pages"/>Customers</a>
                     <ul>

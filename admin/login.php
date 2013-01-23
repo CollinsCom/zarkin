@@ -108,7 +108,7 @@ img.bg {
 				<img src="images/login_logo.png" alt="logo"/>
 				<form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" id="form_login" name="form_login">
 					<p>
-						<input type="text" id="username" name="username" style="width:285px" title="Username"/>
+						<input type="text" id="username" name="username" style="width:285px" title="Usuario"/>
 					</p>
 					<p>
 						<input type="password" id="password" name="password" style="width:285px" title="******"/>

@@ -4,9 +4,9 @@
 		include_once('funciones.php');
 		
 		get_head('Zarkin | Administrator');
-		get_header('Index');
+		get_header('Accounts');
 		get_menu();
-		get_customers('Zarkin','All customers');
+		new_account('Zarkin','Create Account');
 		get_footer();
 	}else{
 		echo '<script>location.href="login.php"</script>';	
