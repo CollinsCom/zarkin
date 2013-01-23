@@ -494,9 +494,8 @@ img#flecha-der{position: relative; left: 620px;}
 #pleca-tmb-interiorismo div img { margin:23px 0px 0px 0px;  }
 }
 
-	
-
-/*#menu-interiorismo{}*/
+#menu-interiorismo div{
+	width: 49%;
+}
 #menu-interiorismo a{text-decoration: none; display:inline-block; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; width: 320px;}
 #menu-interiorismo a:hover{text-decoration: none;font-size: 14px;font-weight: bold;color: #FFFDED; letter-spacing: 0px; }
-#menu-interiorismo a:nth-child(even){padding-left: 10px;}

@@ -10,26 +10,29 @@ function get_menu(){
 			<a href="#" onclick="return false;" class="not">Colección</a>
 			<div class="submenu">
 				<div class="boton-l"><a href="<?php echo _base; ?>/colecciones/casual">Casual</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/contemporaneo">Contempor&aacute;neo</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/transicional">Transicional</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/hi-tek">Hi-Tek</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/american-style">American Style</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/clasico">Cl&aacute;sico</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/complementos">Complementos</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/recamaras">Rec&aacute;maras</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/relax">Relax</a></div><span>|</span>
-                <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/mesas">Mesas</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/contemporaneo">Contempor&aacute;neo</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/transicional">Transicional</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/hi-tek">Hi-Tek</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/american-style">American Style</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/clasico">Cl&aacute;sico</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/complementos">Complementos</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/recamaras">Rec&aacute;maras</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/relax">Relax</a></div><span>|</span>
+        <div class="boton-l"><a href="<?php echo _base; ?>/colecciones/mesas">Mesas</a></div><span>|</span>
 				<div class="boton-l"><a href="<?php echo _base; ?>/colecciones/masaje">Masaje</a></div>
 			</div>
 		</div>
         <span>|</span>
 		
         <!-- ESTILOS Y TENDENCIAS -->
-		<div class="boton-largo">
-			<a href="#" onclick="return false;" class="not largo">Estilos y tendencias</a>
-
+		<div class="boton" style="width: 70px;">
+			<a href="#" onclick="return false;" class="not">Interiorismo</a>
+			<div class="submenu">
+				<div class="boton-l"><a href="#" class="not">Estilos y tendencias</a></div><span>|</span>
+				<div class="boton-l"><a href="#" class="not">Consejos de interiorismo</a></div>
+			</div>
 		</div>
-        <span>|</span>
+		<span>|</span>
         
         
         <!-- PIEL -->

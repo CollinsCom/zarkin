@@ -259,3 +259,19 @@ $(document).ready(function(){
 		$('#flecha-der').removeAttr('style');
 	})
 });
+
+$(document).keydown(function(tecla){
+	//derecha
+    if (tecla.keyCode == 39) {
+    	$('#flecha-der').css('visibility','hidden');
+		$('#tmb-estilos').animate({'position':'relative','left':'0px'},'500');
+		$('#flecha-izq').removeAttr('style');
+    }
+
+    //izquierda
+    if (tecla.keyCode == 37) {
+    	$('#flecha-izq').css('visibility','hidden');
+		$('#tmb-estilos').animate({'position':'relative','left':'-614px'},'500');
+		$('#flecha-der').removeAttr('style');
+    }
+});

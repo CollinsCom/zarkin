@@ -858,10 +858,10 @@ function estilos_tendencias(){
 								<li style="width:125px;"><a href="images/estilos/contemporaneo.jpg" class="estilos">Contemporáneo</a></li> <span>|</span>
 								<li style="width:95px;"><a href="images/estilos/minimalista.jpg" class="estilos">Minimalista</a></li><span>|</span>
 								<li style="width:55px;"><a href="images/estilos/hitek.jpg" class="estilos">Hi-tek</a></li><span>|</span>
-								<li style="width:125px;"><a href="images/estilos/american.jpg" class="">American Style</a></li><span>|</span>
+								<li style="width:125px;"><a href="images/estilos/american.jpg" class="estilos">American Style</a></li><span>|</span>
 								<li style="width:65px;"><a href="images/estilos/clasico.jpg" class="estilos">Clásico</a></li><span>|</span>
 								<li style="width:55px;"><a href="images/estilos/etnico.jpg" class="estilos">Étnico</a></li><span>|</span>
-								<li style="width:65px;"><a href="images/estilos/vintage.jpg" class="">Vintage</a></li>
+								<li style="width:65px;"><a href="images/estilos/EstiloVintage.jpg" class="estilos">Vintage</a></li>
 							</ul>
 						</div>
 					</div>
@@ -888,7 +888,7 @@ function estilos_tendencias(){
 								<div class="clear10px"></div> -->
 								
 								<p>La forma de adornar o distribuir los espacios en un hogar, departamento u oficina se logra con la colocación de diversos objetos, los cuales trabajan de forma armónica para crear una sensación agradable a la vista y un ambiente funcional de acuerdo a la forma y estilo de vida de cada persona.</p>
-								<p>Para crear estos espacios únicos es necesario poner en practica la creatividad para analizar el entorno, formas, composiciones, colores, establecer una dirección conceptual, indagar en aspectos de la psicología ambiental, arquitectura, diseño de producto, apoyándonos en gran parte de los estilos o influencias que cada uno hace propios. Hay estilos de mayor preferencia como son el estilo contemporáneo, minimalista, Hi-tek, vintage, étnico, conutry deccor y clásico.</p>                                         
+								<p>Para crear estos espacios únicos es necesario poner en practica la creatividad para analizar el entorno, formas, composiciones, colores, establecer una dirección conceptual, indagar en aspectos de la psicología ambiental, arquitectura, diseño de producto, apoyándonos en gran parte de los estilos o influencias que cada uno hace propios. Hay estilos de mayor preferencia como son el estilo contemporáneo, minimalista, Hi-tek, vintage, étnico y clásico.</p>                                         
 								<p><strong></strong></p>
 								<p></p>
 							</div>							
@@ -974,7 +974,7 @@ function interiorismo(){
 								<div class="clear10px"></div>
 								<div class="clear10px"></div> -->								
 								<p>Si vas a estrenar, cambiar o innovar tu casa u oficina necesitas tener una visión general de lo que quieres antes de conseguir los elementos necesarios para lograr ambientes bien armonizados.</p>
-								<p>Tomas en cuenta las siguientes ideas para lograr el cambio perfecto de tu espacio:</p>                                         
+								<p>Toma en cuenta las siguientes ideas para lograr el cambio perfecto de tu espacio:</p>                                         
 								<!--<p><strong></strong></p>
 								<p></p>-->
 							</div>							
@@ -984,16 +984,21 @@ function interiorismo(){
 						<div>									
 							<div id="menu-interiorismo">
 								<!-- <div> -->
-									<a class="estilos" href="images/interiorismo/CasaUoficina.jpg" >Tu casa u oficina con elegancia y buen gusto</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg" >La simplicidad es más en la decoración</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg" >Selecciona Líneas en el mobiliario</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg" >Espacios luminosos</a>
-									<a class="estilos" href="images/interiorismo/CombinacionTexturas.jpg" >Utiliza la combinación de texturas</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg" >Orden total en cada ambiente</a>
-									<a class="estilos" href="images/interiorismo/PiezaDiseño.jpg" >Pieza de diseño o una obra de arte</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg" >Gama de colores</a>
-									<a class="estilos" href="images/interiorismo/DetallesLuminosos.jpg" >Enfatiza en detalles luminosos</a>
-									<a class="estilos" href="images/interiorismo/noImage.jpg" >El protagonismo del mobiliario</a>
+									<div>
+										<a class="estilos" href="images/interiorismo/CasaUoficina.jpg" >Tu casa u oficina con elegancia y buen gusto</a>
+										<a class="estilos" href="images/interiorismo/SeleccionaLineas.jpg" >Selecciona Líneas en el mobiliario</a>
+										<a class="estilos" href="images/interiorismo/CombinacionTexturas.jpg" >Utiliza la combinación de texturas</a>
+										<a class="estilos" href="images/interiorismo/PiezaDiseno.jpg" >Pieza de diseño o una obra de arte</a>
+										<a class="estilos" href="images/interiorismo/DetallesLuminosos.jpg" >Enfatiza en detalles luminosos</a>
+									</div>
+
+									<div>
+										<a class="estilos" href="images/interiorismo/LaSimplicidad.jpg" >La simplicidad es más en la decoración</a>
+										<a class="estilos" href="images/interiorismo/EspaciosLuminosos.jpg" >Espacios luminosos</a>
+										<a class="estilos" href="images/interiorismo/Orden.jpg" >Orden total en cada ambiente</a>
+										<a class="estilos" href="images/interiorismo/LaGamaDeColores.jpg" >Gama de colores</a>
+										<a class="estilos" href="images/interiorismo/ElProtagonismo.jpg" >El protagonismo del mobiliario</a>
+									</div>
 								<!-- </div> -->
 								<img id="tmb-interiorismo" src="images/interiorismo-tbm.jpg" alt="ejemplo de estilos" />
 							</div>
