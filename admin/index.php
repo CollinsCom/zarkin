@@ -5,7 +5,7 @@
 		get_head('Zarkin | Garantías');
 		get_header('Index');
 		get_menu();
-		get_orders('Garantías','Garantías');
+		get_report('Zarkin','Garantías',$dates);
 		get_footer();
 	}else{
 		echo '<script>location.href="login.php"</script>';	

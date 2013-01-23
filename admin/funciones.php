@@ -225,7 +225,7 @@ function get_orders($titulo,$titulo2,$view){
 						mysql_query("set names 'utf8'");
 						mysql_select_db ('zarkin_db') OR die ('No se pudo seleccionar la base de datos: ' . mysql_error() );
 
-						$query = "SELECT * FROM garantias";
+						$query = "SELECT *FROM garantias AS g LEFT JOIN municipios AS m ON g.ciudad_t=m.id LEFT JOIN estados AS e ON m.estado_id=e.id_estado";
 
 						$resultado = mysql_query($query,$link) or die(mysql_error());
 					?>
@@ -244,19 +244,18 @@ function get_orders($titulo,$titulo2,$view){
 				    </tr>
 					    <?php
 							    while($garantia=mysql_fetch_assoc($resultado)){
-							    extract($garantia);
+									extract($garantia);
+									// echo '<pre>';
+									// print_r($garantia);
+									// echo '</pre>';
 									echo '<tr>';
 										echo '<td>'.$nombre_cliente.' '.$a_paterno.' '.$a_materno.'</td>';
 										echo '<td>'.$edad.'</td>';
 										echo '<td>'.$modelo_mueble.'</td>';
 										echo '<td>'.$color.'</td>';
 										echo '<td>'.$tienda.'</td>';
-										$estado = mysql_query("SELECT nombre_estado FROM estados where id_estado='".$estado_t."'",$link) or die(mysql_error());
-										$estado2 = mysql_fetch_assoc($estado);
-										echo '<td>'.$estado2["nombre_estado"].'</td>';
-										$ciudad = mysql_query("SELECT nombre_ciudad FROM ciudades where id_ciudad='".$ciudad_t."'",$link) or die(mysql_error());
-										$c = mysql_fetch_assoc($ciudad);
-										echo '<td>'.$c["nombre_ciudad"].'</td>';
+										echo '<td>'.$nombre_estado.'</td>';
+										echo '<td>'.$nombre.'</td>';
 										echo '<td>'.$factor_compra.'</td>';
 										echo '<td>'.$conocio_producto.'</td>';
 									echo '</tr>';

@@ -16,7 +16,7 @@
 		get_header('Index');
 		get_menu();
 		get_report('Zarkin','Garantías',$dates);
-                get_footer();
+        get_footer();
 ?>
 <script type="text/javascript">
     $(document).ready(function(){
