@@ -1,0 +1,2598 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"la",
+				"last-child  (pseudo-class)"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"hi",
+				"hidden  (value)"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"reni",
+				"removeAttr  (function)"
+			],
+			[
+				"flecha",
+				"flecha-izq"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-height:   (property)"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"ciudad",
+				"ciudadT"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"mysql_er",
+				"mysql_error"
+			],
+			[
+				"he",
+				"Helvetica"
+			],
+			[
+				"exrat",
+				"extract"
+			],
+			[
+				"st",
+				"list-style-type"
+			],
+			[
+				"_p",
+				"_POST"
+			],
+			[
+				"is",
+				"is_a"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"im",
+				"img01"
+			],
+			[
+				"id",
+				"getElementById"
+			],
+			[
+				"img",
+				"img01"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"usuar",
+				"usuario_imagen"
+			],
+			[
+				"usa",
+				"usuario_nombre"
+			],
+			[
+				"pict",
+				"picture"
+			],
+			[
+				"siz",
+				"sizeof"
+			],
+			[
+				"friend",
+				"friends"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"fr",
+				"friend"
+			],
+			[
+				"frie",
+				"friend"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"pic",
+				"picture"
+			],
+			[
+				"fri",
+				"friend"
+			],
+			[
+				"forea",
+				"foreach	foreach …"
+			],
+			[
+				"FFf",
+				"FFFFFF"
+			],
+			[
+				"r",
+				"RewriteRule"
+			],
+			[
+				"che",
+				"checkin"
+			],
+			[
+				"b",
+				"br	Tag"
+			],
+			[
+				"w",
+				"min-width"
+			],
+			[
+				"magi",
+				"margin-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"vl",
+				"vertical-align"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/menu.php",
+			"settings":
+			{
+				"buffer_size": 5412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/interiorismo.php",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/funciones.php",
+			"settings":
+			{
+				"buffer_size": 42007,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/lib.js",
+			"settings":
+			{
+				"buffer_size": 7772,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/css/style.css",
+			"settings":
+			{
+				"buffer_size": 12562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/**\n * jQuery lightBox plugin\n * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)\n * and adapted to me for use like a plugin from jQuery.\n * @name jquery-lightbox-0.5.js\n * @author Leandro Vieira Pinho - http://leandrovieira.com\n * @version 0.5\n * @date April 11, 2008\n * @category jQuery plugin\n * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)\n * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US\n * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin\n */\n\n// Offering a Custom Alias suport - More info: http://docs.jquery.com/Plugins/Authoring#Custom_Alias\n(function($) {\n	/**\n	 * $ is an alias to jQuery object\n	 *\n	 */\n	var ruta = 'http://www.zarkin.com/';\n	$.fn.lightBox2 = function(settings) {\n		// Settings to configure the jQuery lightBox plugin how you like\n		settings = jQuery.extend({\n			// Configuration related to overlay\n			overlayBgColor: 		'#000',		// (string) Background color to overlay; inform a hexadecimal value like: #RRGGBB. Where RR, GG, and BB are the hexadecimal values for the red, green, and blue values of the color.\n			overlayOpacity:			0.4,		// (integer) Opacity value to overlay; inform: 0.X. Where X are number from 0 to 9\n			// Configuration related to navigation\n			fixedNavigation:		true,		// (boolean) Boolean that informs if the navigation (next and prev button) will be fixed or not in the interface.\n			// Configuration related to images\n			imageLoading:			ruta + 'images/ajax-loader.gif',		// (string) Path and the name of the loading icon\n			imageBtnPrev:			ruta + 'images/lightbox-btn-prev.png',			// (string) Path and the name of the prev button image\n			imageBtnNext:			ruta + 'images/lightbox-btn-next.png',			// (string) Path and the name of the next button image\n			imageBtnClose:			ruta + 'images/lightbox-btn-close.png',		// (string) Path and the name of the close btn\n			imageBlank:				ruta + 'images/lightbox-blank.gif',			// (string) Path and the name of a blank image (one pixel)\n			// Configuration related to container image box\n			containerBorderSize:	0,			// (integer) If you adjust the padding in the CSS for the container, #lightbox-container-image-box, you will need to update this value\n			containerResizeSpeed:	400,		// (integer) Specify the resize duration of container image. These number are miliseconds. 400 is default.\n			// Configuration related to texts in caption. For example: Image 2 of 8. You can alter either \"Image\" and \"of\" texts.\n			txtImage:				'Imagen',	// (string) Specify text \"Image\"\n			txtOf:					'de',		// (string) Specify text \"of\"\n			// Configuration related to keyboard navigation\n			keyToClose:				'c',		// (string) (c = close) Letter to close the jQuery lightBox interface. Beyond this letter, the letter X and the SCAPE key is used to.\n			keyToPrev:				'p',		// (string) (p = previous) Letter to show the previous image\n			keyToNext:				'n',		// (string) (n = next) Letter to show the next image.\n			// Don´t alter these variables in any way\n			imageArray:				[],\n			activeImage:			0\n		},settings);\n		// Caching the jQuery object with all elements matched\n		var jQueryMatchedObj = this; // This, in this context, refer to jQuery object\n		/**\n		 * Initializing the plugin calling the start function\n		 *\n		 * @return boolean false\n		 */\n		function _initialize() {\n			_start(this,jQueryMatchedObj); // This, in this context, refer to object (link) which the user have clicked\n			return false; // Avoid the browser following the link\n		}\n		/**\n		 * Start the jQuery lightBox plugin\n		 *\n		 * @param object objClicked The object (link) whick the user have clicked\n		 * @param object jQueryMatchedObj The jQuery object with all elements matched\n		 */\n		function _start(objClicked,jQueryMatchedObj) {\n			// Hime some elements to avoid conflict with overlay in IE. These elements appear above the overlay.\n			$('embed, object, select').css({ 'visibility' : 'hidden' });\n			// Call the function to create the markup structure; style some elements; assign events in some elements.\n			_set_interface();\n			// Unset total images in imageArray\n			settings.imageArray.length = 0;\n			// Unset image active information\n			settings.activeImage = 0;\n			// We have an image set? Or just an image? Let´s see it.\n			if ( jQueryMatchedObj.length == 1 ) {\n				settings.imageArray.push(new Array(objClicked.getAttribute('href'),objClicked.getAttribute('title')));\n			} else {\n				// Add an Array (as many as we have), with href and title atributes, inside the Array that storage the images references		\n				for ( var i = 0; i < jQueryMatchedObj.length; i++ ) {\n					settings.imageArray.push(new Array(jQueryMatchedObj[i].getAttribute('href'),jQueryMatchedObj[i].getAttribute('title')));\n				}\n			}\n			while ( settings.imageArray[settings.activeImage][0] != objClicked.getAttribute('href') ) {\n				settings.activeImage++;\n			}\n			// Call the function that prepares image exibition\n			_set_image_to_view();\n		}\n		/**\n		 * Create the jQuery lightBox plugin interface\n		 *\n		 * The HTML markup will be like that:\n			<div id=\"jquery-overlay\"></div>\n			<div id=\"jquery-lightbox\">\n				<div id=\"lightbox-container-image-box\">\n					<div id=\"lightbox-container-image\">\n						<img src=\"../fotos/XX.jpg\" id=\"lightbox-image\">\n						<div id=\"lightbox-nav\">\n							<a href=\"#\" id=\"lightbox-nav-btnPrev\"></a>\n							<a href=\"#\" id=\"lightbox-nav-btnNext\"></a>\n						</div>\n						<div id=\"lightbox-loading\">\n							<a href=\"#\" id=\"lightbox-loading-link\">\n								<img src=\"../images/lightbox-ico-loading.gif\">\n							</a>\n						</div>\n					</div>\n				</div>\n				<div id=\"lightbox-container-image-data-box\" display: block; style=\"width:800px; position:relative; bottom:30px;\">\n					<div id=\"lightbox-container-image-data\">\n						<div id=\"lightbox-image-details\">\n							<span id=\"lightbox-image-details-caption\"></span>\n							<span id=\"lightbox-image-details-currentNumber\"></span>\n						</div>\n						<div id=\"lightbox-secNav\">\n							<a href=\"#\" id=\"lightbox-secNav-btnClose\">\n								<img src=\"../images/lightbox-btn-close.gif\">\n							</a>\n						</div>\n					</div>\n				</div>\n			</div>\n		 *\n		 */\n		function _set_interface() {\n			// Apply the HTML markup into body tag\n			$('body').append('<div id=\"jquery-overlay\"></div><div id=\"jquery-lightbox\"><div id=\"lightbox-container-image-box\"><div id=\"lightbox-container-image\"><img id=\"lightbox-image\"><div style=\"\" id=\"lightbox-nav\"><a href=\"#\" id=\"lightbox-nav-btnPrev\" style=\"height:260px !important; \"></a><a href=\"#\" id=\"lightbox-nav-btnNext\" style=\"height:260px !important; \"></a></div><div id=\"lightbox-loading\"><a href=\"#\" id=\"lightbox-loading-link\"><img src=\"' + settings.imageLoading + '\"></a></div></div></div><div id=\"lightbox-container-image-data-box\" style=\"width:800px; position:relative; bottom:30px;\"><div id=\"lightbox-container-image-data\"><div id=\"lightbox-image-details\"><span id=\"lightbox-image-details-caption\"></span><span id=\"lightbox-image-details-currentNumber\"></span></div><div id=\"lightbox-secNav\"><a href=\"#\" id=\"lightbox-secNav-btnClose\"><img src=\"' + settings.imageBtnClose + '\"></a></div></div></div></div>');	\n			// Get page sizes\n			var arrPageSizes = ___getPageSize();\n			// Style overlay and show it\n			$('#jquery-overlay').css({\n				backgroundColor:	settings.overlayBgColor,\n				opacity:			settings.overlayOpacity,\n				width:				arrPageSizes[0],\n				height:				arrPageSizes[1]\n			}).fadeIn();\n			// Get page scroll\n			var arrPageScroll = ___getPageScroll();\n			// Calculate top and left offset for the jquery-lightbox div object and show it\n			$('#jquery-lightbox').css({\n				top:	arrPageScroll[0] + (arrPageSizes[3] / 4),\n				left:	arrPageScroll[0]\n			}).show();\n			// Assigning click events in elements to close overlay\n			$('#jquery-overlay,#jquery-lightbox').click(function() {\n				_finish();									\n			});\n			// Assign the _finish function to lightbox-loading-link and lightbox-secNav-btnClose objects\n			$('#lightbox-loading-link,#lightbox-secNav-btnClose').click(function() {\n				_finish();\n				return false;\n			});\n			// If window was resized, calculate the new overlay dimensions\n			$(window).resize(function() {\n				// Get page sizes\n				var arrPageSizes = ___getPageSize();\n				// Style overlay and show it\n				$('#jquery-overlay').css({\n					width:		arrPageSizes[0],\n					height:		arrPageSizes[0]\n				});\n				// Get page scroll\n				var arrPageScroll = ___getPageScroll();\n				// Calculate top and left offset for the jquery-lightbox div object and show it\n				$('#jquery-lightbox').css({\n					top:	arrPageScroll[1] + (arrPageSizes[3] / 4),\n					left:	arrPageScroll[0]\n				});\n			});\n		}\n		/**\n		 * Prepares image exibition; doing a image´s preloader to calculate it´s size\n		 *\n		 */\n		function _set_image_to_view() { // show the loading\n			// Show the loading\n			$('#lightbox-loading').show();\n			if ( settings.fixedNavigation ) {\n				$('#lightbox-image,#lightbox-container-image-data-box,#lightbox-image-details-currentNumber').hide();\n			} else {\n				// Hide some elements\n				/*$('#lightbox-image,#lightbox-nav,#lightbox-nav-btnPrev,#lightbox-nav-btnNext,#lightbox-container-image-data-box,#lightbox-image-details-currentNumber').hide();*/\n				$('#lightbox-image,#lightbox-container-image-data-box,#lightbox-image-details-currentNumber').hide();\n			}\n			// Image preload process\n			var objImagePreloader = new Image();\n			objImagePreloader.onload = function() {\n				$('#lightbox-image').attr('src',settings.imageArray[settings.activeImage][0]);\n				// Perfomance an effect in the image container resizing it\n				_resize_container_image_box(objImagePreloader.width,objImagePreloader.height);\n				//	clear onLoad, IE behaves irratically with animated gifs otherwise\n				objImagePreloader.onload=function(){};\n			};\n			objImagePreloader.src = settings.imageArray[settings.activeImage][0];\n		};\n		/**\n		 * Perfomance an effect in the image container resizing it\n		 *\n		 * @param integer intImageWidth The image´s width that will be showed\n		 * @param integer intImageHeight The image´s height that will be showed\n		 */\n		function _resize_container_image_box(intImageWidth,intImageHeight) {\n			// Get current width and height\n			var intCurrentWidth = $('#lightbox-container-image-box').width();\n			var intCurrentHeight = $('#lightbox-container-image-box').height();\n			// Get the width and height of the selected image plus the padding\n			var intWidth = (intImageWidth + (settings.containerBorderSize * 0)); // Plus the image´s width and the left and right padding value\n			var intHeight = (intImageHeight + (settings.containerBorderSize * 0)); // Plus the image´s height and the left and right padding value\n			// Diferences\n			var intDiffW = intCurrentWidth - intWidth;\n			var intDiffH = intCurrentHeight - intHeight;\n			// Perfomance the effect\n			$('#lightbox-container-image-box').animate({ width: intWidth, height: intHeight },settings.containerResizeSpeed,function() { _show_image(); });\n			if ( ( intDiffW == 0 ) && ( intDiffH == 0 ) ) {\n				if ( $.browser.msie ) {\n					___pause(250);\n				} else {\n					___pause(100);	\n				}\n			} \n			$('#lightbox-container-image-data-box').css({ width: intImageWidth });\n			$('#lightbox-nav-btnPrev,#lightbox-nav-btnNext').css({ height: intImageHeight + (settings.containerBorderSize * 0) });\n		};\n		/**\n		 * Show the prepared image\n		 *\n		 */\n		function _show_image() {\n			$('#lightbox-loading').hide();\n			$('#lightbox-image').fadeIn(function() {\n				_show_image_data();\n				_set_navigation();\n			});\n			_preload_neighbor_images();\n		};\n		/**\n		 * Show the image information\n		 *\n		 */\n		function _show_image_data() {\n			$('#lightbox-container-image-data-box').slideDown('fast');\n			$('#lightbox-image-details-caption').hide();\n			if ( settings.imageArray[settings.activeImage][1] ) {\n				$('#lightbox-image-details-caption').html(settings.imageArray[settings.activeImage][1]).show();\n			}\n			// If we have a image set, display 'Image X of X'\n			/*if ( settings.imageArray.length > 1 ) {\n				$('#lightbox-image-details-currentNumber').html(settings.txtImage + ' ' + ( settings.activeImage + 1 ) + ' ' + settings.txtOf + ' ' + settings.imageArray.length).show();\n			}*/		\n		}\n		/**\n		 * Display the button navigations\n		 *\n		 */\n		function _set_navigation() {\n			$('#lightbox-nav').show();\n\n			// Instead to define this configuration in CSS file, we define here. And it´s need to IE. Just.\n			$('#lightbox-nav-btnPrev,#lightbox-nav-btnNext').css({ 'background' : 'transparent url(' + settings.imageBlank + ') no-repeat' });\n			\n			// Show the prev button, if not the first image in set\n			if ( settings.activeImage != 0 ) {\n				if ( settings.fixedNavigation ) {\n					$('#lightbox-nav-btnPrev').css({ 'background' : 'url(' + settings.imageBtnPrev + ') left 50% no-repeat' , 'position' : 'relative', 'left' : '-60px' })\n						.unbind()\n						.bind('click',function() {\n							settings.activeImage = settings.activeImage - 1;\n							_set_image_to_view();\n							return false;\n						});\n						\n				} else {\n					// Show the images button for Next buttons\n					$('#lightbox-nav-btnPrev').unbind().hover(function() {\n						$(this).css({ 'background' : 'url(' + settings.imageBtnPrev + ') left 50% no-repeat' , 'position' : 'relative', 'left' : '-60px' });\n					},function() {\n						$(this).css({ 'background' : 'transparent url(' + settings.imageBlank + ') no-repeat' });\n					}).show().bind('click',function() {\n						settings.activeImage = settings.activeImage - 1;\n						_set_image_to_view();\n						return false;\n					});\n				}\n			}\n			\n			// Show the next button, if not the last image in set\n			if ( settings.activeImage != ( settings.imageArray.length -1 ) ) {\n				if ( settings.fixedNavigation ) {\n					$('#lightbox-nav-btnNext').css({ 'background' : 'url(' + settings.imageBtnNext + ') right 50% no-repeat' , 'position' : 'relative', 'right' : '-60px' })\n						.unbind()\n						.bind('click',function() {\n							settings.activeImage = settings.activeImage + 1;\n							_set_image_to_view();\n							return false;\n						});\n				} else {\n					// Show the images button for Next buttons\n					$('#lightbox-nav-btnNext').unbind().hover(function() {\n						$(this).css({ 'background' : 'url(' + settings.imageBtnNext + ') right 50% no-repeat' , 'position' : 'relative', 'right' : '-60px' });\n					},function() {\n						$(this).css({ 'background' : 'transparent url(' + settings.imageBlank + ') no-repeat' });\n					}).show().bind('click',function() {\n						settings.activeImage = settings.activeImage + 1;\n						_set_image_to_view();\n						return false;\n					});\n				}\n			}\n			// Enable keyboard navigation\n			_enable_keyboard_navigation();\n		}\n		/**\n		 * Enable a support to keyboard navigation\n		 *\n		 */\n		function _enable_keyboard_navigation() {\n			$(document).keydown(function(objEvent) {\n				_keyboard_action(objEvent);\n			});\n		}\n		/**\n		 * Disable the support to keyboard navigation\n		 *\n		 */\n		function _disable_keyboard_navigation() {\n			$(document).unbind();\n		}\n		/**\n		 * Perform the keyboard actions\n		 *\n		 */\n		function _keyboard_action(objEvent) {\n			// To ie\n			if ( objEvent == null ) {\n				keycode = event.keyCode;\n				escapeKey = 27;\n			// To Mozilla\n			} else {\n				keycode = objEvent.keyCode;\n				escapeKey = objEvent.DOM_VK_ESCAPE;\n			}\n			// Get the key in lower case form\n			key = String.fromCharCode(keycode).toLowerCase();\n			// Verify the keys to close the ligthBox\n			if ( ( key == settings.keyToClose ) || ( key == 'x' ) || ( keycode == escapeKey ) ) {\n				_finish();\n			}\n			// Verify the key to show the previous image\n			if ( ( key == settings.keyToPrev ) || ( keycode == 37 ) ) {\n				If we´re not showing the first image, call the previous\n				if ( settings.activeImage != 0 ) {\n					settings.activeImage = settings.activeImage - 1;\n					_set_image_to_view();\n					_disable_keyboard_navigation();\n				}\n			}\n			// Verify the key to show the next image\n			if ( ( key == settings.keyToNext ) || ( keycode == 39 ) ) {\n				If we´re not showing the last image, call the next\n				if ( settings.activeImage != ( settings.imageArray.length - 1 ) ) {\n					settings.activeImage = settings.activeImage + 1;\n					_set_image_to_view();\n					_disable_keyboard_navigation();\n				}\n			}\n		}\n		/**\n		 * Preload prev and next images being showed\n		 *\n		 */\n		function _preload_neighbor_images() {\n			if ( (settings.imageArray.length -1) > settings.activeImage ) {\n				objNext = new Image();\n				objNext.src = settings.imageArray[settings.activeImage + 1][0];\n			}\n			if ( settings.activeImage > 0 ) {\n				objPrev = new Image();\n				objPrev.src = settings.imageArray[settings.activeImage -1][0];\n			}\n		}\n		/**\n		 * Remove jQuery lightBox plugin HTML markup\n		 *\n		 */\n		function _finish() {\n			$('#jquery-lightbox').remove();\n			$('#jquery-overlay').fadeOut(function() { $('#jquery-overlay').remove(); });\n			// Show some elements to avoid conflict with overlay in IE. These elements appear above the overlay.\n			$('embed, object, select').css({ 'visibility' : 'visible' });\n		}\n		/**\n		 / THIRD FUNCTION\n		 * getPageSize() by quirksmode.com\n		 *\n		 * @return Array Return an array with page width, height and window width, height\n		 */\n		function ___getPageSize() {\n			var xScroll, yScroll;\n			if (window.innerHeight && window.scrollMaxY) {	\n				xScroll = window.innerWidth + window.scrollMaxX;\n				yScroll = window.innerHeight + window.scrollMaxY;\n			} else if (document.body.scrollHeight > document.body.offsetHeight){ // all but Explorer Mac\n				xScroll = document.body.scrollWidth;\n				yScroll = document.body.scrollHeight;\n			} else { // Explorer Mac...would also work in Explorer 6 Strict, Mozilla and Safari\n				xScroll = document.body.offsetWidth;\n				yScroll = document.body.offsetHeight;\n			}\n			var windowWidth, windowHeight;\n			if (self.innerHeight) {	// all except Explorer\n				if(document.documentElement.clientWidth){\n					windowWidth = document.documentElement.clientWidth; \n				} else {\n					windowWidth = self.innerWidth;\n				}\n				windowHeight = self.innerHeight;\n			} else if (document.documentElement && document.documentElement.clientHeight) { // Explorer 6 Strict Mode\n				windowWidth = document.documentElement.clientWidth;\n				windowHeight = document.documentElement.clientHeight;\n			} else if (document.body) { // other Explorers\n				windowWidth = document.body.clientWidth;\n				windowHeight = document.body.clientHeight;\n			}	\n			// for small pages with total height less then height of the viewport\n			if(yScroll < windowHeight){\n				pageHeight = windowHeight;\n			} else { \n				pageHeight = yScroll;\n			}\n			// for small pages with total width less then width of the viewport\n			if(xScroll < windowWidth){	\n				pageWidth = xScroll;		\n			} else {\n				pageWidth = windowWidth;\n			}\n			arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight);\n			return arrayPageSize;\n		};\n		/**\n		 / THIRD FUNCTION\n		 * getPageScroll() by quirksmode.com\n		 *\n		 * @return Array Return an array with x,y page scroll values.\n		 */\n		function ___getPageScroll() {\n			var xScroll, yScroll;\n			if (self.pageYOffset) {\n				yScroll = self.pageYOffset;\n				xScroll = self.pageXOffset;\n			} else if (document.documentElement && document.documentElement.scrollTop) {	 // Explorer 6 Strict\n				yScroll = document.documentElement.scrollTop;\n				xScroll = document.documentElement.scrollLeft;\n			} else if (document.body) {// all other Explorers\n				yScroll = document.body.scrollTop;\n				xScroll = document.body.scrollLeft;	\n			}\n			arrayPageScroll = new Array(xScroll,yScroll);\n			return arrayPageScroll;\n		};\n		 /**\n		  * Stop the code execution from a escified time in milisecond\n		  *\n		  */\n		 function ___pause(ms) {\n			var date = new Date(); \n			curDate = null;\n			do { var curDate = new Date(); }\n			while ( curDate - date < ms);\n		 };\n		// Return the jQuery object for chaining. The unbind method is used to avoid click conflict when the plugin is called more than once\n		return this.unbind('click').click(_initialize);\n	};\n})(jQuery); // Call and execute the function immediately passing the jQuery object",
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/jquery.lightbox-0.5.2.js",
+			"file_size": 20613,
+			"file_write_time": 130034335466020000,
+			"settings":
+			{
+				"buffer_size": 20139,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/CasaUoficina.jpg",
+			"settings":
+			{
+				"buffer_size": 279010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/COLLINSCOM/Documents/!CollinsCom/datos y passwords.txt",
+			"settings":
+			{
+				"buffer_size": 2396,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Java/Java.sublime-build",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lis pac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: html5",
+				"Snippet: Estructura basica HTML5"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"discover ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Edit Server…"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Prefix",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"git: comm",
+				"Git: Commit history"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"git:comm",
+				"Git: Commit history"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Estructura basica HTML5"
+			],
+			[
+				"Snippet: html",
+				"Snippet: Estructura basica HTML5"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"discover packages",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/jquery.lightbox-0.5.2.js",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/jquery.lightbox-0.5.js",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/EspaciosLuminosos.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/LaGamaDeColores.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/LaSimplicidad.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/Orden.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/ElProtagonismo.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/estilos-tendencias.php",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/SeleccionaLineas.jpg",
+		"/C/xampp/htdocs/galeriasTV/menu.php",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/american.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/EstiloVintage.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/lib.js",
+		"/C/Users/COLLINSCOM/Documents/!CollinsCom/datos y passwords.txt",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/minimalista.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/hitek.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/etnico.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/contemporaneo.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/clasico.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/titulos/consejos-interiorismo.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/titulos/estilo-tendencias.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/titulos/interiorismo.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/titulos/estilos-tendencias.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/titulo-interiorismo.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/titulo-estilos.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/noImage.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/fondos/interiorismo.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/CasaUoficina.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/PiezaDiseño.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/CombinacionTexturas.jpg",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo/DetallesLuminosos.jpg",
+		"/C/Users/COLLINSCOM/Pictures/Zarkin/interiorismo/PiezaDiseño.jpg",
+		"/C/Users/COLLINSCOM/Pictures/Zarkin/interiorismo/CombinacionTexturas.jpg",
+		"/C/Users/COLLINSCOM/Pictures/Zarkin/interiorismo/CasaUoficina.jpg",
+		"/C/Users/COLLINSCOM/Pictures/Zarkin/interiorismo/DetallesLuminosos.jpg",
+		"/C/Users/COLLINSCOM/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/C/Users/COLLINSCOM/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/COLLINSCOM/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo_tbm.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/caracteristicas_piel.php",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/css/jquery.lightbox-0.5.css",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/css/jquery.lightbox-0.5.2.css",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos-tbm.png",
+		"/C/xampp/htdocs/zarkin/funciones.php",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/interiorismo_tbm_02.png",
+		"/C/xampp/htdocs/galeriasTV/sftp-config.json",
+		"/C/xampp/htdocs/galeriasTV/funciones.php",
+		"/C/xampp/htdocs/galeriasTV/index.php",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/flecha_izq.png",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/flecha_der.png",
+		"/C/xampp/htdocs/zarkin/css/style.css",
+		"/C/Users/COLLINSCOM/Documents/GitHub/zarkin/interiorismo.php",
+		"/C/xampp/htdocs/zarkin/colecciones.php",
+		"/C/xampp/htdocs/zarkin/formulario-garantia.php",
+		"/C/xampp/htdocs/zarkin/interiorismo.php",
+		"/C/xampp/htdocs/zarkin/home.php",
+		"/C/xampp/htdocs/zarkin/css/helveticaneue-light-webfont.woff",
+		"/C/xampp/htdocs/zarkin/images/flecha.png",
+		"/C/xampp/htdocs/zarkin/images/interiorismo_tbm_01.png",
+		"/C/xampp/htdocs/zarkin/.htaccess",
+		"/C/xampp/htdocs/zarkin/garantia.php",
+		"/C/xampp/htdocs/zarkin/css/formulario.css",
+		"/C/xampp/htdocs/zarkin/guardar-garantia.php",
+		"/C/xampp/htdocs/zarkin/js/procesar.js",
+		"/C/xampp/htdocs/zarkin/action.php",
+		"/C/xampp/htdocs/zarkin/tuto_combos/funciones.php",
+		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/zarkin/js/lib.js",
+		"/C/xampp/htdocs/videoteca/Agregar.html",
+		"/C/xampp/htdocs/zarkin/sftp-config.json",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.php",
+		"/C/xampp/htdocs/!Collins/zarkin/funciones.php",
+		"/C/xampp/htdocs/videoteca/Agregar.php",
+		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/js/procesar.js",
+		"/C/xampp/htdocs/phpMyAdmin/config.sample.inc.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/index.php",
+		"/C/xampp/htdocs/!Collins/zarkin/menu.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/action.php",
+		"/C/Users/Jorge/Documents/!CollinsCom/datos y passwords.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/formulario.css",
+		"/C/xampp/htdocs/!Collins/eurogoini/eurogoini.sublime-workspace",
+		"/C/xampp/htdocs/ooyala.html",
+		"/C/xampp/htdocs/initializr/.htaccess",
+		"/C/xampp/htdocs/!Collins/zarkin/.htaccess",
+		"/C/xampp/htdocs/!Collins/zarkin/formulario.css",
+		"/C/xampp/htdocs/!Collins/zarkin/sftp-config.json",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/palindromo.php",
+		"/C/xampp/htdocs/!Collins/sftp-config.json",
+		"/C/xampp/htdocs/!Collins/jigsaw/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/puzzle.php",
+		"/C/xampp/htdocs/!Collins/sftp-config-alt.json",
+		"/C/xampp/htdocs/mejorandola/NodeJS.php",
+		"/C/xampp/htdocs/mejorandola/NodeJS.html",
+		"/C/xampp/htdocs/palindromo.php",
+		"/C/Users/Jorge/Documents/!CollinsCom/Gontor/consulta_clientes.php",
+		"/C/xampp/htdocs/!Collins/prueba/.git/config",
+		"/C/Users/Jorge/Documents/GitHub/eurogoini/.gitignore",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/eventos.php",
+		"/C/Users/Jorge/Documents/GitHub/eurogoini/404.php",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Java/Java.sublime-build",
+		"/C/Users/Jorge/java/palindromo.java",
+		"/C/Users/Jorge/Downloads/palindromo.javac.java",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/xampp/htdocs/!Collins/jigsaw/ooyala.html",
+		"/C/xampp/htdocs/initializr/humans.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/Rar$EXa0.752/initializr/index.html",
+		"/C/Users/Jorge/AppData/Local/Temp/Rar$DIa0.799/.htaccess",
+		"/C/Users/Jorge/Desktop/hack.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/xampp/htdocs/html5-page-structure.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/xampp/htdocs/!Collins/prueba/index.php",
+		"/C/xampp/htdocs/!Collins/prueba/funciones.php",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Local/GitHub/PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7/doc/git/html/git-commit.html",
+		"/C/xampp/htdocs/Primer_HTML5/index.html",
+		"/C/xampp/htdocs/1erCSS3/index.html",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/pruba",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/C/Users/Jorge/Documents/GitHub/eurogoini/!baseArt.html",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 66.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\!Collins\\zarkin",
+			"-funciones.php, -empresa.php,<open files>",
+			"-funciones.php, empresa.php",
+			"-funciones.php, <open files>",
+			"empresa.php",
+			"empresas.php",
+			"<open files>",
+			"funciones.php",
+			"funcion.php",
+			" -funcion.php,<open files>",
+			"inicio.php, -funcion.php",
+			"<open files>, -funcion.php",
+			"<open files>",
+			"bebederos.html",
+			"<open files>",
+			"actividades.html",
+			"inicio.html",
+			"<open files>",
+			"",
+			"tanques.html",
+			"<open files>",
+			"nodrizas.html",
+			"prueba.html",
+			"nodrizas.html",
+			"-almacenamiento.html,<open files>",
+			"almacenamiento.html",
+			"prueba.html",
+			"<open files>",
+			"tanques.html",
+			"prueba.html",
+			"tanques.html",
+			"prueba.html",
+			"<open files>",
+			"prueba.html",
+			"<open files>",
+			"prueba.html",
+			"<open files>",
+			"accesorios_agua1.html",
+			"accesorios.html",
+			"prueba.html",
+			"untitled",
+			"accesorios_agua1.html",
+			"accesorios.html",
+			"accesorios.html, accesorios_agua1.html",
+			"accesorios.html",
+			"<open files>",
+			"",
+			"<open files>,C:\\xampp\\htdocs\\!Collins\\zarkin",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lightbox-nav-btnPrev",
+			"300px",
+			"300px;",
+			"280px",
+			"20px",
+			"bottom: 20px",
+			"#scrollbar1",
+			"id=\"lightbox-nav-btnNext\"",
+			"300",
+			"id=\"lightbox-nav-btnNext\"",
+			"lightbox-container-image-data-box",
+			"300px",
+			"-2",
+			"hover",
+			"lightbox-container-image-data-box",
+			"#lightbox-container-image-data-box",
+			"#373737",
+			"lightbox-container-image-data-box",
+			"#lightbox-container-image-box",
+			"#lightbox-container-image-box ",
+			"lightbox-container-image",
+			"paddin",
+			"#scrollbar1 .viewport",
+			"menu",
+			" menu()",
+			"menu()",
+			"menu",
+			"garantia",
+			"home",
+			"tel",
+			"form",
+			"/eurogoini",
+			"garantia",
+			"\"garantia\"",
+			"genero",
+			"chkd2lst",
+			"validar",
+			"chkd2lst",
+			"img",
+			"#estado",
+			"$cfg[",
+			"not",
+			"not largo",
+			"boton-l",
+			"not",
+			"menu",
+			"menu()",
+			"get_menu",
+			"view",
+			"garan",
+			"barra",
+			"titulos",
+			"clear",
+			".barratop",
+			"class",
+			"zarkin",
+			"</strong>",
+			"<strong>",
+			"<STRONG>",
+			"STRONG",
+			"http://www.zarkin.com/",
+			"http://localhost/!Collins/zarkin/",
+			"bg-barra",
+			"function get_menu",
+			"function get_",
+			"function ge",
+			"get_menu()",
+			"function get_menu",
+			"get_menu",
+			"menu",
+			"Ñ",
+			"ñ",
+			"á",
+			"formula",
+			"get_",
+			"li",
+			"formulario label",
+			"jigFuncs",
+			"foo",
+			"demo",
+			"0",
+			"galerias",
+			"form>",
+			"form",
+			"160",
+			"level",
+			"level:",
+			"version",
+			"add",
+			"level",
+			"snap",
+			"\\{",
+			"{",
+			"level",
+			"silver",
+			"float",
+			"\\n ",
+			"{",
+			"}",
+			"{",
+			";",
+			"outline",
+			"<!",
+			"folde",
+			"delete",
+			"{",
+			"<tr>\\n(\\s+)<td height=\"54\" align=\"center\" valign=\"middle\" background=\"/eurogoini/ima/bck19.jpg\">(.*\\n)+</body>",
+			"<tr>\\n(\\s+)<td height=\"54\" align=\"center\" valign=\"middle\" background=\"<\\?php echo _path; \\?>ima/bck19.jpg\">(.*\\n)+</body>",
+			"<tr>\\n(\\s+)<td colspan=\"2\" rowspan=\"2\" bgcolor=\"#FFFFFF\">&nbsp;</td>(.*\\n)+(\\s)+</tr>",
+			"<tr>(.*\\n)+(\\s)+</tr>",
+			"<tr>",
+			"/eurogoini/ima/bck20.jpg",
+			"banner",
+			"/eurogoini/",
+			"slider",
+			"máximo",
+			"The value should be at least",
+			"The value should be at least ",
+			"the value",
+			"The value should be at mos",
+			"the value shou",
+			"this field is ",
+			"/eurogoini/",
+			"telphone",
+			"tel",
+			"required",
+			"require",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#lightbox-container-image-box2",
+			"#lightbox-container-image-box2\n</body>",
+			"<?php get_footer(); ?>\n</body>",
+			"<?php get_footer(); ?>",
+			"</html>",
+			".php",
+			"/$1.php",
+			"$1.html",
+			"<?php get_header();?>  ",
+			"'<?php echo _path; ?>inicio.php'",
+			"href=\"<?php echo _path; ?>inicio.php\"",
+			"<?php\n\ninclude_once('funciones.php');\n\nget_head('EUROGOINI');\n?>",
+			"<span class=\"titMenu\"><span class=\"cap\">$1</span>$2</span>",
+			"<span class=\"TextList\" onclick=\"window.open('/eurogoini/archivos/garantias/",
+			"<span class=\"titMenu\"><span class=\"cap\">$1</span>$2</span>",
+			"<span class=\"titMenu\"$1><span class=\"cap\">$2</span>$3</span>",
+			"<span><p class=\"TituloArt\" style=\"font-size: 16px;\">",
+			"<div style=\"margin-top: 5px; margin-bottom: 5px;\"><span class=\"TextList\" onclick=\"location.href='accesorios_agua2.html'\" style=\"line-height: 15px;\" >Multiconector con válvula de esfera y tuerca unión</br></span></div>",
+			"<span><p class=\"TituloArt\" style=\"font-size:16px;\">",
+			"<li>$1</li>",
+			"<li>$1.</li>",
+			"<li>$1</li>",
+			"<ul>$1</ul>",
+			"<ul>(.*)</ul>",
+			"<td align=\"center\" valign=\"top\">             \n<p class=\"Titulo\">\n                  (.*)\n                </p>",
+			"<td align=\"center\" valign=\"top\">             \n               <span><p class=\"TituloArt\">$1</p></span>",
+			"<span><p class=\"TituloArt\">$1</p></span>",
+			"</br></span>",
+			"<span class=\"titMenu\"$1><span class=\"cap\">$2</span>$3</span>",
+			"<span class=\"titMenu\"><span class=\"cap\">$2</span>$3</span>",
+			"<span class=\"titMenu\"><span class=\"cap\">$1</span>$2</span>",
+			"<span class=\"titMenu\">NODRIZAS</span>",
+			"/eurogoini/rotoplas.html",
+			"/eurogoini/inicio.html",
+			"<ul class=\"linea\">\\n$1</ul>",
+			"<ul class=\"linea\">\\n                  $1</ul>",
+			"<ul class=\"linea\">\\n                  $2</ul>",
+			"<ul class=\"linea\">\\n                  $1</ul>",
+			"                  <li>$1</li>",
+			"<ul class=\"linea\">\\n(                  <li>$1</li></ul>",
+			"<ul class=\"linea\">\\n(                  <li>$1</li>+\\n(.*)</ul>",
+			"",
+			"                  <li>$1</li>",
+			"<ul class=\"linea\">\\n                  $1</ul>",
+			"<p class=\"linea\">\\n                  $1</p>",
+			"\\n0*****$0\\n1*****$1\\n2*****$2\\n3*****$3\\n4*****$4",
+			"\\n*****$0\\n*****$1\\n*****$2\\n*****$3",
+			"\\n$0\\n$1\\n$2\\n$3",
+			"<ul class=\"linea\">\\n$1</ul>",
+			"<ul class=\"linea\">\\n$1\\n</ul>",
+			"<ul class=\"linea\">\\n$1</ul>",
+			"<ul class=\"linea\">\\n$1+\\n$2</ul>",
+			"<ul class=\"linea\">\\n$0\\n$2</ul>",
+			"<ul class=\"linea\">\\n$1\\n$2</ul>",
+			"<ul class=\"linea\">$1\\n$2</ul>",
+			"<ul class=\"linea\">\\n                  $1\\n$2</ul>",
+			"<ul class=\"linea\">\\n                  $1+\\n$2</ul>",
+			"<ul class=\"linea\">\\n                  (.*\\n)+\\n(.*)</ul>",
+			"                  <li>$1</li>",
+			"                  <li>1</li>",
+			"                  <li>(.*)</li>",
+			"<td rowspan=\"4\" align=\"left\" ><img src=\"/eurogoini/ima/tn_53232_Logo Rotoplas 240.jpg\" width=\"190\" border=\"0px\" onclick=\"location.href='rotoplas.html '\" style=\"cursor: pointer;\"></td>",
+			"<td width=\"794\" height=\"131\" align=\"center\" style=\"cursor: pointer;\"><img src=\"/eurogoini/ima/top.jpg\" width=\"794\" height=\"131\" onclick=\"location.href='inicio.html'\"/></td>",
+			"<td width=\"794\" height=\"131\" align=\"center\"><img src=\"/eurogoini/ima/top.jpg\" width=\"794\" height=\"131\" onclick=\"location.href='inicio.html'\"/></td>",
+			".</br>",
+			"</br>",
+			"Tuboplus sanitario",
+			"Tuboplus",
+			"Producto",
+			"Seleccione",
+			"galvanoplastia",
+			"galvanoplastía",
+			">Válvula de",
+			"Válvula de",
+			"unión",
+			"válvula de esfera",
+			"válvula",
+			"resistencias",
+			"Tuboplus",
+			"Hidráulico",
+			"conducción",
+			"opción",
+			"repuestos disponibles",
+			" estándar",
+			" en",
+			" centrífuga",
+			" periférica",
+			" hidroneumática",
+			"hidroneumática",
+			"hidroneumático",
+			"público",
+			"instalación",
+			"químicas",
+			"químicos",
+			"flujo",
+			"México",
+			"impactos",
+			"filtro UV:",
+			"",
+			"1.capitalize()",
+			"Tubería",
+			"características",
+			"Características",
+			"garantía ",
+			"Garantía ",
+			"- [A-Z+]",
+			"- [:upper:]",
+			"- $1[:upper:]",
+			"TTuboplus tuberia sanitaria",
+			"Tuboplus tuberia hidráulica",
+			"No se oxidan ni se corroen.",
+			"del 20% y",
+			"opcion",
+			"Características",
+			"características",
+			"Accesorios",
+			"/eurogoini/archivos/",
+			"eurogoini/archivos/",
+			"/archivos/",
+			"/eurogoini/style.css",
+			"<span style=\"float:left;\"><a onclick=\"history.back(-1)\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"<span style=\"float:left;\"><a onclick=\"location.href='../$1'\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"<span style=\"float:left;\"><a onclick=\"location.href='../&1'\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"<span style=\"float:left;\"><a onclick=\"location.href='../(.*)'\" class=\"linea\" style=\"margin-bottom:0px; color: #3888cb; cursor: pointer;\">&larr;Regresar",
+			"/eurogoini/",
+			"../../ima/"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/menu.php",
+					"settings":
+					{
+						"buffer_size": 5412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1828,
+								1828
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 518.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/interiorismo.php",
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/funciones.php",
+					"settings":
+					{
+						"buffer_size": 42007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37227,
+								37227
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/lib.js",
+					"settings":
+					{
+						"buffer_size": 7772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7400,
+								7400
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5693.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/funciones.php",
+					"settings":
+					{
+						"buffer_size": 42007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41613,
+								41613
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 356.0,
+						"translation.y": 21579.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/css/style.css",
+					"settings":
+					{
+						"buffer_size": 12562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1141.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/js/jquery.lightbox-0.5.2.js",
+					"settings":
+					{
+						"buffer_size": 20139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16292,
+								16046
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7621.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/funciones.php",
+					"settings":
+					{
+						"buffer_size": 42007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/css/style.css",
+					"settings":
+					{
+						"buffer_size": 12562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12300,
+								12300
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11154.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/COLLINSCOM/Documents/GitHub/zarkin/images/estilos/CasaUoficina.jpg",
+					"settings":
+					{
+						"buffer_size": 279010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/COLLINSCOM/Documents/!CollinsCom/datos y passwords.txt",
+					"settings":
+					{
+						"buffer_size": 2396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2323,
+								2323
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": false,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 105.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.860471884888,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.sftp":
+	{
+		"height": 64.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+			],
+			[
+				"funcione",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"send",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/send-email.php"
+			],
+			[
+				"contact",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/contacto.php"
+			],
+			[
+				"funcio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"inici",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"funci",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"fun",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"conta",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/contacto.php"
+			],
+			[
+				"style",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/style.css"
+			],
+			[
+				"funciones",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"formula",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/formulario.php"
+			],
+			[
+				"funcion",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/funciones.php"
+			],
+			[
+				"rotopl",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/rotoplas.php"
+			],
+			[
+				"contac",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/contacto.php"
+			],
+			[
+				"inicio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"icio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"mejor",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento.php"
+			],
+			[
+				".",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/.htaccess"
+			],
+			[
+				"ini",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/inicio.php"
+			],
+			[
+				"rotoplas",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/rotoplas.php"
+			],
+			[
+				"mejora",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/mejoramiento.php"
+			],
+			[
+				"ban",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/banobio.html"
+			],
+			[
+				"404",
+				"/C/xampp/htdocs/!Collins/eurogoini/404.html"
+			],
+			[
+				"index",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/index.html"
+			],
+			[
+				"alm",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/alm_pluvial.html"
+			],
+			[
+				"bio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/biodigestor.html"
+			],
+			[
+				"bano",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/banobio.html"
+			],
+			[
+				"act",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/actividades.html"
+			],
+			[
+				"gobi",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gobierno.html"
+			],
+			[
+				"mejo",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/mejoramiento.html"
+			],
+			[
+				"gob",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gobierno.html"
+			],
+			[
+				"nodri",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/nodrizas.html"
+			],
+			[
+				"ag",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/agroindustrias.html"
+			],
+			[
+				"con",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/construccion.html"
+			],
+			[
+				"agro",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/agroindustrias.html"
+			],
+			[
+				"reg_",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/reg_sanitario.html"
+			],
+			[
+				"tina",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/tinaco.html"
+			],
+			[
+				"cis",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/cisterna_carc.html"
+			],
+			[
+				"cister",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/cisterna.html"
+			],
+			[
+				"acce",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/accesorios_agua4.html"
+			],
+			[
+				"sist",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sistemaduo.html"
+			],
+			[
+				"siste",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sistemaduo.html"
+			],
+			[
+				"pur",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/purificador.html"
+			],
+			[
+				"calen",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/calentador.html"
+			],
+			[
+				"hidroneu",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/hidroneumatica.html"
+			],
+			[
+				"sumer",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sumergible.html"
+			],
+			[
+				"centr",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/centrifuga.html"
+			],
+			[
+				"bombas",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/bombas.html"
+			],
+			[
+				"reg",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/reg_sanitario.html"
+			],
+			[
+				"cola",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/coladeras.html"
+			],
+			[
+				"constr",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/construccion.html"
+			],
+			[
+				"bebe",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/bebederos_carc.html"
+			],
+			[
+				"tpsani",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/tpsanitario.html"
+			],
+			[
+				"cisterna",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/cisterna.html"
+			],
+			[
+				"sty",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/style.css"
+			],
+			[
+				"conduccio",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/conduccion_agua.html"
+			],
+			[
+				"cons",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/construccion.html"
+			],
+			[
+				"tubo",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/tuboplus.html"
+			],
+			[
+				"sry",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/style.css"
+			],
+			[
+				"nodriza",
+				"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/nodrizas.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/zarkin/formulario_zarkin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}
