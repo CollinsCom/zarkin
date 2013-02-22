@@ -244,86 +244,76 @@
 	"buffers":
 	[
 		{
-			"file": "js/procesar.js",
+			"file": "admin/index.php",
 			"settings":
 			{
-				"buffer_size": 1023,
-				"line_ending": "Unix"
+				"buffer_size": 278,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/funciones.php",
+			"settings":
+			{
+				"buffer_size": 43868,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/menu.php",
+			"settings":
+			{
+				"buffer_size": 2306,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/login.php",
+			"settings":
+			{
+				"buffer_size": 3860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php \n\n<div class=\"viewport\" >\n						<div class=\"clear10px\"></div>\n						<div class=\"clear10px\"></div>\n						<div class=\"clear10px\"></div>\n						<div class=\"clear10px\"></div>   \n						<form name=\"garantia\" method=\"post\" action=\"<?php $_SERVER['PHP_SELF']; ?>\" autocomplete=\"on\" onkeydown=\"javascript:tecla(event);\">\n							<h3>DATOS PARA EL REGISTRO</h3>\n							<fieldset>\n								<legend>INFORMACIÓN DEL PRODUCTO (requerido)</legend>                        \n								<h3>Introduzca la clave de identificación localizada en la etiqueta debajo del mueble</h3>\n								\n								<ul>\n									<li>\n										<label for=\"garantia\">Clave</label><br />\n										<input type=\"text\" maxlength=\"8\" placeholder=\"Clave del mueble\" name=\"clave\" value=\"\" class=\":only_on_blur :required :min_length;7 :max_length;8 :integer\" autofocus>\n									</li>\n									<li>\n										<label for=\"garantia\">Modelo del Mueble</label><br />\n										<input type=\"text\" maxlength=\"8\" placeholder=\"Ej. Pionini\" name=\"modeloMueble\" value=\"\" class=\":only_on_blur :required\">\n									</li>\n\n									<li>\n										<label for=\"garantia\">Composici&oacute;n</label><br />\n										<input type=\"text\" placeholder=\"\" name=\"composicion\" value=\"\" class=\":only_on_blur :required\">\n									</li>\n									<li>\n										<label for=\"garantia\">Color</label><br />\n										<input type=\"text\" placeholder=\"Ej. Chocolate\" name=\"color\" value=\"\" class=\":only_on_blur :required\">\n									</li>\n								</ul>\n							</fieldset>\n\n							<div class=\"clear10px\"></div>\n							<div class=\"clear10px\"></div>\n\n							<fieldset>\n								<legend>INFORMACIÓN DE COMPRA (requerido)</legend>\n								\n								<ul>\n									<li>\n										<label for=\"garantia\">Nombre de la tienda</label><br />\n										<input type=\"text\" placeholder=\"Ej. tutto pelle\" name=\"nTienda\" value=\"\" class=\":only_on_blur :required\">\n									</li>\n									<li style=\"visibility:hidden;\">\n										<label for=\"garantia\">País</label><br />\n										<input type=\"text\" placeholder=\"\" name=\"paisT\" value=\"Mexico\">\n									</li>\n									<li>\n										<label for=\"garantia\">Estado</label><br />\n										<select id=\"estadoT\" name=\"estadoT\">\n											<?php											\n\n												$conexion = mysql_connect(\"localhost\",\"zarkin\",\"zarkadmdb\") or die (\"Fallo en el establecimiento de la conexión\");\n												#Seleccionamos la base de datos a utilizar\n												mysql_select_db(\"zarkin_db\") or die(\"Error en la selección de la base de datos\");\n												// mysql_set_charset('utf8',$conexion);\n\n												$estados = \"SELECT * FROM estados\";\n												$res_estados = mysql_query($estados,$conexion) or die(mysql_error());\n\n												echo \"<option value=''>--Seleccione Estado--</option>\";\n												while($estado = mysql_fetch_assoc($res_estados)){\n													echo '<option value=\"'.$estado['id_estado'].'\">'.utf8_encode($estado['nombre_estado']).'</option>';\n												}\n											?>\n										</select>										\n									</li>\n									<li>\n										<label for=\"garantia\">Ciudad</label><br />\n										<div id=\"loader-garantia1\" style=\"float:right; display:none;\"><img  style=\"height:20px; width:20px;\" src=\"http://www.zarkin.com/images/ajax-loader.gif\" alt=\"loader\" /></div>\n										<select id=\"ciudadT\" disabled name=\"ciudadT\" class=\":only_on_blur :required\">\n										</select>\n									</li>									\n\n									<li>\n										<label for=\"garantia\">Fecha de Compra</label><br />\n										<input type=\"text\" id=\"date\" name=\"fcompra\" class=\":only_on_blur :required date campoChico\" value=\"<?php echo strftime( \"%Y-%m-%d\", time() ); ?>\" /></td>\n										<!-- <input type=\"date\" name=\"fcompra\" required><br /> -->\n									</li>\n									<li>\n										<label for=\"garantia\">Fecha de Entrega</label><br />\n										<input type=\"text\" id=\"date\" name=\"fentrega\" class=\":only_on_blur :required date campoChico\" value=\"<?php echo strftime( \"%Y-%m-%d\", time() ); ?>\" /></td>\n										<!-- <input type=\"date\" name=\"\" required><br /> -->\n									</li>\n								</ul>\n\n							</fieldset>\n\n							<div class=\"clear10px\"></div>\n							<div class=\"clear10px\"></div>\n\n							<fieldset>\n								<legend>FORMA DE ENTREGA (requerido)</legend>				\n								<h3>¿Cu&aacute;l ha sido la forma de entrega de su producto Zarkin?</h3>				\n								<ul>\n									<li class=\":only_on_blur :required\">\n										<input type=\"radio\" name=\"formEntrega\" value=\"Lo ha recogido y montado el mismo\" checked>\n										<label for=\"garantia\">Lo he recogido y montado yo mismo</label><br />\n										<input type=\"radio\" name=\"formEntrega\" value=\"La entrega y el montaje han corrido a cargo del distribuidor\">\n										<label for=\"garantia\">La entrega y el montaje han corrido a cargo del distribuidor</label><br />\n										<input type=\"radio\" name=\"formEntrega\" value=\"El distribuidor ha realizado la entrega y él el montaje\">\n										<label for=\"garantia\">El distribuidor ha realizado la entrega y él el montaje</label><br />\n									</li>\n								</ul>\n							</fieldset>\n\n							<div class=\"clear10px\"></div>\n							<div class=\"clear10px\"></div>\n\n							<fieldset>\n								<legend>INFORMACIÓN DEL CLIENTE</legend>\n								\n								<ul>\n									<li>\n										<label for=\"garantia\">Nombre</label><br />\n										<input type=\"text\" placeholder=\"Jorge\" name=\"nombre\" value=\"\" class=\":only_on_blur :required\">\n									</li>\n									\n									<li>\n										<label for=\"garantia\">Apellido Paterno</label><br />\n										<input type=\"text\" placeholder=\"Rojas\" name=\"apellidoP\" value=\"\" class=\":only_on_blur :required\">\n									</li>\n									\n									<li>\n										<label for=\"garantia\">Apellido Materno</label><br />\n										<input type=\"text\" placeholder=\"\" name=\"apellidoM\" value=\"\">\n									</li>\n\n									<li>\n										<label for=\"garantia\">Edad</label><br />							\n										<select name=\"edad\">\n											<option value=\"< 25\">Menor de 25 años</option>\n											<option value=\"26 a 50\">26 a 50 años</option>\n											<option value=\"51 a 75\">51 a 75 años</option>\n											<option value=\"> 75\">Mayor de 75 años</option>\n										</select>\n									</li>\n\n									<li>\n										<label for=\"garantia\">Sexo</label><br />\n										<label for=\"garantia\">M</label><input type=\"radio\" name=\"sex\" value=\"Masculino\" checked>\n										<label for=\"garantia\">F</label><input type=\"radio\" name=\"sex\" value=\"Femenino\" >\n									</li>\n											<?php\n												// $conexion = mysql_connect(\"localhost\",\"zarkin\",\"zarkadmdb\") or die(\"Error en la conexion a la base de datos\");\n												// mysql_select_db(\"zarkin_db\", $conexion);												\n\n												// $estados = \"SELECT * FROM estados\";\n												// $res_estados = mysql_query($estados,$conexion) or die(mysql_error());\n\n												// echo \"<option value=''>--Seleccione Estado--</option>\";\n												// while($estado = mysql_fetch_assoc($res_estados)){\n												// 	echo '<option value=\"'.$estado['id_estado'].'\">'.utf8_encode($estado['nombre_estado']).'</option>';\n												// }\n											?>									\n									<li>\n										<label for=\"garantia\">Telefono</label><br />\n										<input type=\"text\" placeholder=\"Ej. 3319278448\" name=\"tel\" class=\":only_on_blur :required :lenght;10 :integer\" >\n									</li>\n									\n									<li>\n										<label for=\"garantia\">E-mail</label><br />\n										<input type=\"text\" placeholder=\"Ej. ejemplo@dominio.com\" name=\"email\" value=\"\" class=\":only_on_blur :required :email\" >\n									</li>\n								</ul>\n\n							</fieldset> \n\n							<div class=\"clear10px\"></div>\n							<div class=\"clear10px\"></div>\n\n							<fieldset>\n								<legend>INFORMACIÓN DE MERCADO</legend>\n								<h3>Para ofrecerle un mejor servicio, le agradecemos responda las siguientes preguntas.<br /> \n									Sus respuestas servirán solamente para elaborar datos estadísticos y serán confidenciales.</h3>\n								<ul>									\n									<li>\n										<div id=\"factoresCompra\">\n											<label for=\"factorC\"><h3>Por favor indique de 2 a 4 factores que más han influido en la compra de su producto Zarkin:</h3></label><br />\n											<input name=\"factorC\" value=\"\" type=\"hidden\">\n											<label for=\"opcion1\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_1\" value=\"Marca\">Marca</label><br />									\n											<label for=\"opcion2\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_2\" value=\"Comodidad\">Comodidad</label><br />\n											<label for=\"opcion3\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_3\" value=\"Calidad\">Calidad</label><br />\n											<label for=\"opcion4\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_4\" value=\"Diseño\">Diseño</label><br />\n											<label for=\"opcion5\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_5\" value=\"Publicidad\">Publicidad</label><br />									\n											<label for=\"opcion6\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_6\" value=\"Promociones\">Promociones</label><br />\n											<label for=\"opcion7\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_7\" value=\"Mantenimiento y Limpieza\">Mantenimiento y Limpieza</label><br />\n											<label for=\"opcion8\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_8\" value=\"Mecanismo y Funcionamiento\">Mecanismo y Funcionamiento</label><br />\n											<label for=\"opcion9\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_9\" value=\"Relación Calidad/Precio\">Relación Calidad/Precio</label><br />\n											<label for=\"opcion10\"><input type=\"checkbox\" name=\"_factorC\" id=\"genero_10\" value=\"\">Otro</label><br />\n										</div>\n									</li>\n\n									 <div class=\"clear10px\"></div> \n									<div class=\"clear10px\"></div>									\n									<div class=\"clear10px\"></div>\n									<div class=\"clear10px\"></div>\n									\n									<li>\n										<label for=\"garantia\">¿Cómo conoció los productos Zarkin?</label><br />							\n										<select name=\"conocioProducto\">\n										  <option value=\"Publicidad\">Publicidad</option>\n										  <option value=\"Revistas/Periódicos\">Revistas/Periódicos</option>\n										  <option value=\"Internet\">Internet</option>\n										  <option value=\"Familiares y/o amigos\">Familiares y/o amigos</option>								  \n										  <option value=\"Tiendas departamentales\">Tiendas departamentales</option>\n										  <option value=\"Otro\">Otro</option>\n										</select>\n									</li>\n								</ul>\n							</fieldset>\n	\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>						 \n\n							<fieldset class=\"satisfaccion\">\n								<legend>SATISFACCIÓN DEL CLIENTE</legend>\n								<table>\n									<colgroup>\n										<col >\n										<col class=\"opcion\" span=\"3\">											\n									</colgroup>\n									<thead>\n										<tr>\n											<th></th>\n											<th>Muy satisfactoria</th>\n											<th>Satisfactoria</th>\n											<th>Poco satisfactoria</th>\n										</tr>\n									</thead>\n									<tbody>\n										<tr>\n											<th>¿Está satisfecho con la información que recibió acerca del producto?</th>\n											<td><input type=\"radio\" name=\"satisfCliente2\" value=\"3\" checked></td>\n											<td><input type=\"radio\" name=\"satisfCliente2\" value=\"2\" ></td>\n											<td><input type=\"radio\" name=\"satisfCliente2\" value=\"1\" ></td>\n										</tr>\n										<tr>\n											<th>¿Está satisfecho con de grado de competencia, profesionalidad y trato del personal de ventas?</th>\n											<td><input type=\"radio\" name=\"satisfCliente3\" value=\"3\" checked></td>\n											<td><input type=\"radio\" name=\"satisfCliente3\" value=\"2\" ></td>\n											<td><input type=\"radio\" name=\"satisfCliente3\" value=\"1\" ></td>\n										</tr>\n										<tr>\n											<th>¿Está satisfecho con los plazos de entrega?</th>\n											<td><input type=\"radio\" name=\"satisfCliente4\" value=\"3\" checked></td>\n											<td><input type=\"radio\" name=\"satisfCliente4\" value=\"2\" ></td>\n											<td><input type=\"radio\" name=\"satisfCliente4\" value=\"1\" ></td>\n										</tr>\n										<tr>\n											<th>¿Está satisfecho con la profesionalidad de personal de entrega y con el estado del producto a la entrega?</th>\n											<td><input type=\"radio\" name=\"satisfCliente5\" value=\"3\" checked></td>\n											<td><input type=\"radio\" name=\"satisfCliente5\" value=\"2\" ></td>\n											<td><input type=\"radio\" name=\"satisfCliente5\" value=\"1\" ></td>\n										</tr>\n										<tr>\n											<th>¿Está satisfecho con la calidad del producto?</th>\n											<td><input type=\"radio\" name=\"satisfCliente6\" value=\"3\" checked></td>\n											<td><input type=\"radio\" name=\"satisfCliente6\" value=\"2\" ></td>\n											<td><input type=\"radio\" name=\"satisfCliente6\" value=\"1\" ></td>\n										</tr>\n									</tbody>\n								</table>								\n							</fieldset>\n							<input type=\"submit\" value=\"Submit\" align=\"center\" style=\"display:none;\" name=\"btnSubmit\">\n							<input type=\"button\" value=\"Enviar\" align=\"center\" onClick=\"validar()\" style=\"position: relative; top: 20px; left: 40px; width: 100px; height: 30px;\">\n						</form>\n						\n					</div>\n\n ?>",
+			"file": "admin/preview-garantia-completa.php",
+			"file_size": 0,
+			"file_write_time": 130041490807150000,
+			"settings":
+			{
+				"buffer_size": 12929,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n  /*\n    Archivo de funciones para los estilos del admin de proyectos\n    \n    Creado por Luis Escobar\n    luis.multis@gmail.com\n  \n  */\n?>\n\n<?php\nfunction get_head($titulo){\n?>\n  <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"> \n  <html> \n  <head> \n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> \n   \n  <!-- Website Title --> \n  <title><?php echo $titulo; ?></title>\n    \n        <link rel=\"shortcut icon\" href=\"images/favicon.ico\"/>\n  \n  <!-- Meta data for SEO -->\n  <meta name=\"description\" content=\"\">\n  <meta name=\"keywords\" content=\"\">\n  \n  <!-- Template stylesheet -->\n  <link href=\"css/black/screen.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link href=\"css/black/datepicker.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link href=\"css/tipsy.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link href=\"js/visualize/visualize.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link href=\"js/jwysiwyg/jquery.wysiwyg.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link href=\"js/fancybox/jquery.fancybox-1.3.0.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link href=\"css/tipsy.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  \n  <!--[if IE]>\n    <link href=\"css/ie.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n    <script type=\"text/javascript\" src=\"js/excanvas.js\"></script>\n  <![endif]-->\n  \n  <!-- Jquery and plugins -->\n  <script type=\"text/javascript\" src=\"js/jquery.js\"></script>\n  <script type=\"text/javascript\" src=\"js/jquery-ui.js\"></script>\n  <script type=\"text/javascript\" src=\"js/jquery.img.preload.js\"></script>\n  <script type=\"text/javascript\" src=\"js/hint.js\"></script>\n  <script type=\"text/javascript\" src=\"js/visualize/jquery.visualize.js\"></script>\n  <script type=\"text/javascript\" src=\"js/jwysiwyg/jquery.wysiwyg.js\"></script>\n  <script type=\"text/javascript\" src=\"js/fancybox/jquery.fancybox-1.3.0.js\"></script>\n  <script type=\"text/javascript\" src=\"js/jquery.tipsy.js\"></script>\n  <script type=\"text/javascript\" src=\"js/custom_black.js\"></script>\n  \n  <!-- Vanadium plugin -->\n  <script type=\"text/javascript\" src=\"js/vanadium/vanadium.js\"></script>\n  <link href=\"js/vanadium/style.css\" rel=\"stylesheet\" type=\"text/css\" />\n    \n    <!-- jQuery data tables -->\n    <style type=\"text/css\" title=\"currentStyle\">\n            @import \"js/datatable/media/css/demo_page.css\";\n            @import \"js/datatable/media/css/demo_table.css\";\n    </style>\n    <script type=\"text/javascript\" charset=\"utf-8\" src=\"js/datatable/media/js/jquery.dataTables.js\"></script>\n    <!--<script type=\"text/javascript\" charset=\"utf-8\" src=\"js/KeyTable.js\"></script>-->\n    <script type=\"text/javascript\" charset=\"utf-8\">\n        $(document).ready( function () {\n            var oTable = $('#listado').dataTable();\n        } );\n    </script>\n  \n  </head>\n<?php\n}\n?>\n\n\n<?php \nfunction get_header($pagina){\n  /*$link = conectar();\n  $query_videos = \"SELECT * FROM participantes_casting WHERE status = '1';\";\n  $resultado = mysql_query($query_videos,$link) or die(mysql_error());\n  $filas = mysql_affected_rows();*/\n?>\n  <body>in\n    <div class=\"content_wrapper\"> \n      <!-- Begin header -->\n      <div id=\"header\">\n        <div id=\"logo\">\n          <img src=\"images/logo.png\" alt=\"logo\" />\n        </div>\n        <!-- <div id=\"search\">\n          <form action=\"dashboard.html\" id=\"search_form\" name=\"search_form\" method=\"get\">\n            <input type=\"text\" id=\"q\" name=\"q\" title=\"Search\" class=\"search noshadow\"/>\n          </form>\n        </div> -->\n        <div id=\"account_info\">\n          <img src=\"images/icon_online.png\" alt=\"Online\" class=\"mid_align\"/>\n          Hello <a href=\"\"><?php echo $_SESSION['user'] ?></a> | <a href=\"logout.php\">Logout.</a> \n                    <?php\n                   /* if($filas == 0 || $filas > 1){\n          ?>\n            (<a href=\"index.php\">Hay <?php echo $filas; ?> videos pendientes de moderar</a>) | <a href=\"logout.php\">Cerrar sesi&oacute;n.</a>\n          <?php\n          }elseif($filas == 1){\n          ?>\n            (<a href=\"index.php\">Hay 1 video pendiente de moderar</a>) | <a href=\"logout.php\">Cerrar sesi&oacute;n.</a>\n          <?php\n          }*/\n          ?>\n                    \n        </div>\n      </div>\n      <!-- End header -->\n<?php \n}\n?>\n\n\n<?php\nfunction mensaje($tipo, $mensaje){\n  \n  switch($tipo){\n    case 'warning':\n      echo '<div class=\"alert_warning\" style=\"margin-top:0\"><p><img src=\"images/icon_warning.png\" alt=\"success\" class=\"mid_align\"/>'.$mensaje.'</p></div>';\n      break;\n    case 'info':\n      echo '<div class=\"alert_info\"><p><img src=\"images/icon_info.png\" alt=\"success\" class=\"mid_align\"/>'.$mensaje.'</p></div>';\n      break;\n    case 'success':\n      echo '<div class=\"alert_success\"><p><img src=\"images/icon_accept.png\" alt=\"success\" class=\"mid_align\"/>'.$mensaje.'</p></div>';\n      break;\n    case 'error':\n      echo '<div class=\"alert_error\"><p><img src=\"images/icon_error.png\" alt=\"delete\" class=\"mid_align\"/>'.$mensaje.'</p></div>';\n      break;  \n  }         \n}\n?>\n\n\n<?php\nfunction shortcuts(){\n?>\n      <!-- Begin shortcut menu -->\n      <ul id=\"shortcut\">\n          <li>\n            <a href=\"modal_window.html\" id=\"shortcut_home\" title=\"Click me to open modal window\">\n            <img src=\"images/shortcut/home.png\" alt=\"home\"/><br/>\n            <strong>Home</strong>\n          </a>\n        </li>\n          <li>\n            <a href=\"modal_window.html\" title=\"Click me to open modal window\">\n            <img src=\"images/shortcut/calendar.png\" alt=\"calendar\"/><br/>\n            <strong>Calendar</strong>\n          </a>\n        </li>\n          <li>\n            <a href=\"modal_window.html\" title=\"Click me to open modal window\">\n            <img src=\"images/shortcut/stats.png\" alt=\"stats\"/><br/>\n            <strong>Stats</strong>\n          </a>\n        </li>\n        <li>\n            <a href=\"modal_window.html\" title=\"Click me to open modal window\">\n            <img src=\"images/shortcut/setting.png\" alt=\"setting\"/><br/>\n            <strong>Setting</strong>\n          </a>\n        </li>\n        <li>\n            <a href=\"modal_window.html\" id=\"shortcut_contacts\" title=\"Click me to open modal window\">\n            <img src=\"images/shortcut/contacts.png\" alt=\"contacts\"/><br/>\n            <strong>Contacts</strong>\n          </a>\n        </li>\n        <li>\n            <a href=\"modal_window.html\" id=\"shortcut_posts\" title=\"Click me to open modal window\">\n            <img src=\"images/shortcut/posts.png\" alt=\"posts\"/><br/>\n            <strong>Posts</strong>\n          </a>\n        </li>\n        </ul>\n      <!-- End shortcut menu -->\n<?php \n}\n?>\n\n\n<?php\nfunction contenido($titulo,$titulo2){\n?>\n  <!-- Begin content -->\n  <div id=\"content\">\n    <div class=\"inner\">\n    \n      <h1><?php echo $titulo; ?></h1>\n      <!-- Begin one column tab content window -->\n      <div class=\"onecolumn\">\n        <div class=\"header\"><span><?php echo $titulo2; ?></span></div>\n        <br class=\"clear\"/>\n        <div class=\"content\" style=\"height:auto;\">\n<?php \n}\n?>\n\n\n\n<?php \nfunction get_footer(){\n?>\n      <!-- </div>\n    </div> -->\n    <!-- End one column tab content window -->  \n    <!-- Begin footer -->\n    <div id=\"footer\">\n      <!--&copy; Copyright 2012 | Collisncom-->\n    </div>\n    <!-- End footer -->\n    \n    \n  </div>\n  <!-- End content -->\n</div>\n</body>\n</html>\n<?php \n}\n?>",
+			"file": "admin/funciones_estilos.php",
+			"file_size": 7619,
+			"file_write_time": 130034455497430000,
+			"settings":
+			{
+				"buffer_size": 7396,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "formulario-garantia.php",
 			"settings":
 			{
-				"buffer_size": 24301,
+				"buffer_size": 27851,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/videoteca/Agregar.html",
-			"settings":
-			{
-				"buffer_size": 13451,
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "<?php \n\n//***************************************************\n//	Archivo de funciones para Zarkin\n//	\n//	*Este archivo contiene las funciones necesarias\n//	para que funcione el sitio web, favor de no\n//	borrar el contenido.\n//***************************************************\n \n	include_once('conexion.php');\n	include_once('menu.php');\n	\n	define('_path','http://www.zarkin.com/');\n?>\n\n<?php\nfunction get_head($titulo){\n?>\n	<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n		<html xmlns=\"http://www.w3.org/1999/xhtml\">\n		<head>\n				<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n				<link rel=\"stylesheet\" type=\"text/css\" href=\"<?php echo _path; ?>css/style.css\" />\n				<link rel=\"shortcut icon\" href=\"images/favicon.ico\"/>\n				<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js\"></script>\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/jquery.shuffleLetters.js\"></script>\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/jquery.tinyscrollbar.min.js\"></script>\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/jquery.waitforimages.js\"></script>\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/lib.js\"></script>\n				\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/vanadium/vanadium.js\"></script>\n				<link rel=\"stylesheet\" type=\"text/css\" href=\"<?php echo _path; ?>js/vanadium/style.css\" />\n				\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/jquery.lightbox-0.5.js\"></script>\n				<script type=\"text/javascript\" src=\"<?php echo _path; ?>js/jquery.lightbox-0.5.2.js\"></script>\n				<link rel=\"stylesheet\" type=\"text/css\" href=\"<?php echo _path; ?>css/jquery.lightbox-0.5.css\" media=\"screen\" />\n				<link rel=\"stylesheet\" type=\"text/css\" href=\"<?php echo _path; ?>css/jquery.lightbox-0.5.2.css\" media=\"screen\" />\n				\n				<!-- Ativando o jQuery lightBox plugin -->\n				<script type=\"text/javascript\">\n					$(document).ready(function(){\n						$('a.piel').lightBox();\n						$('a.estilos').lightBox2();\n					});\n				</script>\n				\n				<title><?php echo $titulo; ?></title>\n				\n		</head>\n<?php\n}\n?>\n\n\n\n<?php\nfunction fondo_animado($url){\n?>\n	<!-- PORTADA INDEX CON EFECTO -->\n		<div class=\"bgtop\">\n				<img src=\"<?php echo _path.$url; ?>\" class=\"bg top\" alt=\"\"  />\n		</div>\n		<div class=\"bgbot\">\n				<img src=\"<?php echo _path.$url; ?>\" class=\"bg bot\" alt=\"\" />\n		</div>\n<?php\n}\n?>\n\n\n\n<?php\nfunction index(){\n?>\n		<body class=\"black\">\n			\n				<?php fondo_animado('images/fondos/portada.jpg'); ?>\n				\n				<!-- PARA SELECCIONAR EL IDIOMA DEL SITIO -->\n				<div class=\"idioma\">\n						<div class=\"logo\"></div>\n						<div class=\"links\">\n						<a href=\"<?php echo _path; ?>home\" class=\"out\">ENTRAR</a><!--|</span><a href=\"#\" class=\"out\">ITALIANO</a>-->\n						</div>\n				</div>\n				\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n\n<?php\nfunction home(){\n?>\n	<body class=\"black\">\n			\n				<?php fondo_animado('images/bg-home.jpg'); ?>\n				\n				<!-- HEADER -->\n				<div class=\"barratop\">\n						<!--<div class=\"estilo\"></div>-->\n				</div>\n				<div class=\"titulos\">\n					<?php\n			echo '<img src=\"'._path.'images/titulos/siente-vive-piel.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n				\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n<?php\nfunction bienvenido(){\n?>\n	<?php fondo_animado('images/fondos/alterno.jpg'); ?>\n		<body class=\"black\">\n				\n				<!-- HEADER -->\n				<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n					<?php\n			echo '<img src=\"'._path.'images/titulos/bienvenido.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n				\n				\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\" style=\"background:url(<?php echo _path; ?>images/bg-black5.png) repeat-x;\" >\n					<div class=\"viewport\">\n							<div class=\"clear10px\"></div>\n								<!--<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>-->\n								<p>Bienvenido a <strong>Zarkin</strong>, un mundo de calidad y distinci&oacute;n en piel.</p> \n								<p>Somos los especialistas en muebles tapizados en piel 100% genuina con m&aacute;s de 28 a&ntilde;os de experiencia en el mercado nacional e internacional.</p>\n								<p>Cada mueble <strong>Zarkin</strong> es elaborado cuidadosamente utilizando materiales de la m&aacute;s alta calidad. Selectas pieles recubren obras de arte hechas a mano, que representan lo mejor del dise&ntilde;o internacional.</p>\n							 <p> La belleza natural de nuestra colecci&oacute;n, es producto de la experiencia de nuestros artesanos que se esmeran para que cada pieza refleje un gusto exquisito por el dise&ntilde;o, la calidad y distinci&oacute;n.Al adquirir un mueble <strong>Zarkin</strong>, usted puede estar seguro de que obtendr&aacute; para su hogar una pieza &uacute;nica e irrepetible.</p>\n								<p style=\"font-size:18px;\">Proceso de Fabricaci&oacute;n</p>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa01.png\"><img src=\"<?php echo _path; ?>images/empresa-zoom01.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa02.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom02.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa03.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom03.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa04.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom04.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa05.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom05.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa06.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom06.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa07.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom07.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n								<a class=\"piel\" href=\"<?php echo _path; ?>images/empresa08.jpg\"><img src=\"<?php echo _path; ?>images/empresa-zoom08.jpg\" style=\"float:left; margin: -5px 10px 10px 0; width:60px; height:60px; border:#FFFFFF solid 1px;\" /></a>\n			</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n<?php\nfunction grupo_zarkin(){\n?>\n	<body class=\"black\">\n			\n				<?php fondo_animado('images/fondos/empresa.jpg'); ?>\n				\n				<!-- HEADER -->\n				<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n					GRUPO <span><strong>Zarkin</strong></span> \n						<div class=\"clear\"></div>\n				</div>\n				\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\">\n					<div class=\"viewport\">\n								<!--<span>Grupo <strong>Zarkin</strong></span>-->\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>                \n								<p>Bienvenido a <strong>Zarkin</strong>, un mundo de calidad y distinci&oacute;n en piel. </p>\n								<p>Somos los especialistas en muebles tapizados en piel 100% genuina con m&aacute;s de 28 a&ntilde;os de experiencia en el mercado nacional e internacional.</p>\n								<p>Cada mueble <strong>Zarkin</strong> es elaborado cuidadosamente utilizando materiales de la m&aacute;s alta calidad. Selectas pieles recubren obras de arte hechas a mano, que representan lo mejor del dise&ntilde;o internacional.</p>\n								<p>La belleza natural de nuestra colecci&oacute;n, es producto de la experiencia de nuestros artesanos que se esmeran para que cada pieza refleje un gusto exquisito por el dise&ntilde;o, la calidad y distinci&oacute;n.</p> \n								<p>Al adquirir un mueble <strong>Zarkin</strong>, usted puede estar seguro de que obtendr&aacute; para su hogar una pieza &uacute;nica e irrepetible.</p>\n\n					</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n\n<?php\n}\n?>\n\n\n\n\n<?php\nfunction caracteristicas_piel(){\n?>\n		<body class=\"black\">\n				<?php fondo_animado('images/fondos/pieles.jpg'); ?>\n				\n				<!-- HEADER -->\n				<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n					<?php\n			echo '<img src=\"'._path.'images/titulos/tipos-piel.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n				\n				\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\" style=\"background:url(<?php echo _path; ?>images/bg-black4.png) repeat-x;\">    \n						<!-- VIEWPORT -->\n						<div class=\"viewport\">\n							<p>\n									Dependiendo de la calidad de la piel se pueden observar sus caracter&iacute;sticas en mayor o menor medida. La piel se somete a varios procesos que la transforman en piel para muebles, por eso es muy importante dar mantenimiento preventivo a sus muebles de piel oportunamente para que permanezcan y duren como nuevos por mucho tiempo.\n								</p>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								\n								<div style=\"width:50%; float:left; margin-bottom:20px; font-size:14px;\">\n									<a href=\"<?php echo _path; ?>images/pieles/pigmentada.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/01.jpg\" style=\"width:100px; height:100px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel pigmentada\" /></a>\n									<div style=\"height:30px;\"></div>\n										<p>Piel pigmentada</p>\n								</div>\n								<div style=\"width:50%; float:left; margin-bottom:20px; font-size:14px;\">\n									<a href=\"<?php echo _path; ?>images/pieles/semianilina.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/02.jpg\" style=\"width:100px; height:100px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel semi-anilina\" /></a>\n										<div style=\"height:30px;\"></div>\n									<p>Piel semi-anilina</p>\n								</div>\n								<div style=\"width:50%; float:left; margin-bottom:20px; font-size:14px;\">\n									<a href=\"<?php echo _path; ?>images/pieles/anilina.jpg\" class=\"piel\" ><img src=\"<?php echo _path; ?>images/pieles/03.jpg\" style=\"width:100px; height:100px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel anilina\" /></a>\n										<div style=\"height:30px;\"></div>\n									<p>Piel anilina</p>\n								</div>\n								<div style=\"width:50%; float:left; margin-bottom:20px; font-size:14px;\">\n									<a href=\"<?php echo _path; ?>images/pieles/nobuk.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/04.jpg\" style=\"width:100px; height:100px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel Nobuk\" /></a>\n										<div style=\"height:30px;\"></div>\n									<p>Piel nobuk</p>\n								</div>\n								\n						</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n\n\n<?php\nfunction acabados_especiales(){\n?>\n	<body class=\"black\">\n				<?php fondo_animado('images/fondos/pieles.jpg'); ?>\n				\n				<!-- HEADER -->\n				<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n					<?php\n			echo '<img src=\"'._path.'images/titulos/acabados-especiales.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n						\n				\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\" style=\"background:url(<?php echo _path; ?>images/bg-black4.png) repeat-x;\">\n					\n					\n						\n						<!-- VIEWPORT -->\n						<div class=\"viewport-pieles text-izq\">\n								\n								<div class=\"overview\">\n									<div class=\"clear10px\"></div>\n									<p style=\"text-align:left; width:100% !important;\">Todas las pieles de res poseen como caracter&iacute;stica la durabilidad y poca exigencia en cuidados. Sin embargo, son pr&aacute;cticamente un elemento vivo y como tal, son sensibles a agentes agresivos. Por ello, nunca utilice en su mueble l&iacute;quidos anti-manchas, aguarr&aacute;s u otros similares que puedan da&ntilde;arlo permanentemente. </p>\n												<div class=\"clear10px\"></div>\n												<div class=\"clear10px\"></div>\n												<div class=\"clear10px\"></div>\n												<div class=\"clear10px\"></div>\n											<div class=\"clear10px\"></div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/envejecida.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-envejecida.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel envejecida\" /></a>\n														<p>Piel envejecida</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/brillante.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-brillante.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel Semi-anilina\" /></a>\n														<p>Piel brillante</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/granonatural2.jpg\" class=\"piel\" ><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-granonaturalv.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"piel grano natural\" /></a>\n														<p>Piel grano natural</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/granonatural.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-granonatural.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel grano nautral\" /></a>\n														<p>Piel grano natural gran vol&uacute;men</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/pullup.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-pullup.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel pullup\" /></a>\n														<p>Piel pullup</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/perlada.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-anilinaperlada.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel anilina perlada\" /></a>\n														<p>Piel anilina perlada</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/bycast.jpg\" class=\"piel\" ><img src=\"<?php echo _path; ?>images/pieles/zoom-acabados-piel-bycast.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Piel Semi-anilina\" /></a>\n														<p>Piel by cast</p>\n												</div>\n										</div>\n										\n										<div class=\"clear\"></div>	                          \n								</div>\n					</div>		\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n<?php\nfunction marcas_naturales(){\n?>\n	<body class=\"black\">\n		<?php fondo_animado('images/fondos/pieles.jpg'); ?>\n		\n			<!-- HEADER -->\n			<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n					<?php\n			echo '<img src=\"'._path.'images/titulos/marcas-naturales.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n			\n				 \n				\n				<!-- CONTENIDO -->\n			<div class=\"bienvenido\" style=\"background:url(<?php echo _path; ?>images/bg-black4.png) repeat-x;\">\n				<!--<span>Marcas de la naturaleza</span>-->\n					<div class=\"clear10px\"></div>\n					<div class=\"clear10px\"></div>\n					<div class=\"clear10px\"></div>\n					\n	\n						<!-- VIEWPORT -->\n						<div class=\"viewport-pieles text-izq\">\n								<div class=\"overview\">\n										<p style=\"text-align:left; width:100% !important;\">En las fotograf&iacute;as mostramos diversas marcas de la naturaleza. Estos sellos no disminuyen la calidad, al contrario, subrayan la autenticidad de la piel y demuestran la fortaleza de la piel natural.</p>\n										<div class=\"clear\"></div>\n										\n										<div class=\"clear10px\"></div>\n												<div class=\"clear10px\"></div>\n												<div class=\"clear10px\"></div>\n												<div class=\"clear10px\"></div>\n											<div class=\"clear10px\"></div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/manchas.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas_manchas.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Manchas de abono\" /></a>\n														<p>Manchas de abono</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/pliegues.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas-pliegues.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Pliegues\" /></a>\n														<p>Pliegues de ensanche</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/venas.jpg\" class=\"piel\" ><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas-venas.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Venas\" /></a>\n														<p>Venas y rasgaduras</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/cicatrices.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas_cicatrices.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Cicatrices\" /></a>\n														<p>Cicatrices</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/grietas.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas_grietas.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Grietas\" /></a>\n														<p>Grietas por roce</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/callos.jpg\" class=\"piel\"><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas_callos.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Callos\" /></a>\n														<p>Callos</p>\n												</div>\n												<div style=\"width:50%; height:50px; float:left; margin-bottom:10px; font-size:14px;\">\n														<a href=\"<?php echo _path; ?>images/pieles/danos.jpg\" class=\"piel\" ><img src=\"<?php echo _path; ?>images/pieles/zoom-marcas_danos.jpg\" style=\"width:100px; height:50px; float:left; margin-right:20px; border:solid #FFFFFF 1px;\" alt=\"Da&ntilde;os\" /></a>\n														<p>Da&ntilde;os por alambres de p&uacute;as</p>\n												</div>\n										</div>\n										\n										<div class=\"clear\"></div>\n								</div>\n						</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n</body>\n</html>\n<?php\n}\n?>\n\n\n<?php\nfunction garantia(){\n?>\n		<body class=\"black\">\n				<?php fondo_animado('images/fondos/garantia.jpg'); ?>\n				\n				<!-- HEADER -->\n				<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n						<?php \n			echo '<img src=\"'._path.'images/titulos/garantia.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n				\n		<!-- CONTENIDO -->\n				<div class=\"bienvenido\">\n				<!--<span>Marcas de la naturaleza</span>-->\n				<div class=\"clear10px\"></div>\n				<div class=\"clear10px\"></div>\n				<div class=\"clear10px\"></div>\n				<div id=\"scrollbar1\">				\n					<!-- SCROLLBAR -->\n					<div class=\"scrollbar\">\n						<div class=\"track\">\n							<div class=\"thumb\">\n								<div class=\"end\"></div>\n							</div>\n						</div>\n					</div>\n\n				<!-- VIEWPORT -->\n						<div class=\"viewport text-izq\">\n							<div class=\"overview\">																			\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>                                           \n								<p>Felicidades usted ahora es poseedor de un mueble &uacute;nico e irrepetible, un <strong>Zarkin</strong>.</p>\n								<p>Registrar su garant&iacute;a es muy sencillo:</p>\n								\n								<ol>\n									<li>Ingrese <a href=\"formulario-garanti\" style=\"color:#FFFFFF; \"><strong>aqu&iacute;</strong></a> y complete los datos que se le solicita.</li>\n									<li>Favor de no registrar la garant&iacute;a en un plazo mayor a treinta (30) d&iacute;as a partir de la fecha de entrega de su mueble.</li>\n									<li>No retire la etiqueta que contiene la clave del mueble, pues la garant&iacute;a quedar&aacute; inv&aacute;lida.</li>\n								</ol>									\n								<p>Le rogamos lea atentamente los <a href=\"<?php echo _path; ?>archivos/condiciones.pdf\" target=\"_blank\" style=\"color:#FFFFFF; \"><strong>t&eacute;rminos y condiciones</strong></a> de la presente garant&iacute;a antes de realizar su registro.</p>								\n							</div>\n						</div>\n					</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n\n<?php\nfunction faq(){\n?>\n		<body class=\"black\">\n				<?php fondo_animado('images/fondos/faq.jpg'); ?>\n				\n				<!-- HEADER -->\n				<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n						<?php \n			echo '<img src=\"'._path.'images/titulos/faq.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n				\n		<!-- CONTENIDO -->\n				<div class=\"bienvenido\">\n				<!--<span>Marcas de la naturaleza</span>-->\n						<div class=\"clear10px\"></div>\n						<div class=\"clear10px\"></div>\n						<div class=\"clear10px\"></div>\n						<div id=\"scrollbar1\">\n						\n								<!-- SCROLLBAR -->\n								<div class=\"scrollbar\">\n										<div class=\"track\">\n												<div class=\"thumb\">\n														<div class=\"end\"></div>\n												</div>\n										</div>\n								</div>\n		\n						<!-- VIEWPORT -->\n								<div class=\"viewport text-izq\">\n										<div class=\"overview\">\n																																									 \n												<p style=\"font-size:18px;\">1 - ¿Por qu&eacute; comprar un mueble de piel?</p>\n												<p>Los muebles de piel ofrecen la sensaci&oacute;n de suavidad natural de \"la piel sobre piel\", ya que es de origen natural, la piel contiene poros y transpira, abriga en el invierno y es fresca en el verano. La piel se acomoda a una forma y aunque se estire, no pierde su estructura b&aacute;sica. Se amolda al cuerpo y se hace m&aacute;s confortable con el uso.</p>\n												<p>La piel tiene sus propias marcas que la caracterizan, las cuales convierten a su mueble inigualable en su tipo, es decir, su belleza es &uacute;nica. Las caracter&iacute;sticas f&iacute;sicas de cada piel son un sello que denota su autenticidad haciendo de su sala una pieza &uacute;nica e irrepetible. La piel de calidad emite un aroma fresco y limpio, que s&oacute;lo la piel genuina posee. La piel es de f&aacute;cil cuidado y mantenimiento.</p>\n												<div class=\"clear10px\"></div>  \n												\n												<p style=\"font-size:18px;\">2 - Diferencias entre Piel y Vinil</p>\n												<p>La piel es el material de tapicer&iacute;a que m&aacute;s perdura, es naturalmente resistente al fuego, no se quema ni se derrite f&aacute;cilmente y es muy dif&iacute;cil de perforar. La piel embellece con los años y el uso, es m&aacute;s suave y c&oacute;moda .La piel  tiene alta resistencia contra rasguños o rasgaduras y la humedad nunca permanece sobre su superficie.</p>\n											 <p>El mueble de vinil con el paso del tiempo, se deteriora cambiando su color y se rompe f&aacute;cilmente, como no es un producto natural, es un gasto no una inversi&oacute;n.</p>\n										<div class=\"clear10px\"></div>          \n												\n												<p style=\"font-size:18px;\">3 - ¿Cu&aacute;nta vida tiene un mueble de piel?</p>\n												<p>Los muebles tapizados 100% en piel tienen un promedio de durabilidad hasta cuatro veces mayor que los tapizados con cualquier otro material.\n												El mueble de vinil con el paso del tiempo, se deteriora cambiando su color y se rompe f&aacute;cilmente, como no es un producto natural, es un gasto no una inversi&oacute;n.</p>\n												<div class=\"clear10px\"></div> \n												\n												<p style=\"font-size:18px;\">4 - ¿D&oacute;nde puedes comprar un mueble Zarkin?</p>\n												<p>Puedes encontrar nuestros muebles en todas las sucursales de Tutto Pelle, Liverpool, Palacio de Hierro, Sear, Frey y las m&aacute;s prestigiosas boutiques del pa&iacute;s.</p>\n												<div class=\"clear10px\"></div> \n												\n												\n												<p style=\"font-size:18px;\">5 - ¿C&oacute;mo hacer valida mi garant&iacute;a?</p>\n												<p>Para hacer valida tu garant&iacute;a debes ingresar en el sitio www.zarkin.com/garant&iacute;a  e ingrese los datos que se le solicita.\n												Para que esta garant&iacute;a sea v&aacute;lida, favor de registrarla en un plazo m&aacute;ximo de treinta (30) d&iacute;as a partir de la fecha de entrega.\n												Es importante no retirar la etiqueta que contiene la clave del mueble, pues la garant&iacute;a quedar&aacute; inv&aacute;lida. </p>\n												<div class=\"clear10px\"></div> \n												\n												<p style=\"font-size:18px;\">6 - ¿Necesitas apoyo con tu mueble?</p>\n												<p>Comun&iacute;cate al centro de atenci&oacute;n <strong>Zarkin</strong>, a los tel&eacute;fonos: <br />\n												Guadalajara: (33) 3811 8280<br />\n												Resto de la Rep&uacute;blica: (55) 2623 0680<br />  \n												O al correo electr&oacute;nico: contacto@zarkin.com<br /> \n												De 8:00 am a 18:00 pm</p>\n												\n								\n										\n										\n										</div>\n								</div>\n						</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- MENU -->\n				<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n\n<?php\nfunction contacto(){\n?>\n	<body class=\"black\">\n				<?php fondo_animado('images/fondos/contacto.jpg'); ?>\n			\n				<!-- HEADER -->\n			<div class=\"barratop\"></div>\n				<div class=\"barra\"></div>\n				<div class=\"titulos\">\n					<?php\n			echo '<img src=\"'._path.'images/titulos/contacto.png\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n			\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\">\n					<div class=\"viewport\">\n								<!--<span>Cont&aacute;ctanos</span>-->\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<p>\n									<?php\n										if($_GET){\n						if($_GET['contacto']){\n							if($_GET['contacto']==1){\n								echo '<script>alert(\"Hemos recibido su mensaje. Gracias por contactarnos.\")</script>';\n							}else{\n								echo '<script>alert(\"Error: el mensaje no se pudo enviar\")</script>';\n							}\n						}\n					}\n					?>\n									<form method=\"post\" action=\"<?php echo _path; ?>send-email.php\">\n											<label>Nombre:</label><br />\n												<input type=\"text\" id=\"nombre\" name=\"nombre\" class=\":required\" /><br />\n												<label>Ciudad:</label><br />\n												<input type=\"text\" id=\"ciudad\" name=\"ciudad\" class=\":required\" /><br />\n												<label>Correo:</label><br />\n												<input type=\"text\" id=\"correo\" name=\"correo\" class=\":required :email :only_on_blur\" /><br />\n												<label>Comentario:</label><br />\n												<textarea id=\"comentario\" name=\"comentario\" class=\":required\" ></textarea><br />\n												<input type=\"submit\" value=\"Enviar\" name=\"enviar\" id=\"enviar\" />\n										</form>\n										<br />\n									 Guadalajara (33) 3811 8280 / Resto de la Rep&uacute;blica (55) 2623 0680\n								</p>\n					</div>\n			</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n		\n			<!-- MENU -->\n			<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n<?php\nfunction colecciones($categoria){\n?>\n	<body class=\"black\">\n				<?php \n		if($categoria != 'expo'){ \n			fondo_animado('images/fondos/coleccion.jpg'); \n		}else{\n			fondo_animado('coleccion/expo/expo-2009/2009_01.jpg'); \n		}	\n		?>\n				\n				<!-- HEADER -->\n			<div class=\"barratop\"></div>\n				\n				<!-- CONTENIDO -->\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				<div class=\"titulos\">\n					<!--COLECCI&Oacute;N <span><?php //echo $categoria_titulo = nombre_categoria($categoria); ?></span>-->\n						<?php \n			$imgCategoria = nombre_categoria($categoria);\n			echo '<img src=\"'._path.'images/titulos/'.$imgCategoria.'\" style=\"margin-top:-15px;\" />'; \n			?>\n						<div class=\"clear\"></div>\n				</div>\n				\n				<?php\n					$link = conectar();\n			\n			$cat = \"SELECT id FROM categorias WHERE categorias.nombre = '\".$categoria.\"';\";\n			$resultado_cat = mysql_query($cat,$link);\n			\n			$cat_id = mysql_fetch_assoc($resultado_cat);\n			\n			\n			$thumbs = \"SELECT modelos.nombre FROM modelos WHERE modelos.categoria_id = \".$cat_id['id'].\" ORDER by modelos.id ASC;\";\n			$resultado = mysql_query($thumbs,$link);\n			\n			echo '<div class=\"cole-thumbs\">';\n			\n			while($thumb = mysql_fetch_assoc($resultado)){\n				$zoom = explode('_', $thumb['nombre']);\n				\n				echo '<div class=\"thumb\">';\n				echo '<a href=\"'._path.'galeria/'.$categoria.'/'.$thumb['nombre'].'\"><img src=\"'._path.'coleccion/'.$categoria.'/zoom/'.$zoom[0].'_zoom.jpg\" alt=\"\" /></a>';\n				echo '</div>';\n			}\n			\n			echo '</div>';\n			\n		?>\n				\n				<!-- MENU -->\n			<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n\n\n<?php\nfunction galeria($categoria, $modelo){\n?>\n	<body class=\"black\">\n			\n				<?php\n			$titulo_mod = explode('_',$modelo);\n			\n					$link = conectar();\n			\n			$mod = \"SELECT modelos.id FROM modelos WHERE modelos.nombre ='\".$modelo.\"';\";		\n			$resultado_mod = mysql_query($mod,$link);\n			\n			$mod_id = mysql_fetch_assoc($resultado_mod);\n			\n			$imagenes = \"SELECT imagenes.ruta FROM imagenes WHERE imagenes.modelo_id ='\".$mod_id['id'].\"';\";\n			$resultado_img = mysql_query($imagenes,$link); echo $imagenes;\n			\n			$fondo = mysql_fetch_assoc($resultado_img);\n		?>\n		\n		<?php\n			if($categoria != 'expo'){ \n				fondo_animado('coleccion/'.$categoria.'/'.$fondo['ruta']); \n			}else{\n				fondo_animado('coleccion/'.$categoria.'/'.$modelo.'/'.$fondo['ruta']); \n			}\n		?>\n				\n				<!-- HEADER -->\n			<div class=\"barratop\"></div>\n		\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				<div class=\"titulos\">\n						<!--<?php  $categoria_titulo = nombre_categoria($categoria); ?>?></span>-->\n						\n						<?php\n			if($categoria == 'complementos'){\n				echo '<img src=\"'._path.'images/titulos/c'.$titulo_mod[0].'.png\" style=\"margin-top:-15px;\" />'; \n			}else{\n				echo '<img src=\"'._path.'images/titulos/'.$titulo_mod[0].'.png\" style=\"margin-top:-15px;\" />'; \n			}\n			\n			?>\n						<a href=\"<?php echo _path.'colecciones/'.$categoria; ?>\" class=\"updown\"><span style=\"font-size:18px;\"></span>VOLVER</a>\n				</div>\n				<div class=\"flechader\">\n						<a href=\"\" class=\"next nex\"></a>\n				</div>\n				<div class=\"flechaizq\">\n						<a href=\"\" class=\"next pre\"></a>\n				</div>\n				<script type=\"text/javascript\">\n			var fotos=new Array();\n			\n			<?php\n			if($categoria != 'expo'){\n				while($galeria = mysql_fetch_assoc($resultado_img)){\n					echo 'fotos.push(\"'._path.'coleccion/'.$categoria.'/'.$galeria['ruta'].'\");';\n				}\n				echo 'fotos.push(\"'._path.'coleccion/'.$categoria.'/'.$fondo['ruta'].'\");';\n			}else{\n				while($galeria = mysql_fetch_assoc($resultado_img)){\n					echo 'fotos.push(\"'._path.'coleccion/'.$categoria.'/'.$modelo.'/'.$galeria['ruta'].'\");';\n				}\n				echo 'fotos.push(\"'._path.'coleccion/'.$categoria.'/'.$modelo.'/'.$fondo['ruta'].'\");';\n			}\n			?>\n			if((fotos.length) == 1){\n				$('.flechader').hide();\n				$('.flechaizq').hide();\n			}else{\n				$('.flechaizq').hide();\n			}\n	\n				</script>\n				\n		<!-- MENU -->\n			<?php get_menu(); ?>\n		</body>\n		</html>\n<?php\n}\n?>\n\n<?php\nfunction estilos_tendencias(){\n?>\n		<body class=\"black\">\n				\n				<?php fondo_animado('images/fondos/interiorismo.jpg'); ?>\n				\n				<!-- HEADER --> \n				<div class=\"barratop\">\n						<!--<div class=\"estilo\"></div>-->\n				</div>\n				<div class=\"titulos\">\n						<?php\n						echo '<img src=\"'._path.'images/titulos/estilo-tendencias.png\" style=\"margin-top:-15px;/>'; \n						?>\n						<div class=\"clear\"></div>\n				</div>\n				\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\" style=\"padding-bottom:0px;\">\n				<!--<span>Marcas de la naturaleza</span>-->\n					<div id=\"menu-estilos\">\n						<div>\n							<ul>\n								<li style=\"width:125px;\"><a href=\"images/estilos/contemporaneo.jpg\" class=\"estilos\">Contemporáneo</a></li> <span>|</span>\n								<li style=\"width:95px;\"><a href=\"images/estilos/minimalista.jpg\" class=\"estilos\">Minimalista</a></li><span>|</span>\n								<li style=\"width:55px;\"><a href=\"images/estilos/hitek.jpg\" class=\"estilos\">Hi-tek</a></li><span>|</span>\n								<li style=\"width:125px;\"><a href=\"images/estilos/american.jpg\" class=\"estilos\">American Style</a></li><span>|</span>\n								<li style=\"width:65px;\"><a href=\"images/estilos/clasico.jpg\" class=\"estilos\">Clásico</a></li><span>|</span>\n								<li style=\"width:55px;\"><a href=\"images/estilos/etnico.jpg\" class=\"estilos\">Étnico</a></li><span>|</span>\n								<li style=\"width:65px;\"><a href=\"images/estilos/EstiloVintage.jpg\" class=\"estilos\">Vintage</a></li>\n							</ul>\n						</div>\n					</div>\n					<!-- <div class=\"clear10px\"></div>\n					<div class=\"clear10px\"></div>\n					<div class=\"clear10px\"></div> -->\n					<div id=\"scrollbar1\">				\n						<!-- SCROLLBAR -->\n					<div class=\"scrollbar\">\n						<div class=\"track\">\n							<div class=\"thumb\">\n								<div class=\"end\"></div>\n							</div>\n						</div>\n					</div>\n\n				<!-- VIEWPORT -->\n						<div class=\"viewport text-izq\" style=\"margin-left:10px;\">			\n							<!-- style=\"height: 220px; width: 555px; margin:5px 50px;\"-->\n							<div class=\"overview\">																			\n								<!-- <div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div> -->\n								\n								<p>La forma de adornar o distribuir los espacios en un hogar, departamento u oficina se logra con la colocación de diversos objetos, los cuales trabajan de forma armónica para crear una sensación agradable a la vista y un ambiente funcional de acuerdo a la forma y estilo de vida de cada persona.</p>\n								<p>Para crear estos espacios únicos es necesario poner en practica la creatividad para analizar el entorno, formas, composiciones, colores, establecer una dirección conceptual, indagar en aspectos de la psicología ambiental, arquitectura, diseño de producto, apoyándonos en gran parte de los estilos o influencias que cada uno hace propios. Hay estilos de mayor preferencia como son el estilo contemporáneo, minimalista, Hi-tek, vintage, étnico y clásico.</p>                                         \n								<p><strong></strong></p>\n								<p></p>\n							</div>							\n						</div>\n											\n				</div>\n				<div id=\"pleca-tmb\">\n						<div>\n							<img id=\"flecha-izq\" src=\"images/flecha_izq.png\" alt=\"flecha\" />									\n							<div>\n								<img id=\"tmb-estilos\" src=\"images/estilos-tbm.jpg\" alt=\"ejemplo de estilos\" />\n							</div>\n							<img id=\"flecha-der\" src=\"images/flecha_der.png\" alt=\"flecha\" />\n						</div>\n					</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n\n				<!-- MENU -->\n				<?php get_menu(); ?>\n\n				\n		</body>\n		</html>\n<?php\n}\n?>\n\n<?php\nfunction interiorismo(){\n?>\n		<body class=\"black\">				\n				<?php fondo_animado('images/fondos/interiorismo.jpg'); ?>				\n				<!-- HEADER -->\n				<div class=\"barratop\">\n						<!--<div class=\"estilo\"></div>-->\n				</div>\n				<div class=\"titulos\">\n						<?php\n						echo '<img src=\"'._path.'images/titulos/consejos-interiorismo.png\" style=\"margin-top:-15px; />'; \n						?>\n						<div class=\"clear\"></div>\n				</div>\n				\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>				\n				<!-- CONTENIDO -->\n				<div class=\"bienvenido\" style=\"padding-bottom:0px;\">\n				<!--<span>Marcas de la naturaleza</span>-->\n					<!-- <div id=\"menu-interiorismo\">\n						<div>\n							<ul>\n								<li><a href=\"images/estilos/contemporaneo.jpg\" class=\"estilos\">Contemporáneo</a></li>\n								<li><a href=\"images/estilos/minimalista.jpg\" class=\"estilos\">|  Minimalista</a></li>\n								<li><a href=\"images/estilos/hitek.jpg\" class=\"estilos\">|  Hi-tek</a></li>\n								<li><a href=\"images/estilos/country.jpg\" class=\"estilos\">|  Conutry Deccor</a></li>\n								<li><a href=\"images/estilos/clasico.jpg\" class=\"estilos\">|  Clásico</a></li>\n								<li><a href=\"images/estilos/etnico.jpg\" class=\"estilos\">|  Étnico</a></li>\n								<li><a href=\"images/estilos/vintage.jpg\" class=\"estilos\">|  Vintage</a></li>\n							</ul>\n						</div>\n					</div> -->\n					<!-- <div class=\"clear10px\"></div>\n					<div class=\"clear10px\"></div>\n					<div class=\"clear10px\"></div> -->\n					<div id=\"scrollbar1\" style=\"width:660px;\">\n						<!-- SCROLLBAR -->\n						<!-- <div class=\"scrollbar\" style=\"width:660px;\">\n							<div class=\"track\">\n								<div class=\"thumb\">\n									<div class=\"end\"></div>\n								</div>\n							</div>\n						</div> -->\n						<!-- VIEWPORT -->\n						<div class=\"viewport\" style=\"margin:0;\">\n							<div class=\"overview\">																			\n								<!-- <div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div>\n								<div class=\"clear10px\"></div> -->								\n								<p>Si vas a estrenar, cambiar o innovar tu casa u oficina necesitas tener una visión general de lo que quieres antes de conseguir los elementos necesarios para lograr ambientes bien armonizados.</p>\n								<p>Toma en cuenta las siguientes ideas para lograr el cambio perfecto de tu espacio:</p>                                         \n								<!--<p><strong></strong></p>\n								<p></p>-->\n							</div>							\n						</div>											\n					</div>\n					<div id=\"pleca-tmb-interiorismo\">\n						<div>									\n							<div id=\"menu-interiorismo\">\n								<!-- <div> -->\n									<div>\n										<a class=\"estilos\" href=\"images/interiorismo/CasaUoficina.jpg\" >Tu casa u oficina con elegancia y buen gusto</a>\n										<a class=\"estilos\" href=\"images/interiorismo/SeleccionaLineas.jpg\" >Selecciona Líneas en el mobiliario</a>\n										<a class=\"estilos\" href=\"images/interiorismo/CombinacionTexturas.jpg\" >Utiliza la combinación de texturas</a>\n										<a class=\"estilos\" href=\"images/interiorismo/PiezaDiseno.jpg\" >Pieza de diseño o una obra de arte</a>\n										<a class=\"estilos\" href=\"images/interiorismo/DetallesLuminosos.jpg\" >Enfatiza en detalles luminosos</a>\n									</div>\n\n									<div>\n										<a class=\"estilos\" href=\"images/interiorismo/LaSimplicidad.jpg\" >La simplicidad es más en la decoración</a>\n										<a class=\"estilos\" href=\"images/interiorismo/EspaciosLuminosos.jpg\" >Espacios luminosos</a>\n										<a class=\"estilos\" href=\"images/interiorismo/Orden.jpg\" >Orden total en cada ambiente</a>\n										<a class=\"estilos\" href=\"images/interiorismo/LaGamaDeColores.jpg\" >Gama de colores</a>\n										<a class=\"estilos\" href=\"images/interiorismo/ElProtagonismo.jpg\" >El protagonismo del mobiliario</a>\n									</div>\n								<!-- </div> -->\n								<img id=\"tmb-interiorismo\" src=\"images/interiorismo-tbm.jpg\" alt=\"ejemplo de estilos\" />\n							</div>\n						</div>\n					</div>\n				</div>\n				<div class=\"logo-dos\">\n						<a href=\"<?php echo _path; ?>home\"></a>\n				</div>\n				<!-- MENU -->\n				<?php get_menu(); ?>				\n		</body>\n		</html>\n<?php\n}\n?>",
 			"file": "funciones.php",
+			"file_size": 43071,
+			"file_write_time": 130060238859090000,
 			"settings":
 			{
-				"buffer_size": 42125,
+				"buffer_size": 42024,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/formulario.css",
-			"settings":
-			{
-				"buffer_size": 979,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "body{\n	padding:0px;\n	margin:0px;\n	background-image:url(http://www.zarkin.com/images/ajax-loader.gif);\n	background-position:50% 50%;\n	background-repeat:no-repeat;\n}\nhtml, body { height: 100%;overflow:hidden; position:relative;}\n@font-face {\n    font-family: 'HelveticaNeue45Light';\n    src: url('helveticaneue-light-webfont.eot');\n    src: url('helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'),\n         url('helveticaneue-light-webfont.woff') format('woff'),\n         url('helveticaneue-light-webfont.ttf') format('truetype'),\n         url('helveticaneue-light-webfont.svg#HelveticaNeue45Light') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'Helvetica25UltraLightRegular';\n    src: url('helveticaultralt-webfont.eot');\n    src: url('helveticaultralt-webfont.eot?#iefix') format('embedded-opentype'),\n         url('helveticaultralt-webfont.woff') format('woff'),\n         url('helveticaultralt-webfont.ttf') format('truetype'),\n         url('helveticaultralt-webfont.svg#Helvetica25UltraLightRegular') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\nimg{\n	display:block;\n	border:0px;\n	text-decoration:none;\n}\n.bgtop{\n	min-height: 50%;\n    min-width: 1100px;\n	position: relative;\n    top: 0;\n    left: 0;\n	overflow:hidden;\n	width:100%;\n	display:none;\n} \n.bgtop img{\n	min-height: 100%;\n	min-width: 1100px;\n	width: 100%;\n	height: auto;\n	position: absolute;\n	top: 0;\n	left: 0;		\n}\n.bgbot{\n	min-height: 50%;\n    min-width: 1100px;\n	position: relative;\n    bottom: 0;\n    left: 0;\n	overflow:hidden;\n	width:100%;\n	display:none;\n} \n.bgbot img{\n        min-height: 100%;\n        min-width: 1100px;\n        width: 100%;\n        height: auto;\n        position: absolute;\n        top: 0;\n        left: 0;		\n}\n.black{\n	background-color:#373737;\n}\n.idioma{\n	width:280px;\n	height:150px;\n	position:absolute;\n	bottom:200px;\n	left:150px;\n	display:none;\n}\n.degrada{\n	width:280px;\n	height:125px;\n	background:url(http://www.zarkin.com/images/gradient.png) repeat-y;\n	padding-top:1px;\n}\n.logo{\n	width:330px;\n	height:130px;\n	background-image:url(http://www.zarkin.com/images/logo.png);\n	margin:auto;\n	margin-top:30px;\n}\n.links{\n	width:170px;\n	margin:auto;\n	margin-top:10px;\n	color:#FFF;\n	font-family:\"HelveticaNeue45Light\";\n	font-size:14px;\n	font-weight:bold;\n}\n.links a{\n	display:block;\n	width:50px;\n	height:15px;\n	text-decoration:none;\n	color:#FFF;\n	float:left;\n}\n.links a:hover{\n	color:#fffded;\n}\n.links span{\n	float:left;\n	margin-left:4px;\n	margin-right:4px;\n}\n.barratop{\n	width: 100%;\n	height: 85px;\n	background: url(http://www.zarkin.com/images/bg-barra.png) repeat-x;\n	position: absolute;\n	z-index: 80;\n	top: 0px;\n}\n.estilo{\n	background:url(http://www.zarkin.com/images/estilo.png);\n	background-repeat:no-repeat;\n	width:550px;\n	height:85px;\n	/*margin:auto;*/\n	margin: 3px 0 0 -35px;\n	background-position:0 -10px;\n}\n.logo-dos{\n	width:250px;\n	height:99px;\n	background-image:url(http://www.zarkin.com/images/logoZarkin.png);\n	background-repeat:no-repeat;\n	position:absolute;\n	right:0px;\n	top:0px;\n	z-index:99;\n}\n.logo-dos a{\n	width:190px;\n	height:85px;\n	display:block;\n}\n.degradabot{\n	width:100%;\n	height:120px;\n	position:absolute;\n	bottom:0px;\n	background:url(http://www.zarkin.com/images/degradabot.png) repeat-x;\n	z-index:87;\n}\n.menu{\n	width:900px;\n	position:absolute;\n	height:20px;\n	bottom:20px;\n	left:20px;\n	font-family:\"HelveticaNeue45Light\";\n	font-size:12px;\n	color:#FFF;\n	z-index:90;\n}\n.submenu{\n	width:850px;\n	position:absolute;\n	top:-45px;\n	left:0px;\n	display:none;\n	height:25px;\n	margin-left:-10px;\n	padding-top:20px;\n}\n.boton{\n	float:left;\n	width:50px;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n	position:relative;\n}\n.boton-largo{\n	float:left;\n	width:130px;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n	position:relative;\n}\n.boton a{\n	display:block;\n	width:50px;\n	height:25px;\n}\n.boton-l{\n	float:left;\n	width:auto;\n	margin-left:10px;\n	margin-right:10px;\n	text-align:center;\n	height:25px;\n}\n.boton-l a{\n	display:block;\n	width:100%;\n	height:25px;\n}\n.menu a{\n	color:#FFF;\n	text-decoration:none;\n}\n.menu a:hover{\n	color:#9B60A7;\n	text-decoration:none;\n	font-size:12px;\n	font-weight:bold;\n	color:#FFFDED;\n}\n.menu span{\n	float:left;\n}\n.cole-thumbs{\n	width:576px;\n	height:auto;\n	display:none;\n}\n.cole-thumbs2{\n	width:576px;\n	height:auto;\n	margin-left:30px;\n}\n\n.thumb{\n	width:130px;\n	float:left;\n	margin-right:10px;\n	margin-bottom:10px;\n	border:2px solid #FFF;\n	background-color:#373737;\n	height:130px;\n	position:relative;\n	overflow:hidden;\n	\n}\n.thumb img{\n\n	 z-index:91;\n}\n#pieles-nombre{\n width:105%; \n}\n.pieles-nombre p{\nfloat:left; width:130px; margin-right:14px; text-align:center; margin-top:-5px;\n}\n.thumb img:hover{\n\n	 z-index:91;\n	 border:2px solid #FFF;\n}\n.titulos{\n	width:98.5%;\n	height:auto;\n	padding:5px 0 0 20px;\n	position:absolute;\n	right:0px;\n	top:0px;\n	z-index:90;\n	color:#FFFDED;\n	/*font-family: 'HelveticaNeue45Light';*/\n	font-family:\"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif;\n	font-size:22px;\n	margin-top:34px;\n	font-weight:lighter;\n	letter-spacing:1px;\n}\n.titulos span{\n	font-size:22px;\n	width:180px;\n	margin-bottom:0px;\n	text-transform:uppercase;\n	text-align:center;\n	font-family: \"HelveticaNeueBoldCondensed\", \"HelveticaNeue-Bold-Condensed\", \"Helvetica Neue Bold Condensed\", \"HelveticaNeueBold\", \"HelveticaNeue-Bold\", \"Helvetica Neue Bold\", \"HelveticaNeue\", \"Helvetica Neue\", 'TeXGyreHerosCnBold', \"Helvetica\", \"Tahoma\", \"Geneva\", \"Arial Narrow\", \"Arial\", sans-serif; font-weight:bold; font-stretch:condensed;\n	/*font-weight:500;*/\n	/*float:left;*/\n}\n.titulos a{\n	display:block;\n	color:#FFF;\n	font-size:10px;\n	width:75px;\n	text-align:right;\n	text-decoration:none;\n	margin:-1px 0 0 -34px;\n	padding:4px 8px 4px 0;\n	color:#FFFDED;\n}\n.titulos a:hover{\n	text-decoration:none;\n}\n.clear{\n	clear:both;\n}\n.clear10px{\n	clear:both;\n	height:10px;\n}\n.flechader{\n	width:30px;\n	height:69px;\n	background-image:url(http://www.zarkin.com/images/arrows.png);\n	background-repeat:no-repeat;\n	background-position:-37px 0px;\n	position:absolute;\n	z-index:90;\n	right:15px;\n	top:49%;\n}\n.flechader a{\n	width:30px;\n	height:69px;\n	display:block;\n}\n.flechaizq{\n	width:30px;\n	height:69px;\n	background-image:url(http://www.zarkin.com/images/arrows.png);\n	background-repeat:no-repeat;\n	background-position:-2px 0px;\n	position:absolute;\n	z-index:90;\n	left:15px;\n	top:49%;\n}\n.flechaizq a{\n	width:30px;\n	height:69px;\n	display:block;\n}\n.barra{\n	width:100%;\n	height:60px;\n	background:url(http://www.zarkin.com/images/bg-black.png) repeat;\n	position:absolute;\n	top:85px;\n	display:none;\n}\n.bienvenido{\n	width:100%;\n	height:auto;\n	background:url(http://www.zarkin.com/images/bg-black2.png) repeat;\n	position:absolute;\n	top:50%;\n	z-index:90;\n	margin:auto;\n	left:0;\n	/*margin-left:-215px;*/\n	margin:auto;\n	color:#FFF;\n	font-family: 'HelveticaNeue45Light';\n	padding:0 0 20px;\n	font-size:16px;\n	line-height:20px;\n	display:none;\n	/*text-align:justify;*/\n	letter-spacing:1px;\n	word-spacing:-2px;\n	margin-top:-207px;\n}\n\n.bienvenido .text-izq{\n	text-align:left;\n}\n.bienvenido .text-izq p{\n	width:95%;\n}\n.bienvenido p.text-just{\n	width:100%;\n	/*text-align:justify;*/\n}\n.bienvenido h4{\n	font-size: 24px;\n	text-align:center;\n}\n.bienvenido strong{\n	font-size: 16px;\n}\n.bienvenido-grupo{\n	width:100%;\n	height:auto;\n	background:url(http://www.zarkin.com/images/bg-black2.png) repeat;\n	position:absolute;\n	top:20%;\n	z-index:99;\n	left:13%;\n	color:#FFF;\n	font-family: 'HelveticaNeue45Light';\n	padding:15px;\n	font-size:14px;\n	letter-spacing:1px;\n	line-height:20px;\n	display:none;\n}\n.bienvenido span{\n	width:100%;\n	text-align:center;\n	font-size:20px;\n	line-height:22px;\n	font-weight:normal;\n	text-transform:uppercase;\n	letter-spacing:2px;\n	/*font-family:Helvetica;*/\n	font-family: 'HelveticaNeue45Light';\n	color:#F1F1F1;\n}\n.bienvenido-grupo span{\n	width:100%;\n	text-align:center;\n	font-size:24px;\n	font-weight:normal;\n	text-transform:uppercase;\n	letter-spacing:2px;\n	font-family:\"Helvetica25UltraLightRegular\";\n	color:#F1F1F1;\n}\n.cole-piel{\n	width:55%; margin:0 auto; margin-top:20px; color:#FFFFFF; font-family: 'HelveticaNeue45Light';\n}\n#scrollbar1 { width: 600px; clear: both; margin:0 auto; }\n#scrollbar1 .viewport { width: 580px; height: 415px; overflow: hidden; position: relative; }\n.bienvenido .viewport { width: 580px; height:415px; overflow: hidden; position:relative; margin:0 auto; }\n.bienvenido .viewport-pieles { width: 630px; height:415px; overflow: hidden; position:relative; margin:0 auto; }\n.viewport li{ margin-top:15px;}\n#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }\n#scrollbar1 .thumb .end,\n#scrollbar1 .thumb { background-color: #373737;  }\n#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }\n#scrollbar1 .track { height: 100%; width:13px; position: relative; padding: 0 1px; margin-left:10px;  -webkit-border-radius: 30px; border-radius: 30px; background-image:url(http://www.zarkin.com/images/transparent-bar.png); background-repeat:repeat; }\n#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: relative; top: 0; border:0; -webkit-border-radius: 30px; border-radius: 30px;background-color:#373737;}\n#scrollbar1 .thumb .end { overflow: hidden; height: 0px; width: 13px; }\n#scrollbar1 .disable{ display: none; }\n\ndiv.boton a.largo{ width:130px;} \n\n#sociales{ z-index:100; position:absolute; bottom:23px; left:610px; width:100px;}\n#sociales img{ float:left; width:16px; height:16px; margin-left:5px;}\n\nspan.tit{ font-size:26px; font-weight:normal; margin:5px 0 0 10px; width:100%; text-align:center;}\n\ninput[type=text]{ width:300px; margin-bottom:10px;}\ntextarea{ width:300px; margin-bottom:10px;}",
-			"file": "css/style.css",
-			"file_size": 10223,
-			"file_write_time": 129962649215324179,
-			"settings":
-			{
-				"buffer_size": 9761,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/lib.js",
-			"settings":
-			{
-				"buffer_size": 6832,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/phpMyAdmin/config.inc.php",
-			"settings":
-			{
-				"buffer_size": 37548,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tuto_combos/funciones.php",
-			"settings":
-			{
-				"buffer_size": 1347,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "action.php",
-			"settings":
-			{
-				"buffer_size": 895,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -475,13 +465,25 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/zarkin/IIRF.ini",
+		"/C/xampp/htdocs/zarkin/formulario-garantia.php",
+		"/C/xampp/htdocs/zarkin/.htaccess",
+		"/C/Users/COLLINSCOM/AppData/Local/Temp/fz3temp-1/funciones.php",
+		"/C/xampp/htdocs/zarkin/funciones.php",
+		"/C/xampp/htdocs/videoteca/Agregar.html",
+		"/C/xampp/htdocs/zarkin/js/procesar.js",
+		"/C/xampp/htdocs/zarkin/css/formulario.css",
+		"/C/xampp/htdocs/zarkin/css/style.css",
+		"/C/xampp/htdocs/zarkin/action.php",
+		"/C/xampp/htdocs/zarkin/tuto_combos/funciones.php",
+		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/zarkin/js/lib.js",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.html",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/inicio.php",
 		"/C/xampp/htdocs/!Collins/zarkin/funciones.php",
 		"/C/xampp/htdocs/videoteca/Agregar.php",
 		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/js/procesar.js",
 		"/C/xampp/htdocs/phpMyAdmin/config.sample.inc.php",
-		"/C/xampp/htdocs/phpMyAdmin/config.inc.php",
 		"/C/xampp/phpMyAdmin/config.inc.php",
 		"/C/xampp/htdocs/!Collins/zarkin/tuto_combos/index.php",
 		"/C/xampp/htdocs/!Collins/zarkin/menu.php",
@@ -507,7 +509,6 @@
 		"/C/xampp/htdocs/!Collins/prueba/.git/config",
 		"/C/Users/Jorge/Documents/GitHub/eurogoini/.gitignore",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/eventos.php",
-		"/C/xampp/htdocs/videoteca/Agregar.html",
 		"/C/Users/Jorge/Documents/GitHub/eurogoini/404.php",
 		"/C/Users/Jorge/AppData/Roaming/Sublime Text 2/Packages/Java/Java.sublime-build",
 		"/C/Users/Jorge/java/palindromo.java",
@@ -591,18 +592,7 @@
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga_carc.php",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/centrifuga.php",
 		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bombas.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/biodigestor_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/biodigestor.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bebederos_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/bebederos.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/baseArt.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/banobio_carc.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/banobio.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/almacenamiento_agua.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/almacenamiento.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/alm_pluvial_carc.php"
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/calentador.php"
 	],
 	"find":
 	{
@@ -610,7 +600,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"C:\\xampp\\htdocs\\!Collins\\zarkin",
@@ -670,6 +660,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Modelo del Mueble",
+			"corporativo",
+			"enviar",
+			"home",
+			"contenido",
+			"menu",
+			"contac",
+			"lo",
 			"/eurogoini",
 			"garantia",
 			"\"garantia\"",
@@ -789,15 +787,7 @@
 			"inicio.html'",
 			"'/eurogoini/inicio.html'",
 			"href=\"/eurogoini/inicio.html\"",
-			"class=\"Titulo\"",
-			"class=\"informacion\"",
-			"class=\"linea\"",
-			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
-			"<style id=\"wrc-middle-css\" type=\"text/css\">.wrc_whole_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(40, 40, 40, 0.9);	word-spacing: normal !important;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 100%;	line-height: normal !important;	letter-spacing: normal !important;	overflow: hidden;}.wrc_bar_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(60, 60, 60, 1.0);	word-spacing: normal !important;	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 40px;	line-height: normal !important;	letter-spacing: normal !important;	color: white !important;	font-size: 13px !important;}.wrc_middle {	display: table-cell;	vertical-align: middle;	width: 100%;}.wrc_middle_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 14px;	width: 600px;	height: auto;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-body.jpg) repeat-x left top;	background-color: rgb(39, 53, 62);	position: relative;	margin-left: auto;	margin-right: auto;	text-align: left;}.wrc_middle_tq_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 16px;	width: 615px;	height: 460px;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-sitecorrect.png) no-repeat;	background-color: white;	color: black !important;	position: relative;	margin-left: auto;	margin-right: auto;	text-align: center;}.wrc_middle_logo {    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/logo.jpg) no-repeat left bottom;    width: 140px;    height: 42px;    color: orange;    display: table-cell;    text-align: right;    vertical-align: middle;}.wrc_icon_warning {	margin: 20px 10px 20px 15px;	float: left;	background-color: transparent;}.wrc_middle_title {    color: #b6bec7;	height: auto;    margin: 0px auto;	font-size: 2.2em;	white-space: nowrap;	text-align: center;}.wrc_middle_hline {    height: 2px;	width: 100%;    display: block;}.wrc_middle_description {	text-align: center;	margin: 15px;	font-size: 1.4em;	padding: 20px;	height: auto;	color: white;	min-height: 3.5em;}.wrc_middle_actions_main_div {	margin-bottom: 15px;	text-align: center;}.wrc_middle_actions_blue_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white;	font-size: 1.2em;	font-weight: bold;}.wrc_middle_actions_blue_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(0, 173, 223) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #00dddd;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_blue_button:hover {	background-color: rgb(0, 159, 212) !important;}.wrc_middle_actions_blue_button:active {	background-color: rgb(0, 146, 200) !important;	border: 2px solid #00aaaa;}.wrc_middle_actions_grey_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white !important;	font-size: 15px;	font-weight: bold;}.wrc_middle_actions_grey_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(100, 100, 100) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #aaaaaa;	text-decoration: none;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_grey_button:hover {	background-color: rgb(120, 120, 120) !important;}.wrc_middle_actions_grey_button:active {	background-color: rgb(130, 130, 130) !important;	border: 2px solid #00aaaa;}.wrc_middle_action_low {	font-size: 0.9em;	white-space: nowrap;	cursor: Pointer;	color: grey !important;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action_low:hover {	color: #aa4400 !important;}.wrc_middle_actions_rest_div {	padding-top: 5px;	white-space: nowrap;	text-align: center;}.wrc_middle_action {	white-space: nowrap;	cursor: Pointer;	color: red !important;	font-size: 1.2em;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action:hover {	color: #aa4400 !important;}</style>",
-			"<!DOCTYPE html PUBLIC((.*)\\n)+</head>",
-			"<!DOCTYPE html PUBLIC((.*)\\n)+",
-			"<!DOCTYPE html PUBLIC((.*)\\n*)",
-			"<!DOCTYPE html PUBLIC((.*)\\n)"
+			"class=\"Titulo\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -939,31 +929,119 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/procesar.js",
+					"file": "admin/index.php",
 					"settings":
 					{
-						"buffer_size": 1023,
+						"buffer_size": 278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								924,
-								924
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
 							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
 							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -974,155 +1052,829 @@
 				},
 				{
 					"buffer": 1,
-					"file": "formulario-garantia.php",
+					"file": "admin/funciones.php",
 					"settings":
 					{
-						"buffer_size": 24301,
+						"buffer_size": 43868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1897,
-								1897
+								42843,
+								42843
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
 							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
 							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 605.0,
+						"translation.y": 22439.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/xampp/htdocs/videoteca/Agregar.html",
+					"file": "admin/menu.php",
 					"settings":
 					{
-						"buffer_size": 13451,
+						"buffer_size": 2306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								867,
-								872
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
 							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
 							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 283.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "funciones.php",
+					"file": "admin/login.php",
 					"settings":
 					{
-						"buffer_size": 42125,
+						"buffer_size": 3860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10131,
-								10131
+								259,
+								259
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
 							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
 							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5691.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "css/formulario.css",
+					"file": "admin/preview-garantia-completa.php",
 					"settings":
 					{
-						"buffer_size": 979,
+						"buffer_size": 12929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
+								4980,
+								4980
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
 							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
 							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 690.0,
+						"translation.x": 34.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "css/style.css",
+					"file": "admin/funciones_estilos.php",
 					"settings":
 					{
-						"buffer_size": 9761,
+						"buffer_size": 7396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9761,
-								9666
+								3145,
+								3145
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
 							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
 							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "formulario-garantia.php",
+					"settings":
+					{
+						"buffer_size": 27851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7878,
+								7878
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9956.0,
+						"translation.y": 2711.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "funciones.php",
+					"settings":
+					{
+						"buffer_size": 42024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22454,
+								22454
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8946.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1130,227 +1882,8 @@
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "funciones.php",
-					"settings":
-					{
-						"buffer_size": 42125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								334,
-								326
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"rulers":
-							[
-							],
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 263.0,
-						"translation.y": 16355.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "formulario-garantia.php",
-					"settings":
-					{
-						"buffer_size": 24301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21998,
-								21998
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 10868.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampp/htdocs/videoteca/Agregar.html",
-					"settings":
-					{
-						"buffer_size": 13451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6688,
-								6644
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5019.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/lib.js",
-					"settings":
-					{
-						"buffer_size": 6832,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4460,
-								4463
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3255.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/xampp/htdocs/phpMyAdmin/config.inc.php",
-					"settings":
-					{
-						"buffer_size": 37548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11093,
-								11101
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1071.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "tuto_combos/funciones.php",
-					"settings":
-					{
-						"buffer_size": 1347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								310
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 132.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "action.php",
-					"settings":
-					{
-						"buffer_size": 895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								242,
-								242
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1387,7 +1920,7 @@
 		"rows":
 		[
 			0.0,
-			0.5,
+			0.917218543046,
 			1.0
 		]
 	},
@@ -1668,7 +2201,7 @@
 		[
 			[
 				"",
-				"/C/xampp/htdocs/!Collins/eurogoini/eurogoini.sublime-project"
+				"/C/xampp/htdocs/central-park/central-park.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -4,6 +4,10 @@
 Options +FollowSymlinks 
 RewriteEngine on
 
+//Rewrite to www
+RewriteCond %{HTTP_HOST} ^zarkin.com[nc]
+RewriteRule ^(.*)$ http://www.zarkin.com/$1 [r=301,nc]
+
 #pagina de bienvenida
 RewriteRule ^home(/?)$ home.php
 

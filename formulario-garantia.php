@@ -163,7 +163,7 @@
 									</li>
 									<li>
 										<label for="garantia">Modelo del Mueble</label><br />
-										<input type="text" maxlength="8" placeholder="Ej. Pionini" name="modeloMueble" value="" class=":only_on_blur :required">
+										<input type="text" maxlength="15" placeholder="Ej. Pionini" name="modeloMueble" value="" class=":only_on_blur :required">
 									</li>
 
 									<li>
@@ -573,16 +573,17 @@
 								</table>								
 							</fieldset>
 							<input type="submit" value="Submit" align="center" style="display:none;" name="btnSubmit">
-							<input type="button" value="Enviar" align="center" onClick="validar()" style="position: relative; top: 20px; left: 40px; width: 100px; height: 30px;">
+							<input type="button" value="Enviar" align="center" onClick="validar()" style="position:relative; top:20px; left:40px; width:100px; height:30px; margin-bottom:50px;">
 						</form>
 						
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="logo-dos">
-			<a href="<?php echo _path; ?>home"></a>
-		</div>
+		<a href="<?php echo _path; ?>home">
+			<div class="logo-dos">			
+			</div>
+		</a>
 		<a style="z-index:100; float:right; position:relative; right:50px; bottom: 25px; text-decoration:none; color:#FFFFFF; font-size:12px; font-family:'HelveticaNeue45Light'; " href="http://collinscom.com" target="_blank">Collinscom.com</a>
 	</body>
 </html>
