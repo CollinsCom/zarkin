@@ -83,7 +83,7 @@ select{
 .titulos{
 	position: relative;
 	top: 30px;
-	left: 40px;
+	margin-left: 40px;
 }
 
 col{
@@ -127,7 +127,7 @@ table tr{
 }
 
 .viewport{
-	background-color: #7D7D7D; width: 102%; margin-left: -1%; margin-bottom: -20px;padding-bottom: 20px;
+	background-color: #7D7D7D; margin-left: -1%; margin-bottom: -20px;padding-bottom: 20px;
 }
 
 :invalid {

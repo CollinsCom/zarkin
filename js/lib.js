@@ -244,3 +244,34 @@ function nextfoto(foto) {
 function prevfoto(foto) { 
   	return fotos[($.inArray(foto, fotos) - 1 + fotos.length) % fotos.length];
 }
+
+$(document).ready(function(){
+	$('#flecha-izq').css('visibility','hidden');
+	$('#flecha-der').click(function(){
+		$(this).css('visibility','hidden');
+		$('#tmb-estilos').animate({'position':'relative','left':'0px'},'500');
+		$('#flecha-izq').removeAttr('style');
+	})
+
+	$('#flecha-izq').click(function(){
+		$(this).css('visibility','hidden');
+		$('#tmb-estilos').animate({'position':'relative','left':'-614px'},'500');
+		$('#flecha-der').removeAttr('style');
+	})
+});
+
+$(document).keydown(function(tecla){
+	//derecha
+    if (tecla.keyCode == 39) {
+    	$('#flecha-der').css('visibility','hidden');
+		$('#tmb-estilos').animate({'position':'relative','left':'0px'},'500');
+		$('#flecha-izq').removeAttr('style');
+    }
+
+    //izquierda
+    if (tecla.keyCode == 37) {
+    	$('#flecha-izq').css('visibility','hidden');
+		$('#tmb-estilos').animate({'position':'relative','left':'-614px'},'500');
+		$('#flecha-der').removeAttr('style');
+    }
+});

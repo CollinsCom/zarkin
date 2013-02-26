@@ -8,25 +8,25 @@ body{
 }
 html, body { height: 100%;overflow:hidden; position:relative;}
 @font-face {
-    font-family: 'HelveticaNeue45Light';
-    src: url('helveticaneue-light-webfont.eot');
-    src: url('helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('helveticaneue-light-webfont.woff') format('woff'),
-         url('helveticaneue-light-webfont.ttf') format('truetype'),
-         url('helveticaneue-light-webfont.svg#HelveticaNeue45Light') format('svg');
-    font-weight: normal;
-    font-style: normal;
+		font-family: 'HelveticaNeue45Light';
+		src: url('helveticaneue-light-webfont.eot');
+		src: url('helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('helveticaneue-light-webfont.ttf') format('truetype'),
+				 url('helveticaneue-light-webfont.svg#HelveticaNeue45Light') format('svg');
+		font-weight: normal;
+		font-style: normal;		
+		/*url('helveticaneue-light-webfont.woff') format('woff'),*/
 
 }
 @font-face {
-    font-family: 'Helvetica25UltraLightRegular';
-    src: url('helveticaultralt-webfont.eot');
-    src: url('helveticaultralt-webfont.eot?#iefix') format('embedded-opentype'),
-         url('helveticaultralt-webfont.woff') format('woff'),
-         url('helveticaultralt-webfont.ttf') format('truetype'),
-         url('helveticaultralt-webfont.svg#Helvetica25UltraLightRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+		font-family: 'Helvetica25UltraLightRegular';
+		src: url('helveticaultralt-webfont.eot');
+		src: url('helveticaultralt-webfont.eot?#iefix') format('embedded-opentype'),
+				 url('helveticaultralt-webfont.woff') format('woff'),
+				 url('helveticaultralt-webfont.ttf') format('truetype'),
+				 url('helveticaultralt-webfont.svg#Helvetica25UltraLightRegular') format('svg');
+		font-weight: normal;
+		font-style: normal;
 
 }
 
@@ -37,10 +37,10 @@ img{
 }
 .bgtop{
 	min-height: 50%;
-    min-width: 1100px;
+		min-width: 1100px;
 	position: relative;
-    top: 0;
-    left: 0;
+		top: 0;
+		left: 0;
 	overflow:hidden;
 	width:100%;
 	display:none;
@@ -56,22 +56,22 @@ img{
 }
 .bgbot{
 	min-height: 50%;
-    min-width: 1100px;
+		min-width: 1100px;
 	position: relative;
-    bottom: 0;
-    left: 0;
+		bottom: 0;
+		left: 0;
 	overflow:hidden;
 	width:100%;
 	display:none;
 } 
 .bgbot img{
-        min-height: 100%;
-        min-width: 1100px;
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: 0;		
+				min-height: 100%;
+				min-width: 1100px;
+				width: 100%;
+				height: auto;
+				position: absolute;
+				top: 0;
+				left: 0;		
 }
 .black{
 	ckground-color:#373737;
@@ -463,3 +463,39 @@ span.tit{ font-size:26px; font-weight:normal; margin:5px 0 0 10px; width:100%; t
 
 input[type=text]{ width:300px; margin-bottom:10px;}
 textarea{ width:300px; margin-bottom:10px;}
+
+#menu-estilos{height: 30px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; font-family: "HelveticaNeue45Light"; font-size: 12px;}
+#menu-estilos div{width: 600px; margin:0 auto; padding: 0;}
+#menu-estilos ul {height: 20px; margin: 0px; padding: 0px;}
+#menu-estilos ul li{list-style-type:none; float:left; text-align:center; margin: 0;}
+/*#menu-estilos ul li:after{content:'|'; position: relative; top: 5px;}		 }
+#menu-estilos ul li:last-child:after{content:none;}
+#menu-estilos ul li:last-child:after{content:none;}*/
+#menu-estilos ul li a{text-decoration: none; display:inline; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; position: relative; top: 5px; margin:0;}
+#menu-estilos ul span{float: left;display: inline;width: 2px;font-size: 14px; position: relative; top: 5px; margin:0;}
+/* IE7 */
+*:first-child+html #menu-estilos ul span{float: none;display: inline;width: 2px;font-size: 14px; position: relative; top: 5px; margin:0 0 0 5px;}
+#menu-estilos li a:hover{text-decoration: none;font-size: 14px;font-weight: bold;color: #FFFDED; letter-spacing: 0px;}
+
+#pleca-tmb{height: 107px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat;position: relative; bottom: 130px;}
+#pleca-tmb div {width: 580px; margin:0 auto; padding: 0; position: relative;}
+#pleca-tmb div div {display: inline; position: relative; top: -117px; z-index: -1; float: left; overflow: hidden;height: 107px;}
+#pleca-tmb div img{display: inline; margin:0; }
+img#flecha-izq{position: relative; right: 70px;}
+img#tmb-estilos{position: relative; left: -614px; height: 125px; }
+img#flecha-der{position: relative; left: 620px;}
+
+#pleca-tmb-interiorismo{height: 247px; background-image:url(http://sitios.collinscom.com/zarkin/images/bg-black2.png); background-repeat:repeat; position: relative; bottom: 270px;overflow: hidden;}
+#pleca-tmb-interiorismo div {width: 660px; margin:0 auto; padding: 0;}
+#pleca-tmb-interiorismo div div {display: inline; position: relative; top: 5px; z-index: 0; float: left; overflow: hidden;}
+#pleca-tmb-interiorismo div img{display: inline;width: 600px;margin:23px 0px 0px 0px;}
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#pleca-tmb-interiorismo div img { margin:23px 0px 0px 0px;  }
+}
+
+#menu-interiorismo div{
+	width: 49%;
+}
+#menu-interiorismo a{text-decoration: none; display:inline-block; padding:0px 0px 0px 0px; color:#ffffff; font-size: 14px; width: 320px;}
+#menu-interiorismo a:hover{text-decoration: none;font-size: 14px;font-weight: bold;color: #FFFDED; letter-spacing: 0px; }
