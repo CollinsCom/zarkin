@@ -301,7 +301,7 @@
 			"file": "formulario-garantia.php",
 			"settings":
 			{
-				"buffer_size": 27851,
+				"buffer_size": 27854,
 				"line_ending": "Windows"
 			}
 		},
@@ -600,7 +600,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\xampp\\htdocs\\!Collins\\zarkin",
@@ -929,7 +929,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1648,15 +1648,15 @@
 					"file": "formulario-garantia.php",
 					"settings":
 					{
-						"buffer_size": 27851,
+						"buffer_size": 27854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7878,
-								7878
+								6454,
+								6454
 							]
 						],
 						"settings":
@@ -1756,7 +1756,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2711.0,
+						"translation.y": 2214.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

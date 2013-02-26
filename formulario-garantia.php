@@ -123,7 +123,7 @@
 	}	
 	</script>
 	
-	<title>Garant&iacute;a - Prueba</title>
+	<title>Registro de Garant&iacute;a</title>
 		
 </head>
 <body class="black">
